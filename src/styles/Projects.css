@@ -1,0 +1,8 @@
+.Projects{
+    width: 100%;
+    min-height: 100vh;
+    background: #3D525B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
