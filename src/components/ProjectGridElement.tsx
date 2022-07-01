@@ -1,30 +1,29 @@
 import Link from "next/link";
-interface ProjectPreviewGridProps{
+interface ProjectGridElementProps{
     children?: string;
     title?: string;
     href?: string;
     imgClass?: string;
 }
 function OpenCloseP(filter,Img) {
-    const previewGridP = document.querySelector<HTMLElement>("#"+Img);
+    const previewElementP = document.querySelector<HTMLElement>("#"+Img);
     if(filter){
-        previewGridP.classList.add("openP");
+        previewElementP.classList.add("open");
     }else{
-        previewGridP.classList.remove("openP");
+        previewElementP.classList.remove("open");
     }
-
 }
-export default function ProjectPreviewGrid(props: ProjectPreviewGridProps) {
+export default function ProjectGridElement(props: ProjectGridElementProps) {
     return (
         <Link href={`/projectPreview/${props.href}`}>
             <a
-                className="projectPreviewGrid"
+                className="ProjectGridElement"
                 onMouseEnter={() => OpenCloseP( true, props.imgClass)}
                 onMouseLeave={() => OpenCloseP( false, props.imgClass)}
             >
-                <div className={`previewGrid Img ${props.imgClass}`}>
+                <div className={`previewElement Img ${props.imgClass}`}>
                     <h1>{props.title}</h1>
-                    <p id={props.imgClass} className="previewGridP">{ props.children }</p>
+                    <p id={props.imgClass} className="previewElementP">{ props.children }</p>
                 </div>
             </a>
         </Link>

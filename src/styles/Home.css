@@ -1,8 +1,152 @@
-.background{
-    width: 100%;
-    min-height: 100vh;
-    background: #3D525B;
+/*------------ Perfil ------------*/
+.perfil{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 879.52px;
+    height: 617.1px;
+    margin-bottom: 265px;
+}
+#photo{
+    width: 272.57px;
+    height: 272.57px;
+    margin-bottom: 18px;
+    border-radius: 272.57px;
+    background: var(--gray-b);
+    box-shadow: var(--default-box-shadow);
+    background: url("../assets/imgs/fotoDePerfilLinkedinNova.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.perfil > h1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    color: var(--gray-g);
+}
+.perfil > p{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 49px;
+    margin-bottom: 49px;
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: var(--gray-g);
+}
+.socialMedias{
+    display: flex;
+}
+.socialIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 112.4px;
+    height: 111.79px;
+    margin-left: 14px;
+    margin-right: 14px;
+    border-radius: 80px;
+    background: var(--gray-b);
+    box-shadow: var(--default-box-shadow);
+}
+.socialIcon > svg {
+    font-size: inherit;
+    height: 65%;
+    overflow: visible;
+    vertical-align: -.125em;
+}
+/*------------ About ------------*/
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 290px;
+    margin-bottom: 100px;
+    background: var(--gray-d);
+}
+#about > h1{
+    display: flex;
+    align-items: center;
+    width: 1632px;
+    margin: 0px;
+    margin-bottom: 10px;
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: var(--default-white);
+}
+#about > p{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 1632px;
+    margin: 0px;
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: var(--default-white);
+}
+/*------------ Featured projects ------------*/
+#featuredProjects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1613px;
+    height: 1473.5px;
+}
+.titleSeeMoreRegion{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.titleSeeMoreRegion h1{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    color: var(--default-white);
+}
+.seeMore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 352.73px;
+    height: 105px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background: var(--gray-g);
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: var(--gray-e);
+}
+#featuredProjects > .content{
+    display: grid;
+    grid-template-columns: repeat(2,772px);
+    column-gap: 69px;
+    row-gap: 67px;
 }

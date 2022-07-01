@@ -1,17 +1,37 @@
+import { useRouter } from 'next/router';
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Project from "../components/Project";
 import LinkA from "../components/LinkA";
-import homeContent from "../assets/languages/pt/home.json"
+import homeContentPt from "../assets/languages/pt/home.json"
+import homeContentEn from "../assets/languages/en/home.json"
+import homeContentEs from "../assets/languages/es/home.json"
 export default function Home() {
-  const project = homeContent.featuredProjectsDiv.featuredProjects.Project;
+  const { query } = useRouter();
+  let hrefAtrib = "";
+  if(query.idioma){
+      hrefAtrib = "?idioma=" + query.idioma;
+  }
+  let homeContentTranslated = homeContentPt;
+  switch(query.idioma){
+    case "PT":
+      homeContentTranslated = homeContentPt;
+      break;
+    case "EN":
+      homeContentTranslated = homeContentEn;
+      break;
+    case "ES":
+      homeContentTranslated = homeContentEs;
+      break
+  }
+  const project = homeContentTranslated.featuredProjectsDiv.featuredProjects.Project;
   return (
-    <div className="background">
+    <div className="Background">
       <Header />
       <div className="perfil">
-          <div className="photo perfilPhoto"></div>
+          <div id="photo"></div>
           <h1>Willian A. S. D&apos;Amico</h1>
-          <p>{homeContent.perfil.description}</p>
+          <p>{homeContentTranslated.perfil.description}</p>
           <div className="socialMedias">
             <LinkA href="https://www.linkedin.com/in/willian-anderson-suriz-d-amico-716b831a8/" className="socialIcon">
               <svg id="linkedin" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -46,21 +66,21 @@ export default function Home() {
           </div>
       </div>
       <div id="about">
-        <h1>{homeContent.about.h1}</h1>
-        <p>{homeContent.about.p[0]}</p>
-        <p>{homeContent.about.p[1]}</p>
-        <p>{homeContent.about.p[2]}</p>
+        <h1>{homeContentTranslated.about.h1}</h1>
+        <p>{homeContentTranslated.about.p[0]}</p>
+        <p>{homeContentTranslated.about.p[1]}</p>
+        <p>{homeContentTranslated.about.p[2]}</p>
       </div>
-      <div id="featuredProjectsDiv">
-        <div className="titleSeeMore">
-          <h1>{homeContent.featuredProjectsDiv.titleSeeMore.h1}</h1>
-          <LinkA href={`/${homeContent.featuredProjectsDiv.titleSeeMore.seeMore.Link.href}`} className="seeMore">
-            {homeContent.featuredProjectsDiv.titleSeeMore.seeMore.Link.a}
+      <div id="featuredProjects">
+        <div className="titleSeeMoreRegion">
+          <h1>{homeContentTranslated.featuredProjectsDiv.titleSeeMore.h1}</h1>
+          <LinkA href={`/${homeContentTranslated.featuredProjectsDiv.titleSeeMore.seeMore.Link.href + hrefAtrib}`} className="seeMore">
+            {homeContentTranslated.featuredProjectsDiv.titleSeeMore.seeMore.Link.a}
           </LinkA>
         </div>
-        <div className="featuredProjects">
+        <div className="content">
           {project.map((item,index) => (
-            <Project key={index} title={item.title} href={item.href} imgClass={item.imgClass}/>
+            <Project key={index} title={item.title} href={item.href + hrefAtrib} imgClass={item.imgClass}/>
           ))}
         </div>
       </div>

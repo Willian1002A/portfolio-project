@@ -1,0 +1,42 @@
+.Img{
+    background: #6F848E;
+}
+.azzteck{
+    background: url("../assets/imgs/azzteck.png");
+}
+.calculadoraReact{
+    background: url("../assets/imgs/calculadoraReact.png");
+}
+.calculadoraVue{
+    background: url("../assets/imgs/calculadoraVue.png");
+}
+.crudHomeReact{
+    background: url("../assets/imgs/crudHomeReact.png");
+}
+.deliciasMarinhas{
+    background: url("../assets/imgs/deliciasMarinhas.png");
+}
+.geradorQRCode{
+    background: url("../assets/imgs/geradorQRCode.png");
+}
+.jogoDaVelha{
+    background: url("../assets/imgs/jogoDaVelha.png");
+}
+.montyHall{
+    background: url("../assets/imgs/montyHall.png");
+}
+.mostUsedWordsElectron{
+    background: url("../assets/imgs/mostUsedWordsElectron.png");
+}
+.relogioAnalogico{
+    background: url("../assets/imgs/relogioAnalogico.png");
+}
+.flappyBird{
+    background: url("../assets/imgs/siteFlappyBird.png");
+}
+.Img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background: #6F848E; */
+}

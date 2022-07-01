@@ -1,0 +1,20 @@
+{
+    "contact": {
+        "title": "Contat",
+        "emailText": "Email: ",
+        "foneText": "Phone/WhatsApp: "
+    },
+    "siteMap": {
+        "title": "Site Map",
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects"
+    },
+    "basicFooter": {
+        "p": "© 2022 Willian A. S. D'Amico",
+        "a": {
+            "description": "Website Source Code",
+            "href": ""
+        }
+    }
+}

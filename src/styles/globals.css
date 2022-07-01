@@ -1,24 +1,38 @@
-html,
-body {
+html, body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-
 a {
   color: inherit;
   text-decoration: none;
 }
-
 * {
+  margin: 0px;
   box-sizing: border-box;
   --width-project-Preview-Grid: 486.67px;
   --height-project-Preview-Grid: 304.17px;
 }
-h1,p{
-  margin: 0px
+*{
+  --gray-b: #6F848E;
+  --gray-d: #4E636C;
+  --gray-e: #3D525B;
+  --gray-f: #101111;
+  --gray-g: #BCD8E4;
+  --default-white: #E8E8E8;
+  --default-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-@import 'Projects.css';
+.Background{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background: var(--gray-e);
+}
+@import 'components.css';
+@import 'imgs.css';
 @import 'Home.css';
-@import 'components.css'
+@import 'Projects.css';
+@import 'projectPreview.css';

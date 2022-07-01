@@ -1,0 +1,189 @@
+{
+    "calculadoraReact" : {
+        "imgClass": "calculadoraReact",
+        "text":{
+            "title": "Calculadora (React)",
+            "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
+            "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
+            "sourceCode": {
+                "string":"Codigo fonte:",
+                "a": "Acesse Aqui!",
+                "href": ""
+            },
+            "button": {
+                "string": "Visitar Projeto",
+                "href":""
+            }
+        }
+    },
+    "calculadoraVue" : {
+        "imgClass": "calculadoraVue",
+        "text":{
+            "title": "Calculadora (Vue)",
+            "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
+            "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
+            "sourceCode": {
+                "string":"Codigo fonte:",
+                "a": "Acesse Aqui!",
+                "href": ""
+            },
+            "button": {
+                "string": "Visitar Projeto",
+                "href":""
+            }
+        }
+    },
+    "azzteck" : {
+        "imgClass": "azzteck",
+        "text":{
+            "title": "Site Azzteck",
+            "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
+            "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
+            "sourceCode": {
+                "string":"Codigo fonte:",
+                "a": "Acesse Aqui!",
+                "href": ""
+            },
+            "button": {
+                "string": "Visitar Projeto",
+                "href":""
+            }
+        }
+    },
+    "crudHomeReact" : {
+        "imgClass": "crudHomeReact",
+        "text":{
+            "title": "Crud",
+            "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
+            "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
+            "sourceCode": {
+                "string":"Codigo fonte:",
+                "a": "Acesse Aqui!",
+                "href": ""
+            },
+            "button": {
+                "string": "Visitar Projeto",
+                "href":""
+            }
+        }
+    },
+    "deliciasMarinhas" : {
+        "imgClass": "deliciasMarinhas",
+        "text":{
+            "title": "Site Delicias Marinhas",
+            "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
+            "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
+            "sourceCode": {
+                "string":"Codigo fonte:",
+                "a": "Acesse Aqui!",
+                "href": ""
+            },
+            "button": {
+                "string": "Visitar Projeto",
+                "href":""
+            }
+        }
+    },
+    "geradorQRCode" : {
+        "imgClass": "geradorQRCode",
+        "text":{
+            "title": "Gerador de QRCode",
+            "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
+            "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
+            "sourceCode": {
+                "string":"Codigo fonte:",
+                "a": "Acesse Aqui!",
+                "href": ""
+            },
+            "button": {
+                "string": "Visitar Projeto",
+                "href":""
+            }
+        }
+    },
+    "jogoDaVelha" : {
+        "imgClass": "jogoDaVelha",
+        "text":{
+            "title": "Jogo da velha",
+            "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
+            "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
+            "sourceCode": {
+                "string":"Codigo fonte:",
+                "a": "Acesse Aqui!",
+                "href": ""
+            },
+            "button": {
+                "string": "Visitar Projeto",
+                "href":""
+            }
+        }
+    },
+    "relogioAnalogico" : {
+        "imgClass": "relogioAnalogico",
+        "text":{
+            "title": "Relogio Analogico",
+            "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
+            "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
+            "sourceCode": {
+                "string":"Codigo fonte:",
+                "a": "Acesse Aqui!",
+                "href": ""
+            },
+            "button": {
+                "string": "Visitar Projeto",
+                "href":""
+            }
+        }
+    },
+    "flappyBird" : {
+        "imgClass": "flappyBird",
+        "text":{
+            "title": "Flappy bird",
+            "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
+            "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
+            "sourceCode": {
+                "string":"Codigo fonte:",
+                "a": "Acesse Aqui!",
+                "href": ""
+            },
+            "button": {
+                "string": "Visitar Projeto",
+                "href":""
+            }
+        }
+    },
+    "mostUsedWordsElectron" : {
+        "imgClass": "mostUsedWordsElectron",
+        "text":{
+            "title": "Palavras mais utilizadas",
+            "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
+            "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
+            "sourceCode": {
+                "string":"Codigo fonte:",
+                "a": "Acesse Aqui!",
+                "href": ""
+            },
+            "button": {
+                "string": "Visitar Projeto",
+                "href":""
+            }
+        }
+    },
+    "montyHall" : {
+        "imgClass": "montyHall",
+        "text":{
+            "title": "MontyHall",
+            "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
+            "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
+            "sourceCode": {
+                "string":"Codigo fonte:",
+                "a": "Acesse Aqui!",
+                "href": ""
+            },
+            "button": {
+                "string": "Visitar Projeto",
+                "href":""
+            }
+        }
+    }
+}
