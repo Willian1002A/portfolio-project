@@ -121,7 +121,7 @@
     "relogioAnalogico" : {
         "imgClass": "relogioAnalogico",
         "text":{
-            "title": "Relogio Analogica",
+            "title": "Relogio Analogico",
             "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
             "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
             "sourceCode": {
