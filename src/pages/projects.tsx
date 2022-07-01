@@ -7,37 +7,37 @@ export default function Projects() {
     <div className="Projects">
       <Header />
       <div className="projectGrid">
-        <ProjectPreviewGrid href="projectPreview" imgClass="azzteck" title="azzteck">
+        <ProjectPreviewGrid href="azzteck" imgClass="azzteck" title="azzteck">
         Sobre asddssssssssssssssssssssssssssdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd.
         </ProjectPreviewGrid>
-        <ProjectPreviewGrid href="projectPreview" imgClass="calculadoraReact" title="calculadoraReact">
+        <ProjectPreviewGrid href="calculadoraReact" imgClass="calculadoraReact" title="calculadoraReact">
           Sobre 2
         </ProjectPreviewGrid>
-        <ProjectPreviewGrid href="projectPreview" imgClass="calculadoraVue" title="calculadoraVue">
+        <ProjectPreviewGrid href="calculadoraVue" imgClass="calculadoraVue" title="calculadoraVue">
           Sobre 3
         </ProjectPreviewGrid>
-        <ProjectPreviewGrid href="projectPreview" imgClass="crudHomeReact" title="crudHomeReact">
+        <ProjectPreviewGrid href="crudHomeReact" imgClass="crudHomeReact" title="crudHomeReact">
           Sobre 4
         </ProjectPreviewGrid>
-        <ProjectPreviewGrid href="projectPreview" imgClass="deliciasMarinhas" title="deliciasMarinhas">
+        <ProjectPreviewGrid href="deliciasMarinhas" imgClass="deliciasMarinhas" title="deliciasMarinhas">
           Sobre 5
         </ProjectPreviewGrid>
-        <ProjectPreviewGrid href="projectPreview" imgClass="geradorQRCode" title="geradorQRCode">
+        <ProjectPreviewGrid href="geradorQRCode" imgClass="geradorQRCode" title="geradorQRCode">
           Sobre 6
         </ProjectPreviewGrid>
-        <ProjectPreviewGrid href="projectPreview" imgClass="jogoDaVelha" title="jogoDaVelha">
+        <ProjectPreviewGrid href="jogoDaVelha" imgClass="jogoDaVelha" title="jogoDaVelha">
           sobre 7
         </ProjectPreviewGrid>
-        <ProjectPreviewGrid href="projectPreview" imgClass="montyHall" title="montyHall">
+        <ProjectPreviewGrid href="montyHall" imgClass="montyHall" title="montyHall">
           Sobre 8
         </ProjectPreviewGrid>
-        <ProjectPreviewGrid href="projectPreview" imgClass="mostUsedWordsElectron" title="mostUsedWordsElectron">
+        <ProjectPreviewGrid href="mostUsedWordsElectron" imgClass="mostUsedWordsElectron" title="mostUsedWordsElectron">
           Sobre 9
         </ProjectPreviewGrid>
-        <ProjectPreviewGrid href="projectPreview" imgClass="relogioAnalogico" title="relogioAnalogico">
+        <ProjectPreviewGrid href="relogioAnalogico" imgClass="relogioAnalogico" title="relogioAnalogico">
           Sobre 10
         </ProjectPreviewGrid>
-        <ProjectPreviewGrid href="projectPreview" imgClass="flappyBird" title="flappyBird">
+        <ProjectPreviewGrid href="flappyBird" imgClass="flappyBird" title="flappyBird">
           Sobre 11
         </ProjectPreviewGrid>
       </div>

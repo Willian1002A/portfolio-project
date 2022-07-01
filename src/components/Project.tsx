@@ -1,3 +1,4 @@
+import Link from "next/link";
 interface ProjectProps{
     title: string;
     href: string;
@@ -10,7 +11,9 @@ export default function Project(props: ProjectProps) {
                 <div className={`preview Img ${props.imgClass}`}></div>
             </div>
             <h1>{props.title}</h1>
-            <a href={props.href}>Saber mais-&gt;</a>
+            <Link href={`/projectPreview/${props.href}`}>
+                <a>Saber mais-&gt;</a>
+            </Link>
         </div>
     )
 }

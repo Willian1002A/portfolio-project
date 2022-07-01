@@ -1,3 +1,4 @@
+import Link from "next/link";
 interface ProjectPreviewGridProps{
     children?: string;
     title?: string;
@@ -15,14 +16,18 @@ function OpenCloseP(filter,Img) {
 }
 export default function ProjectPreviewGrid(props: ProjectPreviewGridProps) {
     return (
-        <a href={props.href} className="projectPreviewGrid"
-            onMouseEnter={() => OpenCloseP( true, props.imgClass)}
-            onMouseLeave={() => OpenCloseP( false, props.imgClass)}
-        >
-            <div className={`previewGrid Img ${props.imgClass}`}>
-                <h1>{props.title}</h1>
-                <p id={props.imgClass} className="previewGridP">{ props.children }</p>
-            </div>
-        </a>
+        // <a href={props.href} className="projectPreviewGrid"
+        <Link href={`/projectPreview/${props.href}`}>
+            <a
+                className="projectPreviewGrid"
+                onMouseEnter={() => OpenCloseP( true, props.imgClass)}
+                onMouseLeave={() => OpenCloseP( false, props.imgClass)}
+            >
+                <div className={`previewGrid Img ${props.imgClass}`}>
+                    <h1>{props.title}</h1>
+                    <p id={props.imgClass} className="previewGridP">{ props.children }</p>
+                </div>
+            </a>
+        </Link>
     )
 }

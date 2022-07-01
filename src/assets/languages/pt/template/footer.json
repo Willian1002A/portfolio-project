@@ -1,0 +1,17 @@
+{
+    "footerStrings" : {
+        "text": "2022. AZZTECK Soluções e Engenharia. Desenvolvido por ",
+        "author": "WASD",
+        "fullImg":{
+            "title":"Desenvolvido por Willian",
+            "email":{
+                "text":"Email: ",
+                "value":"wasdamico@gmail.com"
+            },
+            "fone":{
+                "text": "Fone/WhatsApp: ",
+                "number":"(51) 99898-6588"
+            }
+        }
+    }
+}

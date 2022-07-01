@@ -1,0 +1,30 @@
+[
+    {
+        "text": "Home",
+        "href": "./"
+    },
+    {
+        "text": "Sobre nós",
+        "href": "SobreNos.html"
+    },
+    {
+        "text": "Serviços",
+        "href": "Servicos.html"
+    },
+    {
+        "text": "Contato",
+        "href": "Contato.html"
+    },
+    {
+        "text": "PT",
+        "href": "?idioma=PT"
+    },
+    {
+        "text": "EN",
+        "href": "?idioma=EN"
+    },
+    {
+        "text": "ES",
+        "href": "?idioma=ES"
+    }
+]
