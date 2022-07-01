@@ -59,8 +59,8 @@ export default function Home() {
           </LinkA>
         </div>
         <div className="featuredProjects">
-          {project.map((item) => (
-            <Project title={item.title} href={item.href} imgClass={item.imgClass}/>
+          {project.map((item,index) => (
+            <Project key={index} title={item.title} href={item.href} imgClass={item.imgClass}/>
           ))}
         </div>
       </div>

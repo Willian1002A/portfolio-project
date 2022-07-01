@@ -8,8 +8,8 @@ export default function Projects() {
     <div className="Projects">
       <Header />
       <div className="projectGrid">
-        {project.map((item) => (
-          <ProjectPreviewGrid href={item.href} imgClass={item.imgClass} title={item.title}>
+        {project.map((item,index) => (
+          <ProjectPreviewGrid key={index} href={item.href} imgClass={item.imgClass} title={item.title}>
             {item.about}
           </ProjectPreviewGrid>
         ))}
