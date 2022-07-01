@@ -228,7 +228,7 @@
     padding: 0px;
     outline: none; */
     margin: 0px;
-    width: 304.9px;
+    width: 352.73px;
     height: 105px;
     display: flex;
     justify-content: center;
@@ -241,9 +241,12 @@
     /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
-    line-height: 48px;
+    font-size: 30px;
+    line-height: 36px;
     text-align: center;
+
+    padding-left: 24px;
+    padding-right: 24px;
 
     /* Cinza e p1 */
 
@@ -631,7 +634,7 @@
     /* align-items: center; */
 }
 .internalInternalDescription > h1{
-    width: 283px;
+    /* width: 283px; */
     height: 37px;
 
     /* font-family: 'Inter'; */

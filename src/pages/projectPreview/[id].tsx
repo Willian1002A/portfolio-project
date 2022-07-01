@@ -1,11 +1,12 @@
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import { useRouter } from "next/router";
-import infoProjectPreview from "../../assets/languages/pt/projectPreview.json";
+import projectPreviewContent from "../../assets/languages/pt/projectPreview.json";
 import Link from "next/link";
+import LinkA from "../../components/LinkA";
 export default function Projects() {
     const { query } = useRouter();
-    const projectPreviewObject = infoProjectPreview[`${query.id}`];
+    const projectPreviewObject = projectPreviewContent[`${query.id}`];
     const imgClass = projectPreviewObject?.imgClass;
     const text = projectPreviewObject?.text;
     return (
@@ -13,9 +14,7 @@ export default function Projects() {
             <Header className="headerProjectPreview"/>
             <div className="ProjectPreview">
                 <div className="regionIcon">
-                    <Link href="/projects">
-                        <a className="Icon backIcon"></a>
-                    </Link>
+                    <LinkA href="/projects" className="Icon backIcon"/>
                 </div>
                 <div className="InternalPreview">
                     <div className={`Img ${imgClass}`} ></div>
@@ -25,11 +24,11 @@ export default function Projects() {
                                 <h1>{text?.title}</h1>
                                 <p>{text?.description}</p>
                                 <p>{text?.usedTechnologies}</p>
-                                <p>{text?.sourceCode.string}<Link href={`/${text?.sourceCode.href}`}><a>{text?.sourceCode.a}</a></Link></p>
+                                <p>{text?.sourceCode.string}<LinkA href={`/${text?.sourceCode.href}`}>{text?.sourceCode.a}</LinkA></p>
                                 <div className="regionButton">
-                                    <Link href={`/${text?.button.href}` }>
-                                        <a>{text?.button.string}</a>
-                                    </Link>
+                                    <LinkA href={`/${text?.button.href}`}>
+                                        {text?.button.string}
+                                    </LinkA>
                                 </div>
                             </div>
                         </div>

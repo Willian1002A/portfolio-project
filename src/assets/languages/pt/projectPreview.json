@@ -1,21 +1,4 @@
 {
-    "azzteck" : {
-        "imgClass": "azzteck",
-        "text":{
-            "title": "Azzteck",
-            "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
-            "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
-            "sourceCode": {
-                "string":"Codigo fonte:",
-                "a": "Acesse Aqui!",
-                "href": ""
-            },
-            "button": {
-                "string": "Visitar Projeto",
-                "href":""
-            }
-        }
-    },
     "calculadoraReact" : {
         "imgClass": "calculadoraReact",
         "text":{
@@ -50,6 +33,23 @@
             }
         }
     },
+    "azzteck" : {
+        "imgClass": "azzteck",
+        "text":{
+            "title": "Site Azzteck",
+            "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
+            "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
+            "sourceCode": {
+                "string":"Codigo fonte:",
+                "a": "Acesse Aqui!",
+                "href": ""
+            },
+            "button": {
+                "string": "Visitar Projeto",
+                "href":""
+            }
+        }
+    },
     "crudHomeReact" : {
         "imgClass": "crudHomeReact",
         "text":{
@@ -70,7 +70,7 @@
     "deliciasMarinhas" : {
         "imgClass": "deliciasMarinhas",
         "text":{
-            "title": "Delicias Marinhas",
+            "title": "Site Delicias Marinhas",
             "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
             "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
             "sourceCode": {
@@ -118,10 +118,27 @@
             }
         }
     },
-    "montyHall" : {
-        "imgClass": "montyHall",
+    "relogioAnalogico" : {
+        "imgClass": "relogioAnalogico",
         "text":{
-            "title": "MontyHall",
+            "title": "Relogio Analogica",
+            "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
+            "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
+            "sourceCode": {
+                "string":"Codigo fonte:",
+                "a": "Acesse Aqui!",
+                "href": ""
+            },
+            "button": {
+                "string": "Visitar Projeto",
+                "href":""
+            }
+        }
+    },
+    "flappyBird" : {
+        "imgClass": "flappyBird",
+        "text":{
+            "title": "Flappy bird",
             "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
             "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
             "sourceCode": {
@@ -152,27 +169,10 @@
             }
         }
     },
-    "relogioAnalogico" : {
-        "imgClass": "relogioAnalogico",
+    "montyHall" : {
+        "imgClass": "montyHall",
         "text":{
-            "title": "Relogio Analogica",
-            "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
-            "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
-            "sourceCode": {
-                "string":"Codigo fonte:",
-                "a": "Acesse Aqui!",
-                "href": ""
-            },
-            "button": {
-                "string": "Visitar Projeto",
-                "href":""
-            }
-        }
-    },
-    "flappyBird" : {
-        "imgClass": "flappyBird",
-        "text":{
-            "title": "Flappy bird",
+            "title": "MontyHall",
             "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
             "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
             "sourceCode": {

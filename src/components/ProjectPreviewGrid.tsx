@@ -16,7 +16,6 @@ function OpenCloseP(filter,Img) {
 }
 export default function ProjectPreviewGrid(props: ProjectPreviewGridProps) {
     return (
-        // <a href={props.href} className="projectPreviewGrid"
         <Link href={`/projectPreview/${props.href}`}>
             <a
                 className="projectPreviewGrid"

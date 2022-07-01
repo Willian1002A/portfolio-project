@@ -1,5 +1,5 @@
-import Link from "next/link";
-
+import LinkA from "./LinkA";
+import footerContent from "../assets/languages/pt/template/footer.json";
 interface FooterProps{
     className?: string;
 }
@@ -8,21 +8,20 @@ export default function Footer(props: FooterProps) {
         <footer className={`footer ${props.className}`}>
             <div className="info">
             <div className="contact">
-                <h1>Contato</h1>
-                <p>Email: <Link href="mailto:wasdamico@gmail.com"><a>wasdamico@gmail.com</a></Link></p>
-                <p>Fone/WhatsApp: <Link href="tel:+55-51-99898-6588"><a>(51) 99898-6588</a></Link></p>
+                <h1>{footerContent.contact.title}</h1>
+                <p>{footerContent.contact.emailText}<LinkA href="mailto:wasdamico@gmail.com">wasdamico@gmail.com</LinkA></p>
+                <p>{footerContent.contact.foneText}<LinkA href="tel:+55-51-99898-6588">(51) 99898-6588</LinkA></p>
             </div>
             <div className="siteMap">
-                <h1>Site Map</h1>
-                <Link href="/"><a>Home</a></Link>
-                <Link href="/#about"><a>Sobre</a></Link>
-                <Link href="/projects"><a>Projetos</a></Link>
+                <h1>{footerContent.siteMap.title}</h1>
+                <LinkA href="/">{footerContent.siteMap.home}</LinkA>
+                <LinkA href="/#about">{footerContent.siteMap.about}</LinkA>
+                <LinkA href="/projects">{footerContent.siteMap.projects}</LinkA>
             </div>
             </div>
             <div className="basicFooter">
-            <p>© 2022 Willian A. S. D’Amico</p>
-            <Link href="/"><a >Website Source Code</a></Link>
-            
+                <p>{footerContent.basicFooter.p}</p>
+                <LinkA href={`/${footerContent.basicFooter.a.href}`}>{footerContent.basicFooter.a.description}</LinkA>
             </div>
       </footer>
     )

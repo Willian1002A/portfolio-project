@@ -1,0 +1,49 @@
+{
+    "perfil": {
+        "description": "Estudante, desenvolvedor"
+    },
+    "about": {
+        "h1": "Hey!",
+        "p": 
+        [
+            "I'm  Blabla from Brazil!",
+            "I love programming and learning new things!",
+            "Feel free to get in touch or take a look at my past work below."
+        ]
+    },
+    "featuredProjectsDiv": {
+        "titleSeeMore": {
+            "h1": "Projetos em destaque",
+            "seeMore": {
+                "Link": {
+                    "a": "Ver todos os projetos",
+                    "href": "projects"
+                }
+            }
+        },
+        "featuredProjects": {
+            "Project": [
+                {
+                    "title":"Site Delicias Marinhas",
+                    "href": "deliciasMarinhas",
+                    "imgClass": "deliciasMarinhas"
+                },
+                {
+                    "title":"Site AzzTeck",
+                    "href": "azzteck",
+                    "imgClass": "azzteck"
+                },
+                {
+                    "title":"Projeto Flappy Bird",
+                    "href": "flappyBird",
+                    "imgClass": "flappyBird"
+                },
+                {
+                    "title":"Tic-Tac-Toe",
+                    "href": "jogoDaVelha",
+                    "imgClass": "jogoDaVelha"
+                }
+            ]
+        }
+    }
+}
