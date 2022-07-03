@@ -260,13 +260,14 @@
 /*------------ ProjectGridElement ------------*/
 .ProjectGridElement{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content:space-evenly;
     align-items: center;
     width: 486.67px;
     height: 304.17px;
     margin-bottom: 115px;
     background: var(--gray-d);
-    box-shadow: var(--default-box-shadow)
+    box-shadow: var(--default-box-shadow);
 }
 .ProjectGridElement:hover{
     width: 584px;
@@ -274,6 +275,18 @@
     margin-bottom: 0px;
     transform: translate(-10%,-10%);
     transition-duration: 500ms;
+}
+.ProjectGridElement > h1 {
+    /* margin-left: 60px; */
+    width: 85%;
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: var(--default-white);
 }
 .previewElement{
     display: flex;
@@ -296,6 +309,7 @@
 .previewElementP{
     display: none;
     margin-left: 18px;
+    margin-right: 18px;
     margin-top: -18px;
     margin-bottom: 18px;
     word-break: break-all;
