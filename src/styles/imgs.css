@@ -34,9 +34,25 @@
 .flappyBird{
     background: url("../assets/imgs/siteFlappyBird.png");
 }
+.buttonExpandMenu{
+    display: none;
+    width: 25px;
+    height: 12.5px;
+    background: url("../assets/imgs/buttonExpandMenu.png");
+}
 .Img{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     /* background: #6F848E; */
+}
+@media (min-width: 0px) {
+    .buttonExpandMenu{
+        display: block;
+    }
+}
+@media (min-width: 1024px) {
+    .buttonExpandMenu{
+        display: none;
+    }
 }

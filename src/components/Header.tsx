@@ -28,28 +28,33 @@ export default function Header(props: headerProps) {
     }
     return (
         <header className={`header ${props.className}`}>
-            <LinkA href={`/${headerContentTranslated[0]?.href + hrefAtrib}`} className="logo">
-                Willian D’Amico
-            </LinkA>
-            <LinkA href={`/${headerContentTranslated[0]?.href + hrefAtrib}`} className="headerButton">
-                {headerContentTranslated[0]?.text}
-            </LinkA>
-            <LinkA href={`/${hrefAtrib + headerContentTranslated[1]?.href}`} className="headerButton">
-                {headerContentTranslated[1]?.text}
-            </LinkA>
-            <LinkA href={`/${headerContentTranslated[2]?.href + hrefAtrib}`} className="headerButton">
-                {headerContentTranslated[2]?.text}
-            </LinkA>
-            <div className="languageButtons">
-                <LinkA href={query.id ? query.id + headerContentTranslated[3]?.href : headerContentTranslated[3]?.href } className="headerLanguageButton">
-                    {headerContentTranslated[3]?.text}
+            <div className={`contentHeader ${props.className}`}>
+                <div className="Img buttonExpandMenu"/>
+                <LinkA href={`/${headerContentTranslated[0]?.href + hrefAtrib}`} className="logo">
+                    Willian D’Amico
                 </LinkA>
-                <LinkA href={query.id ? query.id + headerContentTranslated[4]?.href : headerContentTranslated[4]?.href } className="headerLanguageButton">
-                    {headerContentTranslated[4]?.text}
-                </LinkA>
-                <LinkA href={query.id ? query.id + headerContentTranslated[5]?.href : headerContentTranslated[5]?.href } className="headerLanguageButton">
-                    {headerContentTranslated[5]?.text}
-                </LinkA>
+                <div className="links">
+                    <LinkA href={`/${headerContentTranslated[0]?.href + hrefAtrib}`} className="headerButton">
+                        {headerContentTranslated[0]?.text}
+                    </LinkA>
+                    <LinkA href={`/${hrefAtrib + headerContentTranslated[1]?.href}`} className="headerButton">
+                        {headerContentTranslated[1]?.text}
+                    </LinkA>
+                    <LinkA href={`/${headerContentTranslated[2]?.href + hrefAtrib}`} className="headerButton">
+                        {headerContentTranslated[2]?.text}
+                    </LinkA>
+                </div>
+                <div className="languageButtons">
+                    <LinkA href={query.id ? query.id + headerContentTranslated[3]?.href : headerContentTranslated[3]?.href } className="headerLanguageButton">
+                        {headerContentTranslated[3]?.text}
+                    </LinkA>
+                    <LinkA href={query.id ? query.id + headerContentTranslated[4]?.href : headerContentTranslated[4]?.href } className="headerLanguageButton">
+                        {headerContentTranslated[4]?.text}
+                    </LinkA>
+                    <LinkA href={query.id ? query.id + headerContentTranslated[5]?.href : headerContentTranslated[5]?.href } className="headerLanguageButton">
+                        {headerContentTranslated[5]?.text}
+                    </LinkA>
+                </div>
             </div>
         </header>
     )

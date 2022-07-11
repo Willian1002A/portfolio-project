@@ -3,15 +3,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 879.52px;
-    height: 617.1px;
-    margin-bottom: 265px;
 }
 #photo{
-    width: 272.57px;
-    height: 272.57px;
-    margin-bottom: 18px;
-    border-radius: 272.57px;
     background: var(--gray-b);
     box-shadow: var(--default-box-shadow);
     background: url("../assets/imgs/fotoDePerfilLinkedinNova.png");
@@ -26,21 +19,15 @@
     /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 400;
-    font-size: 64px;
-    line-height: 77px;
     color: var(--gray-g);
 }
 .perfil > p{
     display: flex;
     align-items: center;
     text-align: center;
-    margin-top: 49px;
-    margin-bottom: 49px;
     /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 39px;
     color: var(--gray-g);
 }
 .socialMedias{
@@ -50,11 +37,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 112.4px;
-    height: 111.79px;
-    margin-left: 14px;
-    margin-right: 14px;
-    border-radius: 80px;
     background: var(--gray-b);
     box-shadow: var(--default-box-shadow);
 }
@@ -71,34 +53,23 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 290px;
-    margin-bottom: 100px;
     background: var(--gray-d);
 }
 #about > h1{
     display: flex;
     align-items: center;
-    width: 1632px;
-    margin: 0px;
-    margin-bottom: 10px;
     /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
-    line-height: 48px;
     color: var(--default-white);
 }
 #about > p{
     display: flex;
     align-items: center;
     text-align: left;
-    width: 1632px;
-    margin: 0px;
     /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
-    line-height: 48px;
     color: var(--default-white);
 }
 /*------------ Featured projects ------------*/
@@ -107,14 +78,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 1613px;
-    height: 1473.5px;
 }
 .titleSeeMoreRegion{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    margin-bottom: 40px;
 }
 .titleSeeMoreRegion h1{
     display: flex;
@@ -123,8 +91,6 @@
     /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 400;
-    font-size: 50px;
-    line-height: 61px;
     color: var(--default-white);
 }
 .seeMore {
@@ -132,21 +98,369 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 352.73px;
-    height: 105px;
-    padding-left: 24px;
-    padding-right: 24px;
     background: var(--gray-g);
     /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
-    line-height: 36px;
     color: var(--gray-e);
 }
 #featuredProjects > .content{
     display: grid;
-    grid-template-columns: repeat(2,772px);
-    column-gap: 69px;
-    row-gap: 67px;
+}
+@media (min-width: 0px) {
+    /*------------ Perfil ------------*/
+    .perfil{
+        width: 190px;
+        height: 145.7px;
+        margin-bottom: 33px;
+    }
+    #photo{
+        width: 41.58px;
+        height: 41.58px;
+        margin-bottom: 8.97px;
+        border-radius: 41.58px;
+    }
+    .perfil > h1{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .perfil > p{
+        margin-top: 8.97px;
+        margin-bottom: 8.97px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .socialIcon{
+        width: 37.2px;
+        height: 37.2px;
+        margin-left: 3.75px;
+        margin-right: 3.75px;
+        border-radius: 37.2px;
+    }
+    /*------------ About ------------*/
+    #about{
+        height: 114px;
+        margin-bottom: 23px;
+    }
+    #about > h1{
+        width: 314.63px;
+        margin-bottom: 1.88px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    #about > p{
+        width: 314.63px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    /*------------ Featured projects ------------*/
+    #featuredProjects{
+        width: 315.19px;
+        height: 931.19px;
+    }
+    .titleSeeMoreRegion{
+        width: 100%;
+        margin-bottom: 9px;
+    }
+    .titleSeeMoreRegion h1{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .seeMore {
+        width: 102.75px;
+        height: 23.13px;
+        font-size: 8px;
+        line-height: 10px;
+    }
+    #featuredProjects > .content{
+        grid-template-columns: repeat(1,315.19px);
+        column-gap: 0px;
+        row-gap: 18px;
+    }
+}
+@media (min-width: 640px) {
+    /*------------ Perfil ------------*/
+    .perfil{
+        width: 236px;
+        height: 202.05px;
+        margin-bottom: 75px;
+    }
+    #photo{
+        width: 72.32px;
+        height: 72.32px;
+        margin-bottom: 15.95px;
+        border-radius: 72.32px;
+    }
+    .perfil > h1{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .perfil > p{
+        margin-top: 15.95px;
+        margin-bottom: 15.95px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .socialIcon{
+        width: 41.86px;
+        height: 41.86px;
+        margin-left: 6.67px;
+        margin-right: 6.67px;
+        border-radius: 41.86px
+    }
+    /*------------ About ------------*/
+    #about{
+        height: 96px;
+        margin-bottom: 41px;
+    }
+    #about > h1{
+        width: 559.33px;
+        margin: 0px;
+        margin-bottom: 3.33px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    #about > p{
+        width: 559.33px;
+        margin: 0px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    /*------------ Featured projects ------------*/
+    #featuredProjects{
+        width: 559.33px;
+        height: 504.93px;
+    }
+    .titleSeeMoreRegion{
+        margin-bottom: 16.33px;
+    }
+    .titleSeeMoreRegion h1{
+        margin: 0px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .seeMore {
+        width:  117.33px;
+        height: 33.33px;
+        font-size: 8px;
+        line-height: 10px;
+    }
+    #featuredProjects > .content{
+        grid-template-columns: repeat(2,260px);
+        column-gap: 39px;
+        row-gap: 32px;
+    }
+}
+@media (min-width: 1024px) {
+    /*------------ Perfil ------------*/
+    .perfil{
+        width: 326px;
+        height: 352.15px;
+        margin-bottom: 57px;
+    }
+    #photo{
+        width: 108.21px;
+        height: 108.21px;
+        margin-bottom: 25.53px;
+        border-radius: 108.21px;
+    }
+    .perfil > h1{
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .perfil > p{
+        margin-top: 25.53px;
+        margin-bottom: 25.53px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .socialIcon{
+        width: 68.87px;
+        height: 68.87px;
+        margin-left: 6.67px;
+        margin-right: 6.67px;
+        border-radius: 68.87px
+    }
+    /*------------ About ------------*/
+    #about{
+        height: 179.2px;
+        margin-bottom: 66px;
+    }
+    #about > h1{
+        width: 894.93px;
+        margin-bottom: 5.33px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    #about > p{
+        width: 894.93px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    /*------------ Featured projects ------------*/
+    #featuredProjects{
+        width: 894.93px;
+        height: 798.33px;
+    }
+    .titleSeeMoreRegion{
+        margin-bottom: 26.13px;
+    }
+    .titleSeeMoreRegion h1{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .seeMore {
+        width:  176px;
+        height: 57.33px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    #featuredProjects > .content{
+        grid-template-columns: repeat(2, 422.21px);
+        column-gap: 50px;
+        row-gap: 28px;
+    }
+}
+@media (min-width: 1360px) {
+    /*------------ Perfil ------------*/
+    .perfil{
+        width: 501.5px;
+        height: 446.49px;
+        margin-bottom: 159px;
+    }
+    #photo{
+        width: 152.35px;
+        height: 152.35px;
+        margin-bottom: 34px;
+        border-radius: 152.35px;
+    }
+    .perfil > h1{
+        font-size: 48px;
+        line-height: 56px;
+    }
+    .perfil > p{
+        margin-top: 34px;
+        margin-bottom: 34px;
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .socialIcon{
+        width: 84.3px;
+        height: 84.3px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 84.3px;
+    }
+    /*------------ About ------------*/
+    #about{
+        height: 226.67px;
+        margin-bottom: 88px;
+    }
+    #about > h1{
+        width: 1188.58px;
+        margin-bottom: 7.08px;
+        font-size: 34px;
+        line-height: 40px;
+    }
+    #about > p{
+        width: 1188.58px;
+        font-size: 34px;
+        line-height: 40px;
+    }
+    /*------------ Featured projects ------------*/
+    #featuredProjects{
+        width: 1188.58px;
+        height: 1072.97px;
+    }
+    .titleSeeMoreRegion{
+        width: 100%;
+        margin-bottom: 34.71px;
+    }
+    .titleSeeMoreRegion h1{
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .seeMore {
+        width: 238px;
+        height: 78px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    #featuredProjects > .content{
+        grid-template-columns: repeat(2,552.44px);
+        column-gap: 84px;
+        row-gap: 68px;
+    }
+}
+@media (min-width: 1920px) {
+    /*------------ Perfil ------------*/
+    .perfil{
+        width: 879.52px;
+        height: 617.1px;
+        margin-bottom: 265px;
+    }
+    #photo{
+        width: 272.57px;
+        height: 272.57px;
+        margin-bottom: 18px;
+        border-radius: 272.57px;
+    }
+    .perfil > h1{
+        font-size: 64px;
+        line-height: 77px;
+    }
+    .perfil > p{
+        margin-top: 49px;
+        margin-bottom: 49px;
+        font-size: 32px;
+        line-height: 39px;
+    }
+    .socialIcon{
+        width: 112.4px;
+        height: 111.79px;
+        margin-left: 14px;
+        margin-right: 14px;
+        border-radius: 80px;
+    }
+    /*------------ About ------------*/
+    #about{
+        height: 290px;
+        margin-bottom: 100px;
+    }
+    #about > h1{
+        width: 1613px;
+        margin-bottom: 10px;
+        font-size: 40px;
+        line-height: 48px;
+    }
+    #about > p{
+        width: 1613px;
+        font-size: 40px;
+        line-height: 48px;
+    }
+    /*------------ Featured projects ------------*/
+    #featuredProjects{
+        width: 1613px;
+        height: 1473.5px;
+    }
+    .titleSeeMoreRegion{
+        margin-bottom: 40px;
+    }
+    .titleSeeMoreRegion h1{
+        font-size: 50px;
+        line-height: 61px;
+    }
+    .seeMore {
+        width: 352.73px;
+        height: 105px;
+        font-size: 30px;
+        line-height: 36px;
+    }
+    #featuredProjects > .content{
+        grid-template-columns: repeat(2,772px);
+        column-gap: 69px;
+        row-gap: 67px;
+    }
+}
+@media (orientation:portrait) {
 }

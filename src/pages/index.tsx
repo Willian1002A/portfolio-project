@@ -29,7 +29,7 @@ export default function Home() {
     <div className="Background">
       <Header />
       <div className="perfil">
-          <div id="photo"></div>
+          <div id="photo" />
           <h1>Willian A. S. D&apos;Amico</h1>
           <p>{homeContentTranslated.perfil.description}</p>
           <div className="socialMedias">

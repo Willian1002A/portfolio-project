@@ -27,21 +27,25 @@ export default function Footer(props: FooterProps) {
     return (
         <footer className={`footer ${props.className}`}>
             <div className="info">
-            <div className="contact">
-                <h1>{footerContentTranslated.contact.title}</h1>
-                <p>{footerContentTranslated.contact.emailText}<LinkA href="mailto:wasdamico@gmail.com">wasdamico@gmail.com</LinkA></p>
-                <p>{footerContentTranslated.contact.foneText}<LinkA href="tel:+55-51-99898-6588">(51) 99898-6588</LinkA></p>
-            </div>
-            <div className="siteMap">
-                <h1>{footerContentTranslated.siteMap.title}</h1>
-                <LinkA href={`/${hrefAtrib}`}>{footerContentTranslated.siteMap.home}</LinkA>
-                <LinkA href={`/${hrefAtrib}#about`}>{footerContentTranslated.siteMap.about}</LinkA>
-                <LinkA href={`/projects${hrefAtrib}`}>{footerContentTranslated.siteMap.projects}</LinkA>
-            </div>
+                <div className="contactSiteMap">             
+                    <div className="contact">
+                        <h1>{footerContentTranslated.contact.title}</h1>
+                        <p>{footerContentTranslated.contact.emailText}<LinkA href="mailto:wasdamico@gmail.com">wasdamico@gmail.com</LinkA></p>
+                        <p>{footerContentTranslated.contact.foneText}<LinkA href="tel:+55-51-99898-6588">(51) 99898-6588</LinkA></p>
+                    </div>
+                    <div className="siteMap">
+                        <h1>{footerContentTranslated.siteMap.title}</h1>
+                        <LinkA href={`/${hrefAtrib}`}>{footerContentTranslated.siteMap.home}</LinkA>
+                        <LinkA href={`/${hrefAtrib}#about`}>{footerContentTranslated.siteMap.about}</LinkA>
+                        <LinkA href={`/projects${hrefAtrib}`}>{footerContentTranslated.siteMap.projects}</LinkA>
+                    </div>
+                </div>
             </div>
             <div className="basicFooter">
-                <p>{footerContentTranslated.basicFooter.p}</p>
-                <LinkA href={`/${footerContentTranslated.basicFooter.a.href}`}>{footerContentTranslated.basicFooter.a.description}</LinkA>
+                <div className="footerContent">         
+                    <p>{footerContentTranslated.basicFooter.p}</p>
+                    <LinkA href={`/${footerContentTranslated.basicFooter.a.href}`}>{footerContentTranslated.basicFooter.a.description}</LinkA>
+                </div>
             </div>
       </footer>
     )

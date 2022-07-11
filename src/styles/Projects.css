@@ -1,8 +1,53 @@
 .projectGrid{
     display: grid;
-    grid-template-columns: repeat(3,486.67px);
-    column-gap: 115px;
+    /* grid-template-columns: repeat(3,486.67px);
+    column-gap: 115px; */
 }
 .footerAdjust{
     margin-top: 57px;
+}
+@media (min-width: 0px) {
+    .projectGrid{
+        grid-template-columns: repeat(2,149.16px);
+        column-gap: 16px;
+    }
+    .footerAdjust{
+        margin-top: 16px;
+    }
+}
+@media (min-width: 640px) {
+    .projectGrid{
+        grid-template-columns: repeat(3,175.6px);
+        column-gap: 16px;
+    }
+    .footerAdjust{
+        margin-top: 46px;
+    }
+}
+@media (min-width: 1024px) {
+    .projectGrid{
+        grid-template-columns: repeat(3,280.96px);
+        column-gap: 26px;
+    }
+    .footerAdjust{
+        margin-top: 66px;
+    }
+}
+@media (min-width: 1360px) {
+    .projectGrid{
+        grid-template-columns: repeat(3,373.15px);
+        column-gap: 35px;
+    }
+    .footerAdjust{
+        margin-top: 87px;
+    }
+}
+@media (min-width: 1920px) {
+    .projectGrid{
+        grid-template-columns: repeat(3,526.81px);
+        column-gap: 49px; 
+    }
+    .footerAdjust{
+        margin-top: 123px;
+    }
 }
