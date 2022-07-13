@@ -90,7 +90,7 @@
     display: flex;
 }
 .contact{
-    width:  50%;
+    min-width:  50%;
 }
 .contact > h1 {
     margin: 0px;
@@ -121,7 +121,7 @@
 .siteMap{
     display: flex;
     flex-direction: column;
-    width:  50%;
+    max-width:  50%;
 }
 .siteMap > h1 {
     margin: 0px;
@@ -281,6 +281,9 @@
         width: 315.19px;
         margin-top: 4.69px;
     }
+    .contact{
+        margin-right: 10px;
+    }
     .contact > h1 {
         margin-bottom: 1.13px;
         font-size: 12px;
@@ -289,7 +292,7 @@
     .contact > p {
         margin-bottom: 1.13px;
         font-size: 10px;
-        line-height: 12px;
+        line-height: 11px;
     }
     .contact > p > a {
         margin-left: 1.88px;
@@ -302,8 +305,8 @@
     }
     .siteMap > a {
         margin-bottom: 0px;
-        font-size: 8px;
-        line-height: 10px;
+        font-size: 10px;
+        line-height: 11px;
         text-decoration: underline;
     }
     .basicFooter{
