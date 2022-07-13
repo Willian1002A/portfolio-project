@@ -116,8 +116,8 @@
         margin-bottom: 11px;
     }
     .Icon{
-        width: 8.25px;
-        height: 8.06px;
+        width: 20px;
+        height: 20px;
     }
     #ProjectPreviewContent{
         flex-direction: column;
@@ -147,27 +147,28 @@
     }
     .description > .content > h1{
         height: 12px;
-        font-size: 10px;
-        line-height: 12px;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 14px;
         margin-bottom: 0.94px;
     }
     .description > .content > p:nth-child(2){
         width: fit-content;
         margin-bottom: 0.94px;
-        font-size: 8px;
-        line-height: 10px;
+        font-size: 10px;
+        line-height: 12px;
     }
     .description > .content > p:nth-child(3){
         width: fit-content;
         margin-bottom: 0.94px;
-        font-size: 8px;
-        line-height: 10px;
+        font-size: 10px;
+        line-height: 12px;
     }
     .description > .content > p:nth-child(4){
         width: fit-content;
         margin-bottom: 7.5px;
-        font-size: 8px;
-        line-height: 10px;
+        font-size: 10px;
+        line-height: 12px;
     }
     .description > .content > p:nth-child(4) > a {
         margin-left: 10px;

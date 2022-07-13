@@ -66,6 +66,12 @@
     text-align: center;
     color: #E8E8E8;
 }
+.headerButtonStyle{
+    width: 100%;
+}
+.headerVerticalButtonStyle{
+    background-color: #D9D9D9;
+}
 /*------------ Footer ------------*/
 .footer{
     width: 100%;
@@ -277,13 +283,13 @@
     }
     .contact > h1 {
         margin-bottom: 1.13px;
-        font-size: 10px;
-        line-height: 12px;
+        font-size: 12px;
+        line-height: 14px;
     }
     .contact > p {
         margin-bottom: 1.13px;
-        font-size: 8px;
-        line-height: 10px;
+        font-size: 10px;
+        line-height: 12px;
     }
     .contact > p > a {
         margin-left: 1.88px;
@@ -291,8 +297,8 @@
     }
     .siteMap > h1 {
         margin-bottom: 1.5px;
-        font-size: 10px;
-        line-height: 12px;
+        font-size: 12px;
+        line-height: 14px;
     }
     .siteMap > a {
         margin-bottom: 0px;
@@ -309,13 +315,13 @@
     .footerContent > p:nth-child(1){
         margin-right: 0px;
         /* width: 139px; */
-        font-size: 10px;
-        line-height: 12px;
+        font-size: 12px;
+        line-height: 14px;
     }
     .footerContent > a{
         /* width: 82px; */
-        font-size: 8px;
-        line-height: 10px;
+        font-size: 10px;
+        line-height: 12px;
         text-decoration: underline;
     }
     /*------------ Project ------------*/
@@ -338,8 +344,8 @@
         line-height: 16px;
     }
     .project > a{
-        font-size: 8px;
-        line-height: 10px;
+        font-size: 10px;
+        line-height: 12px;
     }
     /*------------ ProjectGridElement ------------*/
     .ProjectGridElement{

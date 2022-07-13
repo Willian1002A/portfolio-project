@@ -1,5 +1,7 @@
 import { useRouter } from 'next/router';
-import Header from "../components/Header";
+// import Header from "../components/Header";
+import Header from "../components/Header/index";
+// import Header from "../components/Header2";
 import Footer from "../components/Footer";
 import Project from "../components/Project";
 import LinkA from "../components/LinkA";
