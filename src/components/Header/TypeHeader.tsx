@@ -128,7 +128,9 @@ export function VerticalHeader(props: TypeHeaderProps){
     )
     return(
         <>
-            <MenuButton useState={useState}/>
+            <div className={`buttonExpandMenu`}>
+                <MenuButton useState={useState}/>
+            </div>
             <ToggleMenu useState={useState}>
                 <Box
                     className="headerVerticalButtonStyle"

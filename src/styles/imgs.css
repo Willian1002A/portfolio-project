@@ -36,7 +36,7 @@
 }
 .buttonExpandMenu{
     display: none;
-    color: #D9D9D9;
+    /* color: #D9D9D9; */
     /* width: 25px;*/
     /* height: 10px; */
     /* background: url("../assets/imgs/buttonExpandMenu.png"); */
