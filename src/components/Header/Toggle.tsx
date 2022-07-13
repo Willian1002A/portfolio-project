@@ -27,7 +27,7 @@ export function ToggleDrawer(useState){
 export function MenuButton (props: ToggleMenuProps) {
     return (
         <IconButton size={"small"} id={props.id} className={`buttonExpandMenu ${props.className}`} onClick={toggleDrawer("top", true, props.useState)} edge="end" color="inherit" aria-label="menu">
-            <MenuIcon fontSize="inherit"/>
+            <MenuIcon fontSize="inherit" color='inherit'/>
         </IconButton>
     )
 }
