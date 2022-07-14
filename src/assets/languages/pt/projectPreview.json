@@ -110,11 +110,11 @@
             "sourceCode": {
                 "string":"Codigo fonte:",
                 "a": "Acesse Aqui!",
-                "href": ""
+                "href": "https://github.com/Willian1002A/tic-tac-toe"
             },
             "button": {
                 "string": "Visitar Projeto",
-                "href":""
+                "href": "https://tic-tac-toe-wasdamico-gmailcom.vercel.app/"
             }
         }
     },
@@ -127,11 +127,11 @@
             "sourceCode": {
                 "string":"Codigo fonte:",
                 "a": "Acesse Aqui!",
-                "href": ""
+                "href": "https://github.com/Willian1002A/analog-clock"
             },
             "button": {
                 "string": "Visitar Projeto",
-                "href":""
+                "href": "https://analog-clock-wasdamico-gmailcom.vercel.app/"
             }
         }
     },
