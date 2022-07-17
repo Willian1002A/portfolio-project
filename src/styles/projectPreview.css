@@ -46,6 +46,8 @@
     background: #6F848E;
 }
 .description > .content{
+    width: fit-content;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -59,7 +61,7 @@
     align-items: center;
     /* font-family: 'Inter'; */
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     color: inherit;
 }
 .description > .content > p:nth-child(2){
@@ -68,13 +70,13 @@
     word-break: break-all;
     /* font-family: 'Inter'; */
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     color: inherit;
 }
 .description > .content > p:nth-child(3){
     /* font-family: 'Inter'; */
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     display: flex;
     align-items: center;
     color: inherit;
@@ -84,7 +86,7 @@
     align-items: center;
     /* font-family: 'Inter'; */
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     color: inherit;
 }
 .regionButton{
@@ -123,7 +125,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 295.04px;
+        height: 348.31px;
         min-height: 5vh;/*Verificar!*/
     }
     #ProjectPreviewContent > .preview{
@@ -137,48 +139,53 @@
     }
     .description{
         width: 100%;
-        height: 109.04px;
+        /* height: 109.04px; */
+        height: 156.31px;
         padding-left: 9.38px;
         padding-right: 9.38px;
     }
     .description > .content{
         width: fit-content;
-        height: 89.55px;
+        height: fit-content;
     }
     .description > .content > h1{
-        height: 12px;
+        height: fit-content;
         font-weight: bold;
-        font-size: 12px;
-        line-height: 14px;
+        font-size: 20px;
+        line-height: 24px;
         margin-bottom: 0.94px;
     }
     .description > .content > p:nth-child(2){
         width: fit-content;
         margin-bottom: 0.94px;
-        font-size: 10px;
-        line-height: 12px;
+        font-size: 12px;
+        line-height: 14px;
     }
     .description > .content > p:nth-child(3){
         width: fit-content;
         margin-bottom: 0.94px;
-        font-size: 10px;
-        line-height: 12px;
+        font-size: 12px;
+        line-height: 14px;
     }
     .description > .content > p:nth-child(4){
         width: fit-content;
         margin-bottom: 7.5px;
-        font-size: 10px;
-        line-height: 12px;
+        font-size: 12px;
+        line-height: 14px;
     }
     .description > .content > p:nth-child(4) > a {
-        margin-left: 10px;
+        margin-left: 5px;
     }
     .regionButton > a{
         font-weight: bold;
-        width: 62.8px;
-        height: 17px;
-        font-size: 8px;
-        line-height: 10px;
+        width: fit-content;
+        height: fit-content;
+        font-size: 14px;
+        line-height: 16px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
         border: 3px solid var(--default-white);
     }
     .regionButton > a:hover{
@@ -268,14 +275,14 @@
             margin-bottom: 22px;
         }
         .Icon{
-            width: 14.7px;
-            height: 14.33px;
+            width: 20px;
+            height: 20px;
         }
         #ProjectPreviewContent{
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 444.58px;
+            height: 475px;
             min-height: 40vh;/*Verificar!*/
         }
         #ProjectPreviewContent > .preview{
@@ -289,7 +296,7 @@
         }
         .description{
             width: 100%;
-            height: 134.58px;
+            height: 165px;
             padding-left: 16.67px;
             padding-right: 16.67px;
         }
@@ -300,37 +307,37 @@
         .description > .content > h1{
             height: fit-content;
             font-weight: bold;
-            font-size: 12px;
-            line-height: 14px;
+            font-size: 20px;
+            line-height: 24px;
             margin-bottom: 1.67px;
         }
         .description > .content > p:nth-child(2){
             width: fit-content;
             margin-bottom: 1.67px;
-            font-size: 10px;
-            line-height: 12px;
+            font-size: 12px;
+            line-height: 16px;
         }
         .description > .content > p:nth-child(3){
             width: fit-content;
             margin-bottom: 1.67px;
-            font-size: 10px;
-            line-height: 12px;
+            font-size: 12px;
+            line-height: 16px;
         }
         .description > .content > p:nth-child(4){
             width: fit-content;
             margin-bottom: 13.33px;
-            font-size: 10px;
-            line-height: 12px;
+            font-size: 12px;
+            line-height: 16px;
         }
         .description > .content > p:nth-child(4) > a {
             margin-left: 5px;
         }
         .regionButton > a{
             font-weight: bold;
-            width: 87.33px;
-            height: 27.58px;
-            font-size: 10px;
-            line-height: 12px;
+            width: 116px;
+            height: 32px;
+            font-size: 12px;
+            line-height: 16px;
             border: 3px solid var(--default-white);
         }
         .regionButton > a:hover{
