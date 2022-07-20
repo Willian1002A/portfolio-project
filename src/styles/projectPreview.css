@@ -318,15 +318,15 @@
         height: fit-content;
         font-weight: bold;
         color: green;
-        font-size: calc(var(--description-portrait-content-h1-font-size) * 0.8);
-        line-height: calc(var(--description-portrait-content-h1-line-height) * 1.5);
+        font-size: calc(var(--description-portrait-content-h1-font-size) * 0.5);
+        line-height: calc(var(--description-portrait-content-h1-line-height) * 1);
         margin-bottom: calc(var(--description-portrait-content-margin-bottom) * 1);
     }
     .description > .content > p{
         width: fit-content;
         margin-bottom: calc(var(--description-portrait-content-margin-bottom) * 1);
-        font-size: calc(var(--description-portrait-content-p-font-size) * 0.8);
-        line-height: calc(var(--description-portrait-content-p-line-height) * 1.5);
+        font-size: calc(var(--description-portrait-content-p-font-size) * 0.5);
+        line-height: calc(var(--description-portrait-content-p-line-height) * 1);
     }
     .description > .content > p:nth-child(4){
         margin-bottom: var(--description-portrait-content-p-4-margin-bottom);
@@ -338,7 +338,7 @@
         font-weight: bold;
         width: var(--regionButton-portrait-a-width);
         height: var(--regionButton-portrait-a-height);
-        font-size: calc(var(--regionButton-portrait-a-font-size) * 1);
+        font-size: calc(var(--regionButton-portrait-a-font-size) * 0.5);
         line-height: calc(var(--regionButton-portrait-a-line-height) * 1);
         border: var(--regionButton-portrait-a-border-size) solid var(--default-white);
     }
