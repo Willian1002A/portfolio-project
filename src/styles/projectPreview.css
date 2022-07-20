@@ -105,7 +105,7 @@
     font-weight: 400;
     color: var(--gray-f);
     background: var(--gray-g);
-    background: red;
+    background: green;
     filter: drop-shadow(var(--default-box-shadow));
 }
 .regionButton > a:hover{
@@ -317,15 +317,16 @@
     .description > .content > h1{
         height: fit-content;
         font-weight: bold;
-        font-size: calc(var(--description-portrait-content-h1-font-size) * 1);
-        line-height: calc(var(--description-portrait-content-h1-line-height) * 1);
+        color: green;
+        font-size: calc(var(--description-portrait-content-h1-font-size) * 0.8);
+        line-height: calc(var(--description-portrait-content-h1-line-height) * 1.5);
         margin-bottom: calc(var(--description-portrait-content-margin-bottom) * 1);
     }
     .description > .content > p{
         width: fit-content;
         margin-bottom: calc(var(--description-portrait-content-margin-bottom) * 1);
-        font-size: calc(var(--description-portrait-content-p-font-size) * 1);
-        line-height: calc(var(--description-portrait-content-p-line-height) * 1);
+        font-size: calc(var(--description-portrait-content-p-font-size) * 0.8);
+        line-height: calc(var(--description-portrait-content-p-line-height) * 1.5);
     }
     .description > .content > p:nth-child(4){
         margin-bottom: var(--description-portrait-content-p-4-margin-bottom);
