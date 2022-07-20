@@ -202,6 +202,7 @@
     --description-content-height: calc(177.67px * var(--mult-factor));
     --description-content-h1-height: calc(37px * var(--mult-factor));
     --description-content-h1-font-size: calc(30.24px * var(--mult-factor));
+    --description-content-h1-font-size: calc(302.24px * var(--mult-factor));
     --description-content-h1-line-height: calc(37px * var(--mult-factor));
     --description-content-p-margin-bottom-1: calc(10px * var(--mult-factor));
     --description-content-p-margin-bottom-2: calc(69px * var(--mult-factor));
@@ -219,10 +220,10 @@
     --ProjectPreviewContent-preview-portrait-margin-bottom: calc(30px * var(--mult-factor));
     --description-portrait-height: calc(337px * var(--mult-factor));
     --description-portrait-padding-x: calc(50px * var(--mult-factor));
-    --description-portrait-content-h1-font-size: calc(34px/2 * var(--mult-factor));
+    --description-portrait-content-h1-font-size: calc(34px * var(--mult-factor));
     --description-portrait-content-h1-line-height: calc(40px * var(--mult-factor));
     --description-portrait-content-margin-bottom: calc(5px * var(--mult-factor));
-    --description-portrait-content-p-font-size: calc(21px/2 * var(--mult-factor));/*Verificar*/
+    --description-portrait-content-p-font-size: calc(21px * var(--mult-factor));/*Verificar*/
     --description-portrait-content-p-line-height: calc(29px * var(--mult-factor));/*Verificar*/
     --description-portrait-content-p-4-margin-bottom: calc(40px * var(--mult-factor));
     --description-portrait-content-p-4-a-margin-left: calc(5px * var(--mult-factor));
@@ -317,7 +318,6 @@
     .description > .content > h1{
         height: fit-content;
         font-weight: bold;
-        color: yellow;
         font-size: var(--description-portrait-content-h1-font-size);
         line-height: var(--description-portrait-content-h1-line-height);
         margin-bottom: var(--description-portrait-content-margin-bottom);
