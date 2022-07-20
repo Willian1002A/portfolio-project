@@ -117,9 +117,39 @@
     --actual-resolution: 360;
     --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
 }
+@media (min-width: 375px) {
+    *{
+        --actual-resolution: 375;
+        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
+    }
+}
+@media (min-width: 384px) {
+    *{
+        --actual-resolution: 384;
+        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
+    }
+}
+@media (min-width: 412px) {
+    *{
+        --actual-resolution: 412;
+        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
+    }
+}
+@media (min-width: 600px) {
+    *{
+        --actual-resolution: 600;
+        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
+    }
+}
 @media (min-width: 640px) {
     *{
         --actual-resolution: 640;
+        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
+    }
+}
+@media (min-width: 810px) {
+    *{
+        --actual-resolution: 810;
         --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
     }
 }
@@ -218,7 +248,7 @@
     width: var(--description-width);
     height: var(--description-height);
     max-width: 100%;
-    max-height: 100%;
+    max-height: fit-content;
     padding-left: var(--description-padding-left-right);
     padding-right: var(--description-padding-left-right);
 }
@@ -261,7 +291,8 @@
         justify-content: center;
         align-items: center;
         height: var(--ProjectPreviewContent-portrait-height);
-        min-height: 33vh;/*Verificar!*/
+        min-height: fit-content;
+        /*Verificar!*/
     }
     #ProjectPreviewContent > .preview{
         width: var(--ProjectPreviewContent-preview-portrait-width);

@@ -255,11 +255,6 @@
 .open{
     display: block;
 }
-*{
-    --base-resolution: 1920;
-    --actual-resolution: 360;
-    --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
-}
 .contentHeader{
     justify-content: center;
 }
@@ -275,38 +270,57 @@
 .links{
     display: none;
 }
+*{
+    --base-resolution: 1920;
+    --actual-resolution: 360;
+    --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
+}
+@media (min-width: 375px) {
+    *{
+        --actual-resolution: 375;
+        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
+    }
+}
+@media (min-width: 384px) {
+    *{
+        --actual-resolution: 384;
+        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
+    }
+}
+@media (min-width: 412px) {
+    *{
+        --actual-resolution: 412;
+        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
+    }
+}
+@media (min-width: 600px) {
+    *{
+        --actual-resolution: 600;
+        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
+    }
+}
 @media (min-width: 640px) {
     *{
         --actual-resolution: 640;
         --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
     }
 }
+@media (min-width: 810px) {
+    *{
+        --actual-resolution: 810;
+        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
+    }
+}
 @media (min-width: 900px) {
     *{
-        --actual-resolution: 800;
+        --actual-resolution: 900;
         --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
     }
 }
 @media (min-width: 1024px) {
     *{
         --actual-resolution: 1024;
-        --mult-factor: calc(1024/1920);
-    }
-    /*------------ Header ------------*/
-    .contentHeader{
-        justify-content: space-between;
-    }
-    .logo{
-        display: flex;
-    }
-    .links{
-        display: flex;
-    }
-    .headerButton{
-        display: flex;
-    }
-    .languageButtons{
-        display: flex;
+        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
     }
 }
 @media (min-width: 1200px) {
