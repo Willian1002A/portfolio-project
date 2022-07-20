@@ -178,289 +178,171 @@
         row-gap: 18px;
     }
 }
+
+*{
+    --base-resolution: 1920;
+    --actual-resolution: 360;
+    --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
+}
 @media (min-width: 640px) {
-    /*------------ Perfil ------------*/
-    .perfil{
-        width: 236px;
-        height: 202.05px;
-        margin-bottom: 75px;
-    }
-    #photo{
-        width: 72.32px;
-        height: 72.32px;
-        margin-bottom: 15.95px;
-        border-radius: 72.32px;
-    }
-    .perfil > h1{
-        font-size: 20px;
-        line-height: 24px;
-    }
-    .perfil > p{
-        margin-top: 15.95px;
-        margin-bottom: 15.95px;
-        font-size: 14px;
-        line-height: 16px;
-    }
-    .socialIcon{
-        width: 41.86px;
-        height: 41.86px;
-        margin-left: 6.67px;
-        margin-right: 6.67px;
-        border-radius: 41.86px
-    }
-    /*------------ About ------------*/
-    #about{
-        height: 96px;
-        margin-bottom: 41px;
-    }
-    #about > h1{
-        width: 559.33px;
-        margin: 0px;
-        margin-bottom: 3.33px;
-        font-size: 14px;
-        line-height: 16px;
-    }
-    #about > p{
-        width: 559.33px;
-        margin: 0px;
-        font-size: 14px;
-        line-height: 16px;
-    }
-    /*------------ Featured projects ------------*/
-    #featuredProjects{
-        width: 559.33px;
-        height: 504.93px;
-    }
-    .titleSeeMoreRegion{
-        margin-bottom: 16.33px;
-    }
-    .titleSeeMoreRegion h1{
-        margin: 0px;
-        font-size: 14px;
-        line-height: 16px;
-    }
-    .seeMore {
-        width:  117.33px;
-        height: 33.33px;
-        font-size: 8px;
-        line-height: 10px;
-    }
-    #featuredProjects > .content{
-        grid-template-columns: repeat(2,260px);
-        column-gap: 39px;
-        row-gap: 32px;
+    *{
+        --actual-resolution: 640;
+        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
     }
 }
+/* @media (min-width: 800px) {
+    *{
+        --actual-resolution: 800;
+        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
+    }
+} */
 @media (min-width: 1024px) {
-    /*------------ Perfil ------------*/
-    .perfil{
-        width: 326px;
-        height: 352.15px;
-        margin-bottom: 57px;
+    *{
+        --actual-resolution: 1024;
+        --mult-factor: calc(1024/1920);
     }
-    #photo{
-        width: 108.21px;
-        height: 108.21px;
-        margin-bottom: 25.53px;
-        border-radius: 108.21px;
-    }
-    .perfil > h1{
-        font-size: 34px;
-        line-height: 40px;
-    }
-    .perfil > p{
-        margin-top: 25.53px;
-        margin-bottom: 25.53px;
-        font-size: 24px;
-        line-height: 32px;
-    }
-    .socialIcon{
-        width: 68.87px;
-        height: 68.87px;
-        margin-left: 6.67px;
-        margin-right: 6.67px;
-        border-radius: 68.87px
-    }
-    /*------------ About ------------*/
-    #about{
-        height: 179.2px;
-        margin-bottom: 66px;
-    }
-    #about > h1{
-        width: 894.93px;
-        margin-bottom: 5.33px;
-        font-size: 24px;
-        line-height: 32px;
-    }
-    #about > p{
-        width: 894.93px;
-        font-size: 24px;
-        line-height: 32px;
-    }
-    /*------------ Featured projects ------------*/
-    #featuredProjects{
-        width: 894.93px;
-        height: 798.33px;
-    }
-    .titleSeeMoreRegion{
-        margin-bottom: 26.13px;
-    }
-    .titleSeeMoreRegion h1{
-        font-size: 24px;
-        line-height: 32px;
-    }
-    .seeMore {
-        width:  176px;
-        height: 57.33px;
-        font-size: 14px;
-        line-height: 16px;
-    }
-    #featuredProjects > .content{
-        grid-template-columns: repeat(2, 422.21px);
-        column-gap: 50px;
-        row-gap: 28px;
+}
+@media (min-width: 1200px) {
+    *{
+        --actual-resolution: 1200;
+        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
     }
 }
 @media (min-width: 1360px) {
-    /*------------ Perfil ------------*/
-    .perfil{
-        width: 501.5px;
-        height: 446.49px;
-        margin-bottom: 159px;
-    }
-    #photo{
-        width: 152.35px;
-        height: 152.35px;
-        margin-bottom: 34px;
-        border-radius: 152.35px;
-    }
-    .perfil > h1{
-        font-size: 48px;
-        line-height: 56px;
-    }
-    .perfil > p{
-        margin-top: 34px;
-        margin-bottom: 34px;
-        font-size: 34px;
-        line-height: 40px;
-    }
-    .socialIcon{
-        width: 84.3px;
-        height: 84.3px;
-        margin-left: 20px;
-        margin-right: 20px;
-        border-radius: 84.3px;
-    }
-    /*------------ About ------------*/
-    #about{
-        height: 226.67px;
-        margin-bottom: 88px;
-    }
-    #about > h1{
-        width: 1188.58px;
-        margin-bottom: 7.08px;
-        font-size: 34px;
-        line-height: 40px;
-    }
-    #about > p{
-        width: 1188.58px;
-        font-size: 34px;
-        line-height: 40px;
-    }
-    /*------------ Featured projects ------------*/
-    #featuredProjects{
-        width: 1188.58px;
-        height: 1072.97px;
-    }
-    .titleSeeMoreRegion{
-        width: 100%;
-        margin-bottom: 34.71px;
-    }
-    .titleSeeMoreRegion h1{
-        font-size: 34px;
-        line-height: 40px;
-    }
-    .seeMore {
-        width: 238px;
-        height: 78px;
-        font-size: 20px;
-        line-height: 24px;
-    }
-    #featuredProjects > .content{
-        grid-template-columns: repeat(2,552.44px);
-        column-gap: 84px;
-        row-gap: 68px;
+    *{
+        --actual-resolution: 1360;
+        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
     }
 }
 @media (min-width: 1920px) {
-    /*------------ Perfil ------------*/
-    .perfil{
-        width: 879.52px;
-        height: 617.1px;
-        margin-bottom: 265px;
-    }
-    #photo{
-        width: 272.57px;
-        height: 272.57px;
-        margin-bottom: 18px;
-        border-radius: 272.57px;
-    }
-    .perfil > h1{
-        font-size: 64px;
-        line-height: 77px;
-    }
-    .perfil > p{
-        margin-top: 49px;
-        margin-bottom: 49px;
-        font-size: 32px;
-        line-height: 39px;
-    }
-    .socialIcon{
-        width: 112.4px;
-        height: 111.79px;
-        margin-left: 14px;
-        margin-right: 14px;
-        border-radius: 80px;
-    }
-    /*------------ About ------------*/
-    #about{
-        height: 290px;
-        margin-bottom: 100px;
-    }
-    #about > h1{
-        width: 1613px;
-        margin-bottom: 10px;
-        font-size: 40px;
-        line-height: 48px;
-    }
-    #about > p{
-        width: 1613px;
-        font-size: 40px;
-        line-height: 48px;
-    }
-    /*------------ Featured projects ------------*/
-    #featuredProjects{
-        width: 1613px;
-        height: 1473.5px;
-    }
-    .titleSeeMoreRegion{
-        margin-bottom: 40px;
-    }
-    .titleSeeMoreRegion h1{
-        font-size: 50px;
-        line-height: 61px;
-    }
-    .seeMore {
-        width: 352.73px;
-        height: 105px;
-        font-size: 30px;
-        line-height: 36px;
-    }
-    #featuredProjects > .content{
-        grid-template-columns: repeat(2,772px);
-        column-gap: 69px;
-        row-gap: 67px;
+    *{
+        --actual-resolution: 1920;
+        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
     }
 }
-@media (orientation:portrait) {
+*{
+    --perfil-width: calc(879.52px * var(--mult-factor));
+    --perfil-height: calc(617.1px * var(--mult-factor));
+    --perfil-margin-bottom: calc(265px * var(--mult-factor));
+    --photo-width-height: calc(272.57px * var(--mult-factor));
+    --photo-margin-bottom: calc(18px * var(--mult-factor));
+    --photo-border-radius: calc(272.57px * var(--mult-factor));
+    --perfil-h1-font-size: calc(64px * var(--mult-factor));
+    --perfil-h1-line-height: calc(77px * var(--mult-factor));
+    --perfil-p-margin-y: calc(49px * var(--mult-factor));
+    --perfil-p-font-size: calc(32px * var(--mult-factor));
+    --perfil-p-line-height: calc(39px * var(--mult-factor));
+    --socialIcon-width-height: calc(112.4px * var(--mult-factor));
+    --socialIcon-margin-x: calc(14px * var(--mult-factor));
+    --socialIcon-border-radius: calc(80px * var(--mult-factor));
+    --about-height: calc(290px * var(--mult-factor));
+    --about-margin-bottom: calc(100px * var(--mult-factor));
+    --about-featuredProjects-h1-p-width: calc(1678.43px * var(--mult-factor));
+    --about-h1-margin-bottom: calc(10px * var(--mult-factor));
+    --about-h1-p-font-size: calc(40px * var(--mult-factor));
+    --about-h1-p-line-height: calc(48px * var(--mult-factor));
+    --featuredProjects-height: calc(1473.5px * var(--mult-factor));
+    --titleSeeMoreRegion-margin-bottom: calc(40px * var(--mult-factor));
+    --titleSeeMoreRegion-h1-font-size: calc(50px * var(--mult-factor));
+    --titleSeeMoreRegion-h1-line-height: calc(61px * var(--mult-factor));
+    --seeMore-width: calc(352.73px * var(--mult-factor));
+    --seeMore-height: calc(105px * var(--mult-factor));
+    --seeMore-font-size: calc(30px * var(--mult-factor));
+    --seeMore-line-height: calc(36px * var(--mult-factor));
+    --project-width: calc(780px * var(--mult-factor));
+    --featuredProject-content-column-gap: calc(118px * var(--mult-factor));
+    --featuredProject-content-row-gap: calc(96px * var(--mult-factor));
+}
+
+/*------------ Perfil ------------*/
+.perfil{
+    width: var(--perfil-width);
+    height: var(--perfil-height);
+    margin-bottom: var(--perfil-margin-bottom);
+}
+#photo{
+    width: var(--photo-width-height);
+    height: var(--photo-width-height);
+    margin-bottom: var(--photo-margin-bottom);
+    border-radius: var(--photo-border-radius);
+}
+.perfil > h1{
+    font-size: var(--perfil-h1-font-size);
+    line-height: var(--perfil-h1-line-height);
+}
+.perfil > p{
+    margin-top: var(--perfil-p-margin-y);
+    margin-bottom: var(--perfil-p-margin-y);
+    font-size: var(--perfil-p-font-size);
+    line-height: var(--perfil-p-line-height);
+}
+.socialIcon{
+    width: var(--socialIcon-width-height);
+    height: var(--socialIcon-width-height);
+    margin-left: var(--socialIcon-margin-x);
+    margin-right: var(--socialIcon-margin-x);
+    border-radius: var(--socialIcon-border-radius);
+}
+/*------------ About ------------*/
+#about{
+    height: var(--about-height);
+    margin-bottom: var(--about-margin-bottom);
+}
+#about > h1{
+    width: var(--about-featuredProjects-h1-p-width);
+    margin-bottom: var(--about-h1-margin-bottom);
+    font-size: var(--about-h1-p-font-size);
+    line-height: var(--about-h1-p-line-height);
+}
+#about > p{
+    width: var(--about-featuredProjects-h1-p-width);
+    font-size: var(--about-h1-p-font-size);
+    line-height: var(--about-h1-p-line-height);
+}
+/*------------ Featured projects ------------*/
+#featuredProjects{
+    width: var(--about-featuredProjects-h1-p-width);
+    height: var(--featuredProjects-height);
+}
+.titleSeeMoreRegion{
+    margin-bottom: var(--titleSeeMoreRegion-margin-bottom);
+}
+.titleSeeMoreRegion h1{
+    font-size: var(--titleSeeMoreRegion-h1-font-size);
+    line-height: var(--titleSeeMoreRegion-h1-line-height);
+}
+.seeMore {
+    width: var(--seeMore-width);
+    height: var(--seeMore-height);
+    font-size: var(--seeMore-font-size);
+    line-height: var(--seeMore-line-height);
+}
+#featuredProjects > .content{
+    grid-template-columns: repeat(2,var(--project-width));
+    column-gap: var(--featuredProject-content-column-gap);
+    row-gap: var(--featuredProject-content-row-gap);
+}
+@media (min-width: 0px) {
+    /*------------ Featured projects ------------*/
+    #featuredProjects{
+        width: var(--contentHeader-width);
+        height: fit-content;
+    }
+    #featuredProjects > .content{
+        grid-template-columns: repeat(1,100%);
+        column-gap: 0px;
+        row-gap: 18px;
+        width: 100%;
+    }
+}
+@media (min-width: 640px) {
+    #featuredProjects{
+        width: var(--about-featuredProjects-h1-p-width);
+        height: var(--featuredProjects-height);
+    }
+    #featuredProjects > .content{
+        grid-template-columns: repeat(2,var(--project-width));
+        column-gap: var(--featuredProject-content-column-gap);
+        row-gap: var(--featuredProject-content-row-gap);
+    }
 }
