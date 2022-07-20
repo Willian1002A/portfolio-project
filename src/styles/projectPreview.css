@@ -105,7 +105,7 @@
     font-weight: 400;
     color: var(--gray-f);
     background: var(--gray-g);
-    background: green;
+    /* background: green; */
     filter: drop-shadow(var(--default-box-shadow));
 }
 .regionButton > a:hover{
@@ -219,8 +219,8 @@
     --ProjectPreviewContent-preview-portrait-margin-bottom: calc(30px * var(--mult-factor));
     --description-portrait-height: calc(337px * var(--mult-factor));
     --description-portrait-padding-x: calc(50px * var(--mult-factor));
-    --description-portrait-content-h1-font-size: calc(4px * var(--mult-factor));
-    /* --description-portrait-content-h1-font-size: calc(34px * var(--mult-factor)); */
+    /* --description-portrait-content-h1-font-size: calc(4px * var(--mult-factor)); */
+    --description-portrait-content-h1-font-size: calc(34px * var(--mult-factor));
     --description-portrait-content-h1-line-height: calc(40px * var(--mult-factor));
     --description-portrait-content-margin-bottom: calc(5px * var(--mult-factor));
     --description-portrait-content-p-font-size: calc(21px * var(--mult-factor));/*Verificar*/
