@@ -322,6 +322,22 @@
         --actual-resolution: 1024;
         --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
     }
+    /*------------ Header ------------*/
+    .contentHeader{
+        justify-content: space-between;
+    }
+    .logo{
+        display: flex;
+    }
+    .links{
+        display: flex;
+    }
+    .headerButton{
+        display: flex;
+    }
+    .languageButtons{
+        display: flex;
+    }
 }
 @media (min-width: 1200px) {
     *{
