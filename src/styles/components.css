@@ -412,6 +412,12 @@
     --ProjectGridElement-previewElement-h1-font-size: calc(30px * var(--mult-factor));
     --ProjectGridElement-previewElement-h1-line-height: calc(36px * var(--mult-factor));
     --previewElement-h1-margin: calc(18px * var(--mult-factor));
+
+    --project-a-2-font-size: calc(20px * 1.7 * var(--mult-factor));
+    --project-a-2-line-height: calc(24px * 1.7 * var(--mult-factor));
+    --project-grid-width-2: calc(796.5483333333333px * var(--mult-factor));
+    --ProjectGridElement-2-h1-font-size: calc(10px * var(--mult-factor));
+    --ProjectGridElement-2-h1-line-height: calc(12px * var(--mult-factor));
 }
 
 /*------------ Header ------------*/
@@ -534,40 +540,36 @@
 @media (min-width: 0px) {
     /*------------ Project ------------*/
     .project{
-        width: 100%;
-        height: 211.75px;
+        width: var(--about-featuredProjects-h1-p-width);
+        height: fit-content;
     }
     #preview{
-        width:  100%;
-        height: 182px;
+        width:  var(--about-featuredProjects-h1-p-width);
+        height: calc(var(--about-featuredProjects-h1-p-width) / 1.846394984326019);
     }
     .previewImg{
-        width: calc(294.5px - 5%);
-        height: calc(159.5px - 5%);
+        width: calc(93.78980891719745%);
+        height: calc(93.78980891719745%);
     }
-    .project > h1{
+    /* .project > h1{
         margin-bottom: 0px;
-        font-size: 14px;
-        line-height: 16px;
-    }
+    } */
     .project > a{
-        font-size: 10px;
-        line-height: 12px;
+        /* font-size: 10px; */
+        /* line-height: 12px; */
+        font-size: var(--project-a-2-font-size);
+        line-height: var(line-height);
     }
     /*------------ ProjectGridElement ------------*/
     .ProjectGridElement{
-        width: 149.16px;
-        height: 102.92px;
-        margin-bottom: calc(102.92px * 0.1);
+        width: var(--project-grid-width-2);
+        height: calc(var(--project-grid-width-2) / 1.449280994947532);
+        margin-bottom: calc(calc(var(--project-grid-width-2) / 1.449280994947532) * 0.1);
     }
     .ProjectGridElement:hover{
-        width: calc(149.16px * 1.1);
-        height: calc(102.92px * 1.1);
+        width: calc(var(--project-grid-width-2) * 1.1);
+        height: calc(calc(var(--project-grid-width-2) / 1.449280994947532) * 1.1);
         margin-bottom: 0px;
-    }
-    .ProjectGridElement > h1 {
-        font-size: 10px;
-        line-height: 12px;
     }
 }
 @media (min-width: 640px) {
