@@ -123,12 +123,12 @@
         --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
     }
 }
-/* @media (min-width: 800px) {
+@media (min-width: 900px) {
     *{
-        --actual-resolution: 800;
+        --actual-resolution: 900;
         --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
     }
-} */
+}
 @media (min-width: 1024px) {
     *{
         --actual-resolution: 1024;
@@ -144,6 +144,12 @@
 @media (min-width: 1360px) {
     *{
         --actual-resolution: 1360;
+        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
+    }
+}
+@media (min-width: 1440px) {
+    *{
+        --actual-resolution: 1440;
         --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
     }
 }

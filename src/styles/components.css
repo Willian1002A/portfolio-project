@@ -373,10 +373,110 @@
         line-height: 12px;
     }
 }
+@media (min-width: 640px) {
+    /*------------ Header ------------*/
+    .header{
+        height: 30px;
+        margin-bottom: 36px;
+    }
+    /*------------ Footer ------------*/
+    .footer{
+        margin-top: 57px;
+    }
+    .info{
+        height: 66.67px;
+    }
+    .contactSiteMap{
+        width: 559.33px;
+        margin-top: 8.33px;
+    }
+    .contact > h1, .siteMap > h1  {
+        margin-bottom: 2px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .contact > p, .siteMap > a {
+        margin-bottom: 2px;
+        font-size: 8px;
+        line-height: 10px;
+    }
+    .contact > p > a {
+        margin-left: 3.33px;
+        text-decoration: underline;
+    }
+    .siteMap > a {
+        text-decoration: underline;
+    }
+    .basicFooter{
+        height: 26.67px;
+    }
+    .footerContent{
+        width: 559.33px;
+    }
+    .footerContent > p, .footerContent > a{
+        margin-right: 0px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    /*------------ Project ------------*/
+    .project{
+        width: 100%;
+        height: 211.64px;
+    }
+    #preview{
+        width: 100%;
+        height: 178.98px;
+        margin-bottom: 6.67px;
+    }
+    .previewImg{
+        width: 225.33px;
+        height: 138.98px;
+    }
+    .project > h1{
+        margin-bottom: 0px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .project > a{
+        font-size: 8px;
+        line-height: 10px;
+    }
+    /*------------ ProjectGridElement ------------*/
+    .ProjectGridElement{
+        width: 175.6px;
+        height: 121.23px;
+        margin-bottom: 16px; /*Diferente do design de referencia*/
+    }
+    .ProjectGridElement:hover{
+        width: 193.16px;
+        height: 133.353px;
+        transform: translate(-5%,-5%); /*Diferente do design de referencia*/
+        transition-duration: 500ms;
+    }
+    .ProjectGridElement > h1 {
+        font-size: 10px;
+        line-height: 12px;
+    }
+}
 *{
     --base-resolution: 1920;
     --actual-resolution: 360;
     --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
+}
+.contentHeader{
+    justify-content: center;
+}
+.logo{
+    display: none;
+}
+.headerButton{
+    display: none;
+}
+.languageButtons{
+    display: none;
+}
+.links{
+    display: none;
 }
 @media (min-width: 640px) {
     *{
@@ -384,12 +484,12 @@
         --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
     }
 }
-/* @media (min-width: 800px) {
+@media (min-width: 900px) {
     *{
         --actual-resolution: 800;
         --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
     }
-} */
+}
 @media (min-width: 1024px) {
     *{
         --actual-resolution: 1024;
@@ -421,6 +521,12 @@
 @media (min-width: 1360px) {
     *{
         --actual-resolution: 1360;
+        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
+    }
+}
+@media (min-width: 1440px) {
+    *{
+        --actual-resolution: 1440;
         --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
     }
 }
@@ -480,48 +586,11 @@
     --ProjectGridElement-previewElement-h1-line-height: calc(36px * var(--mult-factor));
     --previewElement-h1-margin: calc(18px * var(--mult-factor));
 }
-/* @media (min-width: 640px) {
-    * {
-        --header-height: 30px;
-        --header-margin-bottom: 36px;
-        --footer-margin-top: 57px;
-        --info-height: 66.67px;
-        --contentHeader-width: 559.33px;
-        --contactSiteMap-margin-top: 8.33px;
-        --contact-siteMap-h1-margin-bottom: 2px;
-        --contact-siteMap-h1-font-size: 10;
-        --contact-siteMap-h1-line-height: 12px;
-        --contact-siteMap-p-margin-bottom: 2px;
-        --contact-siteMap-p-font-size: 8px;
-        --contact-siteMap-p-line-height: 10px;
-        --contact-p-a-margin-left: 3.33px;
-        --basicFooter-height: 26.67px;
-        --footerContent-p-a-font-size: 10px;
-        --footerContent-p-a-line-height: 12px;
-        --project-width: 260px;
-        --project-height: 211.64px;
-        --preview-height: 178.98px;
-        --preview-margin-bottom: 6.67px;
-        --previewImg-width: 225.33px;
-        --previewImg-height: 138.98px;
-        --project-h1-margin-bottom: 2px;
-        --project-h1-font-size: 14px;
-        --project-h1-line-height: 16px;
-        --project-a-font-size: 8px;
-        --project-a-line-height: 10px;
-        --ProjectGridElement-width: 175.6px;
-        --ProjectGridElement-height: 121.23px;
-        --ProjectGridElement-margin-bottom: 16px;
-        --ProjectGridElement-hover-width: 193.16px;
-        --ProjectGridElement-hover-height: 133.353px;
-        --ProjectGridElement-previewElement-h1-font-size: 10px;
-        --ProjectGridElement-previewElement-h1-line-height: 12px;
-        --previewElement-h1-margin: calc(18px * var(--mult-factor));
-    }
-} */
+
 /*------------ Header ------------*/
 .header{
-    height: var(--header-height);
+    min-height: fit-content;
+    min-height: var(--header-height);
     margin-bottom: var(--header-margin-bottom);
 }
 .contentHeader{
@@ -658,6 +727,21 @@
         font-size: 10px;
         line-height: 12px;
     }
+    /*------------ ProjectGridElement ------------*/
+    .ProjectGridElement{
+        width: 149.16px;
+        height: 102.92px;
+        margin-bottom: calc(102.92px * 0.1);
+    }
+    .ProjectGridElement:hover{
+        width: calc(149.16px * 1.1);
+        height: calc(102.92px * 1.1);
+        margin-bottom: 0px;
+    }
+    .ProjectGridElement > h1 {
+        font-size: 10px;
+        line-height: 12px;
+    }
 }
 @media (min-width: 640px) {
     /*------------ Project ------------*/
@@ -682,5 +766,25 @@
     .project > a{
         font-size: var(--project-a-font-size);
         line-height: var(--project-a-line-height);
+    }
+    /*------------ ProjectGridElement ------------*/
+    .ProjectGridElement{
+        width: var(--ProjectGridElement-width);
+        height:  var(--ProjectGridElement-height);
+        margin-bottom: var(--ProjectGridElement-margin-bottom); /*Diferente do design de referencia*/
+    }
+    .ProjectGridElement:hover{
+        width: var(--ProjectGridElement-hover-width);
+        height: var(--ProjectGridElement-hover-height);
+    }
+    .ProjectGridElement > h1 {
+        font-size: var(--ProjectGridElement-previewElement-h1-font-size);
+        line-height: var(--ProjectGridElement-previewElement-h1-line-height);
+    }
+    .previewElement > h1{
+        margin-left: var(--previewElement-h1-margin);
+        margin-bottom: var(--previewElement-h1-margin);
+        font-size: var(--ProjectGridElement-previewElement-h1-font-size);
+        line-height: var(--ProjectGridElement-previewElement-h1-line-height);
     }
 }

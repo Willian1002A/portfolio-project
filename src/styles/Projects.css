@@ -17,12 +17,12 @@
         --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
     }
 }
-/* @media (min-width: 800px) {
+@media (min-width: 900px) {
     *{
         --actual-resolution: 800;
         --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
     }
-} */
+}
 @media (min-width: 1024px) {
     *{
         --actual-resolution: 1024;
@@ -41,6 +41,12 @@
         --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
     }
 }
+@media (min-width: 1440px) {
+    *{
+        --actual-resolution: 1440;
+        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
+    }
+}
 @media (min-width: 1920px) {
     *{
         --actual-resolution: 1920;
@@ -49,13 +55,29 @@
 }
 *{
     --project-grid-width: calc(526.81px * var(--mult-factor));
+    --project-grid-width-2: calc(796.5483333333333px * var(--mult-factor));
     --project-grid-column-gap: calc(49px * var(--mult-factor));
+    --project-grid-column-gap-2: calc(85.33333333333333px * var(--mult-factor));
     --footerAdjust-margin: calc(123px * var(--mult-factor));
+    --ProjectGridElement-margin-bottom: calc(49px * var(--mult-factor));
 }
 .projectGrid{
     grid-template-columns: repeat(3,var(--project-grid-width));
-    column-gap: var(--project-grid-column-gap); 
+    column-gap: var(--project-grid-column-gap);
 }
 .footerAdjust{
     margin-top: var(--footerAdjust-margin);
+}
+
+@media (min-width: 0px) {
+    .projectGrid{
+        grid-template-columns: repeat(2,var(--project-grid-width-2));
+        column-gap: var(--project-grid-column-gap-2);
+    }
+}
+@media (min-width: 640px) {
+    .projectGrid{
+        grid-template-columns: repeat(3,var(--project-grid-width));
+        column-gap: var(--project-grid-column-gap); 
+    }
 }
