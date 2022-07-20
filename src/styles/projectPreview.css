@@ -316,15 +316,15 @@
     .description > .content > h1{
         height: fit-content;
         font-weight: bold;
-        font-size: var(--description-portrait-content-h1-font-size);
-        line-height: var(--description-portrait-content-h1-line-height);
-        margin-bottom: var(--description-portrait-content-margin-bottom);
+        font-size: calc(var(--description-portrait-content-h1-font-size) * 0.8);
+        line-height: calc(var(--description-portrait-content-h1-line-height) * 0.8);
+        margin-bottom: calc(var(--description-portrait-content-margin-bottom) * 1);
     }
     .description > .content > p{
         width: fit-content;
-        margin-bottom: var(--description-portrait-content-margin-bottom);
-        font-size: var(--description-portrait-content-p-font-size);
-        line-height: var(--description-portrait-content-p-line-height);
+        margin-bottom: calc(var(--description-portrait-content-margin-bottom) * 1);
+        font-size: calc(var(--description-portrait-content-p-font-size) * 0.8);
+        line-height: calc(var(--description-portrait-content-p-line-height) * 0.8);
     }
     .description > .content > p:nth-child(4){
         margin-bottom: var(--description-portrait-content-p-4-margin-bottom);
@@ -336,8 +336,8 @@
         font-weight: bold;
         width: var(--regionButton-portrait-a-width);
         height: var(--regionButton-portrait-a-height);
-        font-size: var(--regionButton-portrait-a-font-size);
-        line-height: var(--regionButton-portrait-a-line-height);
+        font-size: calc(var(--regionButton-portrait-a-font-size) * 0.8);
+        line-height: calc(var(--regionButton-portrait-a-line-height) * 0.8);
         border: var(--regionButton-portrait-a-border-size) solid var(--default-white);
     }
     .regionButton > a:hover{
