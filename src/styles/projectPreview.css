@@ -219,10 +219,10 @@
     --ProjectPreviewContent-preview-portrait-margin-bottom: calc(30px * var(--mult-factor));
     --description-portrait-height: calc(337px * var(--mult-factor));
     --description-portrait-padding-x: calc(50px * var(--mult-factor));
-    --description-portrait-content-h1-font-size: calc(34px * var(--mult-factor));
+    --description-portrait-content-h1-font-size: calc(34px/2 * var(--mult-factor));
     --description-portrait-content-h1-line-height: calc(40px * var(--mult-factor));
     --description-portrait-content-margin-bottom: calc(5px * var(--mult-factor));
-    --description-portrait-content-p-font-size: calc(21px * var(--mult-factor));/*Verificar*/
+    --description-portrait-content-p-font-size: calc(21px/2 * var(--mult-factor));/*Verificar*/
     --description-portrait-content-p-line-height: calc(29px * var(--mult-factor));/*Verificar*/
     --description-portrait-content-p-4-margin-bottom: calc(40px * var(--mult-factor));
     --description-portrait-content-p-4-a-margin-left: calc(5px * var(--mult-factor));
@@ -317,16 +317,16 @@
     .description > .content > h1{
         height: fit-content;
         font-weight: bold;
-        color: green;
-        font-size: calc(var(--description-portrait-content-h1-font-size) * 0.5);
-        line-height: calc(var(--description-portrait-content-h1-line-height) * 1);
-        margin-bottom: calc(var(--description-portrait-content-margin-bottom) * 1);
+        color: yellow;
+        font-size: var(--description-portrait-content-h1-font-size);
+        line-height: var(--description-portrait-content-h1-line-height);
+        margin-bottom: var(--description-portrait-content-margin-bottom);
     }
     .description > .content > p{
         width: fit-content;
-        margin-bottom: calc(var(--description-portrait-content-margin-bottom) * 1);
-        font-size: calc(var(--description-portrait-content-p-font-size) * 0.5);
-        line-height: calc(var(--description-portrait-content-p-line-height) * 1);
+        margin-bottom: var(--description-portrait-content-margin-bottom);
+        font-size: var(--description-portrait-content-p-font-size);
+        line-height: var(--description-portrait-content-p-line-height);
     }
     .description > .content > p:nth-child(4){
         margin-bottom: var(--description-portrait-content-p-4-margin-bottom);
@@ -338,8 +338,8 @@
         font-weight: bold;
         width: var(--regionButton-portrait-a-width);
         height: var(--regionButton-portrait-a-height);
-        font-size: calc(var(--regionButton-portrait-a-font-size) * 0.5);
-        line-height: calc(var(--regionButton-portrait-a-line-height) * 1);
+        font-size: var(--regionButton-portrait-a-font-size);
+        line-height: var(--regionButton-portrait-a-line-height);
         border: var(--regionButton-portrait-a-border-size) solid var(--default-white);
     }
     .regionButton > a:hover{
