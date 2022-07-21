@@ -3,8 +3,8 @@
         "imgClass": "calculadoraReact",
         "text":{
             "title": "Calculadora (React)",
-            "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
-            "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
+            "description": "Projeto que desenvolve calculadora de operações básicas feito em React.",
+            "usedTechnologies": "Tecnologias utilizadas: React, Javascript, css, html",
             "sourceCode": {
                 "string":"Codigo fonte:",
                 "a": "Acesse Aqui!",
@@ -20,8 +20,8 @@
         "imgClass": "calculadoraVue",
         "text":{
             "title": "Calculadora (Vue)",
-            "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
-            "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
+            "description": "Projeto que desenvolve calculadora de operações básicas feito em Vue.",
+            "usedTechnologies": "Tecnologias utilizadas: Vue, html, Javascript",
             "sourceCode": {
                 "string":"Codigo fonte:",
                 "a": "Acesse Aqui!",
@@ -37,7 +37,7 @@
         "imgClass": "azzteck",
         "text":{
             "title": "Site Azzteck",
-            "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
+            "description": "Este site foi construído para a empresa Azzteck.",
             "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
             "sourceCode": {
                 "string":"Codigo fonte:",
@@ -54,8 +54,8 @@
         "imgClass": "crudHomeReact",
         "text":{
             "title": "Crud",
-            "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
-            "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
+            "description": "Este projeto funciona como um sistema de cadastros de usuários feito em React com backend que trabalha com node e json-server.",
+            "usedTechnologies": "Tecnologias utilizadas: React ,Javascript, html, css",
             "sourceCode": {
                 "string":"Codigo fonte:",
                 "a": "Acesse Aqui!",
@@ -71,7 +71,7 @@
         "imgClass": "deliciasMarinhas",
         "text":{
             "title": "Site Delicias Marinhas",
-            "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
+            "description": "Este site foi construído para um restaurante de frutos do mar.",
             "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
             "sourceCode": {
                 "string":"Codigo fonte:",
@@ -88,8 +88,8 @@
         "imgClass": "geradorQRCode",
         "text":{
             "title": "Gerador de QRCode",
-            "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
-            "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
+            "description": "Este projeto converte textos em uma imagem de qrcode.",
+            "usedTechnologies": "Tecnologias utilizadas: css, javascript, html",
             "sourceCode": {
                 "string":"Codigo fonte:",
                 "a": "Acesse Aqui!",
@@ -105,8 +105,8 @@
         "imgClass": "jogoDaVelha",
         "text":{
             "title": "Jogo da velha",
-            "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
-            "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
+            "description": "Este projeto apresenta um jogo da velha feito em react.",
+            "usedTechnologies": "Tecnologias utilizadas: React, Css, Javascript, Html",
             "sourceCode": {
                 "string":"Codigo fonte:",
                 "a": "Acesse Aqui!",
@@ -122,8 +122,8 @@
         "imgClass": "relogioAnalogico",
         "text":{
             "title": "Relogio Analogico",
-            "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
-            "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
+            "description": "Este projeto apresenta um relógio analógico funcional construído em React.",
+            "usedTechnologies": "Tecnologias utilizadas: React, css, TypeScript, html.",
             "sourceCode": {
                 "string":"Codigo fonte:",
                 "a": "Acesse Aqui!",
@@ -139,8 +139,8 @@
         "imgClass": "flappyBird",
         "text":{
             "title": "Flappy bird",
-            "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
-            "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
+            "description": "Jogo construído em html, javascript, css baseado no jogo flappy-bird.",
+            "usedTechnologies": "Tecnologias utilizadas: Javascript, css, html",
             "sourceCode": {
                 "string":"Codigo fonte:",
                 "a": "Acesse Aqui!",
@@ -156,8 +156,8 @@
         "imgClass": "mostUsedWordsElectron",
         "text":{
             "title": "Palavras mais utilizadas",
-            "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
-            "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
+            "description": "Este programa mostra a quantidade de cada palavra que uma legenda de filme ou série possui.",
+            "usedTechnologies": "Tecnologias utilizadas: Javascript, Vue, html",
             "sourceCode": {
                 "string":"Codigo fonte:",
                 "a": "Acesse Aqui!",
@@ -173,8 +173,8 @@
         "imgClass": "montyHall",
         "text":{
             "title": "MontyHall",
-            "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
-            "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
+            "description": "Este projeto apresenta o problema de Monty Hall, o mesmo foi construído em Vue",
+            "usedTechnologies": "Tecnologias utilizadas: Vue, html, javascript",
             "sourceCode": {
                 "string":"Codigo fonte:",
                 "a": "Acesse Aqui!",
