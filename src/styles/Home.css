@@ -237,8 +237,8 @@
         --titleSeeMoreRegion-h1-line-height: calc(61px * 2 * var(--mult-factor));
         --seeMore-width: calc(352.73px * 1.7 * var(--mult-factor));
         --seeMore-height: calc(105px * 1.7 * var(--mult-factor));
-        --seeMore-font-size: calc(30px * 2 * var(--mult-factor));
-        --seeMore-line-height: calc(36px * 2 * var(--mult-factor));
+        --seeMore-font-size: calc(30px * 1.9 * var(--mult-factor));
+        --seeMore-line-height: calc(36px * 1.9 * var(--mult-factor));
 
     }
 }
@@ -290,7 +290,8 @@
 /*------------ Featured projects ------------*/
 #featuredProjects{
     width: var(--about-featuredProjects-h1-p-width);
-    height: var(--featuredProjects-height);
+    /* height: var(--featuredProjects-height); */
+    height: fit-content;
 }
 .titleSeeMoreRegion{
     margin-bottom: var(--titleSeeMoreRegion-margin-bottom);
@@ -325,11 +326,15 @@
 @media (min-width: 640px) {
     #featuredProjects{
         width: var(--about-featuredProjects-h1-p-width);
-        height: var(--featuredProjects-height);
+        /* height: var(--featuredProjects-height); */
+        height: fit-content;
     }
     #featuredProjects > .content{
-        grid-template-columns: repeat(2,var(--project-width));
-        column-gap: var(--featuredProject-content-column-gap);
-        row-gap: var(--featuredProject-content-row-gap);
+        /* grid-template-columns: repeat(2,var(--project-width)); */
+        grid-template-columns: repeat(2, 48%);
+        /* column-gap: var(--featuredProject-content-column-gap); */
+        column-gap: 4%;
+        /* row-gap: var(--featuredProject-content-row-gap); */
+        row-gap: 3%;
     }
 }

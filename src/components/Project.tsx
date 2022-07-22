@@ -1,4 +1,5 @@
 import LinkA from "./LinkA";
+import Link from "next/link";
 interface ProjectProps{
     title: string;
     href: string;
@@ -6,14 +7,23 @@ interface ProjectProps{
 }
 export default function Project(props: ProjectProps) {
     return (
-        <div className="project">
-            <div id="preview">
+        <Link href={`/projectPreview/${props.href}`}>
+            <a id="preview" className="ProjectGridElement">
                 <div className={`previewImg Img ${props.imgClass}`}></div>
-            </div>
-            <h1>{props.title}</h1>
-            <LinkA href={`/projectPreview/${props.href}`}>
+                <h1>{props.title}</h1>
+            </a>
+            {/* <LinkA href={`/projectPreview/${props.href}`}>
                 Saber mais-&gt;
-            </LinkA>
-        </div>
+            </LinkA> */}
+        </Link>
+        // <Link href={`/projectPreview/${props.href}`}>
+        //     <a
+        //         className="ProjectGridElement"
+        //     >
+        //         <div className={`previewElement Img ${props.imgClass}`}>
+        //         </div>
+        //         <h1>{props.title}</h1>
+        //     </a>
+        // </Link>
     )
 }
