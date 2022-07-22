@@ -572,15 +572,15 @@
 @media (min-width: 0px) {
     @media (orientation: portrait) {
         *{
-            --project-h1-margin-bottom: calc(20px * 2 * var(--mult-factor));
-            --project-h1-font-size: calc(50px * 2 * var(--mult-factor));
-            --project-h1-line-height: calc(61px * 2 * var(--mult-factor));
+            --project-h1-margin-bottom: calc(20px * 1.8 * var(--mult-factor));
+            --project-h1-font-size: calc(50px * 1.8 * var(--mult-factor));
+            --project-h1-line-height: calc(61px * 1.8 * var(--mult-factor));
         
-            --project-a-2-font-size: calc(20px * 3 * var(--mult-factor));
-            --project-a-2-line-height: calc(24px * 3 * var(--mult-factor));
+            --project-a-2-font-size: calc(20px * 1.8 * var(--mult-factor));
+            --project-a-2-line-height: calc(24px * 1.8 * var(--mult-factor));
 
-            --ProjectGridElement-previewElement-h1-font-size: calc(50px * 2 * var(--mult-factor));
-            --ProjectGridElement-previewElement-h1-line-height: calc(61px * 2 * var(--mult-factor));
+            --ProjectGridElement-previewElement-h1-font-size: calc(50px * 1.8 * var(--mult-factor));
+            --ProjectGridElement-previewElement-h1-line-height: calc(61px * 1.8 * var(--mult-factor));
         }
     }
     /*------------ Project ------------*/
