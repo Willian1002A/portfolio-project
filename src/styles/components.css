@@ -342,25 +342,33 @@
 @media (min-width: 1200px) {
     *{
         --actual-resolution: 1200;
-        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
+        /* --mult-factor: calc(var(--actual-resolution)/var(--base-resolution)); */
     }
 }
 @media (min-width: 1360px) {
     *{
         --actual-resolution: 1360;
-        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
+        /* --mult-factor: calc(var(--actual-resolution)/var(--base-resolution)); */
     }
 }
 @media (min-width: 1440px) {
     *{
         --actual-resolution: 1440;
-        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
+        /* --mult-factor: calc(var(--actual-resolution)/var(--base-resolution)); */
     }
 }
 @media (min-width: 1920px) {
     *{
         --actual-resolution: 1920;
-        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
+        /* --mult-factor: calc(var(--actual-resolution)/var(--base-resolution)); */
+    }
+}
+*{
+    --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
+}
+@media (orientation: portrait) {
+    *{
+        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution) * 1);
     }
 }
 *{
@@ -537,7 +545,21 @@
     line-height: var(--ProjectGridElement-previewElement-h1-line-height);
 }
 
+
 @media (min-width: 0px) {
+    @media (orientation: portrait) {
+        *{
+            --project-h1-margin-bottom: calc(20px * 2 * var(--mult-factor));
+            --project-h1-font-size: calc(50px * 2 * var(--mult-factor));
+            --project-h1-line-height: calc(61px * 2 * var(--mult-factor));
+        
+            --project-a-2-font-size: calc(20px * 2 * var(--mult-factor));
+            --project-a-2-line-height: calc(24px * 2 * var(--mult-factor));
+
+            --ProjectGridElement-previewElement-h1-font-size: calc(30px * 2 * var(--mult-factor));
+            --ProjectGridElement-previewElement-h1-line-height: calc(36px * 2 * var(--mult-factor));
+        }
+    }
     /*------------ Project ------------*/
     .project{
         width: var(--about-featuredProjects-h1-p-width);
@@ -554,6 +576,11 @@
     /* .project > h1{
         margin-bottom: 0px;
     } */
+    .project > h1{
+        margin-bottom: var(--project-h1-margin-bottom);
+        font-size: var(--project-h1-font-size);
+        line-height: var(--project-h1-line-height);
+    }
     .project > a{
         /* font-size: 10px; */
         /* line-height: 12px; */

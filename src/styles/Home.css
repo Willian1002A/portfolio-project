@@ -110,78 +110,86 @@
 *{
     --base-resolution: 1920;
     --actual-resolution: 360;
-    --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
+    /* --mult-factor: calc(var(--actual-resolution)/var(--base-resolution)); */
 }
 @media (min-width: 375px) {
     *{
         --actual-resolution: 375;
-        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
+        /* --mult-factor: calc(var(--actual-resolution)/var(--base-resolution)); */
     }
 }
 @media (min-width: 384px) {
     *{
         --actual-resolution: 384;
-        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
+        /* --mult-factor: calc(var(--actual-resolution)/var(--base-resolution)); */
     }
 }
 @media (min-width: 412px) {
     *{
         --actual-resolution: 412;
-        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
+        /* --mult-factor: calc(var(--actual-resolution)/var(--base-resolution)); */
     }
 }
 @media (min-width: 600px) {
     *{
         --actual-resolution: 600;
-        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
+        /* --mult-factor: calc(var(--actual-resolution)/var(--base-resolution)); */
     }
 }
 @media (min-width: 640px) {
     *{
         --actual-resolution: 640;
-        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
+        /* --mult-factor: calc(var(--actual-resolution)/var(--base-resolution)); */
     }
 }
 @media (min-width: 810px) {
     *{
         --actual-resolution: 810;
-        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
+        /* --mult-factor: calc(var(--actual-resolution)/var(--base-resolution)); */
     }
 }
 @media (min-width: 900px) {
     *{
         --actual-resolution: 900;
-        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
+        /* --mult-factor: calc(var(--actual-resolution)/var(--base-resolution)); */
     }
 }
 @media (min-width: 1024px) {
     *{
         --actual-resolution: 1024;
-        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
+        /* --mult-factor: calc(var(--actual-resolution)/var(--base-resolution)); */
     }
 }
 @media (min-width: 1200px) {
     *{
         --actual-resolution: 1200;
-        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
+        /* --mult-factor: calc(var(--actual-resolution)/var(--base-resolution)); */
     }
 }
 @media (min-width: 1360px) {
     *{
         --actual-resolution: 1360;
-        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
+        /* --mult-factor: calc(var(--actual-resolution)/var(--base-resolution)); */
     }
 }
 @media (min-width: 1440px) {
     *{
         --actual-resolution: 1440;
-        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
+        /* --mult-factor: calc(var(--actual-resolution)/var(--base-resolution)); */
     }
 }
 @media (min-width: 1920px) {
     *{
         --actual-resolution: 1920;
-        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
+        /* --mult-factor: calc(var(--actual-resolution)/var(--base-resolution)); */
+    }
+}
+*{
+    --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
+}
+@media (orientation: portrait) {
+    *{
+        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution) * 1);
     }
 }
 *{
@@ -217,7 +225,23 @@
     --featuredProject-content-column-gap: calc(118px * var(--mult-factor));
     --featuredProject-content-row-gap: calc(96px * var(--mult-factor));
 }
+@media (orientation: portrait) {
+    *{
+        --about-height: calc(290px * 2 * var(--mult-factor));
 
+        --about-h1-margin-bottom: calc(10px * 2 * var(--mult-factor));
+        --about-h1-p-font-size: calc(40px * 2 * var(--mult-factor));
+        --about-h1-p-line-height: calc(48px * 2 * var(--mult-factor));
+
+        --titleSeeMoreRegion-h1-font-size: calc(50px * 2 * var(--mult-factor));
+        --titleSeeMoreRegion-h1-line-height: calc(61px * 2 * var(--mult-factor));
+        --seeMore-width: calc(352.73px * 1.7 * var(--mult-factor));
+        --seeMore-height: calc(105px * 1.7 * var(--mult-factor));
+        --seeMore-font-size: calc(30px * 2 * var(--mult-factor));
+        --seeMore-line-height: calc(36px * 2 * var(--mult-factor));
+
+    }
+}
 /*------------ Perfil ------------*/
 .perfil{
     width: var(--perfil-width);
