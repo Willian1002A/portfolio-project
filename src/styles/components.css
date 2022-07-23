@@ -404,15 +404,24 @@
     --info-height: calc(217.45px * var(--mult-factor));
     --contactSiteMap-margin-top: calc(25px * var(--mult-factor));
     --contact-siteMap-h1-margin-bottom: calc(8px * var(--mult-factor));
+
     --contact-siteMap-h1-font-size: calc(30px * var(--mult-factor));
-    --contact-siteMap-h1-line-height: calc(36px * var(--mult-factor));
+    /* --contact-siteMap-h1-line-height: calc(36px * var(--mult-factor)); */
+    --contact-siteMap-h1-line-height: calc(30px * var(--mult-factor));
+
     --contact-siteMap-p-margin-bottom: calc(8px * var(--mult-factor));
+
     --contact-siteMap-p-font-size: calc(28px * var(--mult-factor));
     --contact-siteMap-p-line-height: calc(34px * var(--mult-factor));
+    --contact-siteMap-p-line-height: calc(28px * var(--mult-factor));
+
     --contact-p-a-margin-left: calc(10px * var(--mult-factor));
     --basicFooter-height: calc(72.55px * var(--mult-factor));
+
     --footerContent-p-a-font-size: calc(30px * var(--mult-factor));
     --footerContent-p-a-line-height: calc(36px * var(--mult-factor));
+    --footerContent-p-a-line-height: calc(30px * var(--mult-factor));
+
     --project-width: calc(772px * var(--mult-factor));
     --project-height: calc(627.5px * var(--mult-factor));
     --preview-height: calc(482.5px * var(--mult-factor));
@@ -612,23 +621,30 @@
     *{
         --2-ProjectGridElement-previewElement-h1-font-size: calc(50px * 1 * var(--mult-factor));
         --2-ProjectGridElement-previewElement-h1-line-height: calc(61px * 1 * var(--mult-factor));
+        --2-ProjectGridElement-previewElement-h1-line-height: calc(50px * 1 * var(--mult-factor));
 
     }
     @media (orientation: portrait) {
         *{
             --2-ProjectGridElement-previewElement-h1-font-size: calc(50px * 1.4 * var(--mult-factor));
             --2-ProjectGridElement-previewElement-h1-line-height: calc(61px * 1.4 * var(--mult-factor));
+            --2-ProjectGridElement-previewElement-h1-line-height: calc(50px * 1.4 * var(--mult-factor));
             
             --ProjectGridElement-previewElement-h1-font-size: calc(50px * 1 * var(--mult-factor));
             --ProjectGridElement-previewElement-h1-line-height: calc(61px * 1 * var(--mult-factor));
+            --ProjectGridElement-previewElement-h1-line-height: calc(50px * 1 * var(--mult-factor));
 
             --contact-siteMap-h1-font-size: calc(30px * 1.4 * var(--mult-factor));
             --contact-siteMap-h1-line-height: calc(36px * 1.4 * var(--mult-factor));
+            --contact-siteMap-h1-line-height: calc(30px * 1.4 * var(--mult-factor));
+
             --contact-siteMap-p-font-size: calc(28px * 1.4 * var(--mult-factor));
             --contact-siteMap-h1-line-height: calc(36px  * 1.4 * var(--mult-factor));
+            --contact-siteMap-h1-line-height: calc(28px  * 1.4 * var(--mult-factor));
 
             --footerContent-p-a-font-size: calc(30px * 1.4 * var(--mult-factor));
             --footerContent-p-a-line-height: calc(36px * 1.4 * var(--mult-factor));
+            --footerContent-p-a-line-height: calc(30px * 1.4 * var(--mult-factor));
         }
         /*------------ Footer ------------*/
         .info{
@@ -674,9 +690,11 @@
         *{
             --2-ProjectGridElement-previewElement-h1-font-size: calc(50px * 1 * var(--mult-factor));
             --2-ProjectGridElement-previewElement-h1-line-height: calc(61px * 1 * var(--mult-factor));
-            
+            --2-ProjectGridElement-previewElement-h1-line-height: calc(50px * 1 * var(--mult-factor));
+
             --ProjectGridElement-previewElement-h1-font-size: calc(34px * var(--mult-factor));
             --ProjectGridElement-previewElement-h1-line-height: calc(40px * var(--mult-factor));
+            --ProjectGridElement-previewElement-h1-line-height: calc(34px * var(--mult-factor));
         }
     }
     /*------------ Project ------------*/
