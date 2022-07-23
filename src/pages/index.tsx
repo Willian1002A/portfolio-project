@@ -76,7 +76,7 @@ export default function Home() {
       <div id="featuredProjects">
         <div className="titleSeeMoreRegion">
           <h1>{homeContentTranslated.featuredProjectsDiv.titleSeeMore.h1}</h1>
-          <LinkA href={`/${homeContentTranslated.featuredProjectsDiv.titleSeeMore.seeMore.Link.href + hrefAtrib}`} className="seeMore">
+          <LinkA href={`/${homeContentTranslated.featuredProjectsDiv.titleSeeMore.seeMore.Link.href + hrefAtrib}`} className="seeMore" targetOnNewTab={false}>
             {homeContentTranslated.featuredProjectsDiv.titleSeeMore.seeMore.Link.a}
           </LinkA>
         </div>

@@ -29,9 +29,7 @@ export default function Projects() {
       <Header />
       <div className="projectGrid">
         {project.map((item,index) => (
-          <ProjectGridElement key={index} href={item.href + hrefAtrib} imgClass={item.imgClass} title={item.title}>
-            {item.about}
-          </ProjectGridElement>
+          <ProjectGridElement key={index} href={item.href + hrefAtrib} imgClass={item.imgClass} title={item.title} />
         ))}
       </div>
       <Footer className="footerAdjust"/>
