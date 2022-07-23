@@ -8,7 +8,7 @@ interface ProjectProps{
 export default function Project(props: ProjectProps) {
     return (
         <Link href={`/projectPreview/${props.href}`}>
-            <a id="preview" className="ProjectGridElement">
+            <a id="preview" className="ProjectGridElement projectHome">
                 <div className={`previewImg Img ${props.imgClass}`}></div>
                 <h1>{props.title}</h1>
             </a>

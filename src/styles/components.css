@@ -572,15 +572,18 @@
 @media (min-width: 0px) {
     @media (orientation: portrait) {
         *{
-            --project-h1-margin-bottom: calc(20px * 1.8 * var(--mult-factor));
+            /* --project-h1-margin-bottom: calc(20px * 1.8 * var(--mult-factor));
             --project-h1-font-size: calc(50px * 1.8 * var(--mult-factor));
             --project-h1-line-height: calc(61px * 1.8 * var(--mult-factor));
         
             --project-a-2-font-size: calc(20px * 1.8 * var(--mult-factor));
-            --project-a-2-line-height: calc(24px * 1.8 * var(--mult-factor));
+            --project-a-2-line-height: calc(24px * 1.8 * var(--mult-factor)); */
 
-            --ProjectGridElement-previewElement-h1-font-size: calc(50px * 1.8 * var(--mult-factor));
-            --ProjectGridElement-previewElement-h1-line-height: calc(61px * 1.8 * var(--mult-factor));
+            --ProjectGridElement-previewElement-h1-font-size: calc(50px * 1.1 * var(--mult-factor));
+            --ProjectGridElement-previewElement-h1-line-height: calc(61px * 1.1 * var(--mult-factor));
+
+            --2-ProjectGridElement-previewElement-h1-font-size: calc(50px * 1.8 * var(--mult-factor));
+            --2-ProjectGridElement-previewElement-h1-line-height: calc(61px * 1.8 * var(--mult-factor));
         }
     }
     /*------------ Project ------------*/
@@ -621,6 +624,10 @@
     .ProjectGridElement > h1 {
         font-size: var(--ProjectGridElement-previewElement-h1-font-size);
         line-height: var(--ProjectGridElement-previewElement-h1-line-height);
+    }
+    .projectHome > h1 {
+        font-size: var(--2-ProjectGridElement-previewElement-h1-font-size);
+        line-height: var(--2-ProjectGridElement-previewElement-h1-line-height);
     }
     .ProjectGridElement:hover{
         width: calc(var(--project-grid-width-2) * 1.1);
