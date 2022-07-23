@@ -23,10 +23,9 @@
         /* --mult-factor: calc(var(--actual-resolution)/var(--base-resolution)); */
     }
 }
-@media (min-width: 412px) {
+@media (min-width: 500px) {
     *{
-        --actual-resolution: 412;
-        /* --mult-factor: calc(var(--actual-resolution)/var(--base-resolution)); */
+        --actual-resolution: 500;
     }
 }
 @media (min-width: 600px) {

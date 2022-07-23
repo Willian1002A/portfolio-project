@@ -127,9 +127,9 @@
         --actual-resolution: 384;
     }
 }
-@media (min-width: 412px) {
+@media (min-width: 500px) {
     *{
-        --actual-resolution: 412;
+        --actual-resolution: 500;
     }
 }
 @media (min-width: 600px) {
