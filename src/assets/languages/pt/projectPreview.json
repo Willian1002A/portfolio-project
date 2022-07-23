@@ -87,7 +87,7 @@
     "relogioAnalogico" : {
         "imgClass": "relogioAnalogico",
         "text":{
-            "title": "Relogio Analogico",
+            "title": "Relógio Analógico",
             "description": "Este projeto apresenta um relógio analógico funcional construído em React.",
             "usedTechnologies": "Tecnologias utilizadas: React, css, TypeScript, html.",
             "sourceCode": {
