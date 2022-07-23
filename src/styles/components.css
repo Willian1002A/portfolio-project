@@ -181,11 +181,22 @@
 /*------------ Project ------------*/
 #preview{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     justify-content:space-evenly;
     align-items: center;
     background: #4E636C;
     box-shadow: var(--default-box-shadow)
+}
+#preview > h1 {
+    /* margin-left: 60px; */
+    width: 80%;
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    color: var(--default-white);
 }
 .previewImg{
     background: #6F848E;
@@ -521,12 +532,43 @@
     margin-bottom: calc(var(--preview-height) * 0.1);
 }
 #preview:hover{
+    width:  calc(100% * 1.9);
+    height: calc(var(--preview-height) * 1.1);
+    /* margin-bottom: var(--preview-margin-bottom); */
+    margin-bottom: 0px;
+    transform: translate(-5%,-5%); /*Diferente do design de referencia*/
+    transition-duration: 500ms;
+}
+#preview{
+    width: var(--ProjectGridElement-width);
+    height:  var(--ProjectGridElement-height);
+    margin-bottom: var(--ProjectGridElement-margin-bottom); /*Diferente do design de referencia*/
+}
+#preview:hover{
+    width: var(--ProjectGridElement-hover-width);
+    height: var(--ProjectGridElement-hover-height);
+    /* width: calc(var(--ProjectGridElement-width) * 1.9);
+    height: calc( var(--ProjectGridElement-height) * 1.9); */
+    transform: translate(-5%,-5%); /*Diferente do design de referencia*/
+    transition-duration: 500ms;
+}
+#preview{
+    width: 100%;
+    height: var(--preview-height);
+    /* margin-bottom: var(--preview-margin-bottom); */
+    margin-bottom: calc(var(--preview-height) * 0.1);
+}
+#preview:hover{
     width:  calc(100% * 1.1);
     height: calc(var(--preview-height) * 1.1);
     /* margin-bottom: var(--preview-margin-bottom); */
     margin-bottom: 0px;
     transform: translate(-5%,-5%); /*Diferente do design de referencia*/
     transition-duration: 500ms;
+}
+#preview > h1 {
+    font-size: var(--ProjectGridElement-previewElement-h1-font-size);
+    line-height: var(--ProjectGridElement-previewElement-h1-line-height);
 }
 .previewImg{
     width: var(--previewImg-width);
@@ -552,8 +594,6 @@
 .ProjectGridElement:hover{
     width: var(--ProjectGridElement-hover-width);
     height: var(--ProjectGridElement-hover-height);
-    /* width: calc(var(--ProjectGridElement-width) * 1.9);
-    height: calc( var(--ProjectGridElement-height) * 1.9); */
     transform: translate(-5%,-5%); /*Diferente do design de referencia*/
     transition-duration: 500ms;
 }
@@ -568,25 +608,20 @@
     line-height: var(--ProjectGridElement-previewElement-h1-line-height);
 }
 
-
 @media (min-width: 0px) {
+    *{
+        --2-ProjectGridElement-previewElement-h1-font-size: calc(50px * 1 * var(--mult-factor));
+        --2-ProjectGridElement-previewElement-h1-line-height: calc(61px * 1 * var(--mult-factor));
+
+    }
     @media (orientation: portrait) {
         *{
-            /* --project-h1-margin-bottom: calc(20px * 1.8 * var(--mult-factor));
-            --project-h1-font-size: calc(50px * 1.8 * var(--mult-factor));
-            --project-h1-line-height: calc(61px * 1.8 * var(--mult-factor));
-        
-            --project-a-2-font-size: calc(20px * 1.8 * var(--mult-factor));
-            --project-a-2-line-height: calc(24px * 1.8 * var(--mult-factor)); */
+            --2-ProjectGridElement-previewElement-h1-font-size: calc(50px * 1.4 * var(--mult-factor));
+            --2-ProjectGridElement-previewElement-h1-line-height: calc(61px * 1.4 * var(--mult-factor));
+            
+            --ProjectGridElement-previewElement-h1-font-size: calc(50px * 1 * var(--mult-factor));
+            --ProjectGridElement-previewElement-h1-line-height: calc(61px * 1 * var(--mult-factor));
 
-            --ProjectGridElement-previewElement-h1-font-size: calc(50px * 1.1 * var(--mult-factor));
-            --ProjectGridElement-previewElement-h1-line-height: calc(61px * 1.1 * var(--mult-factor));
-
-            --2-ProjectGridElement-previewElement-h1-font-size: calc(50px * 1.8 * var(--mult-factor));
-            --2-ProjectGridElement-previewElement-h1-line-height: calc(61px * 1.8 * var(--mult-factor));
-
-
-            /* --contact-siteMap-h1-margin-bottom: calc(8px * var(--mult-factor)); */
             --contact-siteMap-h1-font-size: calc(30px * 1.4 * var(--mult-factor));
             --contact-siteMap-h1-line-height: calc(36px * 1.4 * var(--mult-factor));
             --contact-siteMap-p-font-size: calc(28px * 1.4 * var(--mult-factor));
@@ -602,10 +637,6 @@
         }
     }
     /*------------ Project ------------*/
-    .project{
-        width: var(--about-featuredProjects-h1-p-width);
-        height: fit-content;
-    }
     #preview{
         width:  var(--about-featuredProjects-h1-p-width);
         height: calc(var(--about-featuredProjects-h1-p-width) / 1.846394984326019);
@@ -616,48 +647,39 @@
         height: calc(calc(var(--about-featuredProjects-h1-p-width) / 1.846394984326019) * 1.1);
         margin-bottom: 0px;
     }
-    /* .project > h1{
-        margin-bottom: 0px;
-    } */
-    .project > h1{
-        margin-bottom: var(--project-h1-margin-bottom);
-        font-size: var(--project-h1-font-size);
-        line-height: var(--project-h1-line-height);
+
+    #preview > h1 {
+        font-size: var(--2-ProjectGridElement-previewElement-h1-font-size);
+        line-height: var(--2-ProjectGridElement-previewElement-h1-line-height);
     }
-    .project > a{
-        /* font-size: 10px; */
-        /* line-height: 12px; */
-        font-size: var(--project-a-2-font-size);
-        line-height: var(line-height);
-    }
+
     /*------------ ProjectGridElement ------------*/
     .ProjectGridElement{
         width: var(--project-grid-width-2);
         height: calc(var(--project-grid-width-2) / 1.449280994947532);
         margin-bottom: calc(calc(var(--project-grid-width-2) / 1.449280994947532) * 0.1);
     }
-    .ProjectGridElement > h1 {
-        font-size: var(--ProjectGridElement-previewElement-h1-font-size);
-        line-height: var(--ProjectGridElement-previewElement-h1-line-height);
-    }
-    .projectHome > h1 {
-        font-size: var(--2-ProjectGridElement-previewElement-h1-font-size);
-        line-height: var(--2-ProjectGridElement-previewElement-h1-line-height);
-    }
     .ProjectGridElement:hover{
         width: calc(var(--project-grid-width-2) * 1.1);
         height: calc(calc(var(--project-grid-width-2) / 1.449280994947532) * 1.1);
         margin-bottom: 0px;
     }
+    .ProjectGridElement > h1 {
+        font-size: var(--ProjectGridElement-previewElement-h1-font-size);
+        line-height: var(--ProjectGridElement-previewElement-h1-line-height);
+    }
 }
 @media (min-width: 640px) {
-    /*------------ Project ------------*/
-    .project{
-        width: var(--project-width);
-        /* height: var(--project-height); */
-        height: fit-content;
-        /* height: fit-content; */
+    @media (orientation: portrait) {
+        *{
+            --2-ProjectGridElement-previewElement-h1-font-size: calc(50px * 1 * var(--mult-factor));
+            --2-ProjectGridElement-previewElement-h1-line-height: calc(61px * 1 * var(--mult-factor));
+            
+            --ProjectGridElement-previewElement-h1-font-size: calc(34px * var(--mult-factor));
+            --ProjectGridElement-previewElement-h1-line-height: calc(40px * var(--mult-factor));
+        }
     }
+    /*------------ Project ------------*/
     #preview{
         width: 100%;
         height: var(--preview-height);
@@ -669,34 +691,14 @@
         height: calc(var(--preview-height) * 1.1);
         margin-bottom: 0px;
     }
-    .project > h1{
-        margin-bottom: var(--project-h1-margin-bottom);
-        font-size: var(--project-h1-font-size);
-        line-height: var(--project-h1-line-height);
-    }
-    .project > a{
-        font-size: var(--project-a-font-size);
-        line-height: var(--project-a-line-height);
-    }
     /*------------ ProjectGridElement ------------*/
     .ProjectGridElement{
         width: var(--ProjectGridElement-width);
         height: var(--ProjectGridElement-height);
         margin-bottom: var(--ProjectGridElement-margin-bottom); /*Diferente do design de referencia*/
-        /* margin-bottom: calc(var(--ProjectGridElement-height) * 0.1); */
     }
     .ProjectGridElement:hover{
         width: var(--ProjectGridElement-hover-width);
         height: var(--ProjectGridElement-hover-height);
-    }
-    .ProjectGridElement > h1 {
-        font-size: var(--ProjectGridElement-previewElement-h1-font-size);
-        line-height: var(--ProjectGridElement-previewElement-h1-line-height);
-    }
-    .previewElement > h1{
-        margin-left: var(--previewElement-h1-margin);
-        margin-bottom: var(--previewElement-h1-margin);
-        font-size: var(--ProjectGridElement-previewElement-h1-font-size);
-        line-height: var(--ProjectGridElement-previewElement-h1-line-height);
     }
 }
