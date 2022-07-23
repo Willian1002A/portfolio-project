@@ -584,6 +584,21 @@
 
             --2-ProjectGridElement-previewElement-h1-font-size: calc(50px * 1.8 * var(--mult-factor));
             --2-ProjectGridElement-previewElement-h1-line-height: calc(61px * 1.8 * var(--mult-factor));
+
+
+            /* --contact-siteMap-h1-margin-bottom: calc(8px * var(--mult-factor)); */
+            --contact-siteMap-h1-font-size: calc(30px * 1.4 * var(--mult-factor));
+            --contact-siteMap-h1-line-height: calc(36px * 1.4 * var(--mult-factor));
+            --contact-siteMap-p-font-size: calc(28px * 1.4 * var(--mult-factor));
+            --contact-siteMap-h1-line-height: calc(36px  * 1.4 * var(--mult-factor));
+
+            --footerContent-p-a-font-size: calc(30px * 1.4 * var(--mult-factor));
+            --footerContent-p-a-line-height: calc(36px * 1.4 * var(--mult-factor));
+        }
+        /*------------ Footer ------------*/
+        .info{
+            height: fit-content;
+            padding-bottom: var(--contactSiteMap-margin-top);
         }
     }
     /*------------ Project ------------*/
