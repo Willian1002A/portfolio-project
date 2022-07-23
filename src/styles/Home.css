@@ -207,6 +207,7 @@
     --socialIcon-margin-x: calc(14px * var(--mult-factor));
     --socialIcon-border-radius: calc(80px * var(--mult-factor));
     --about-height: calc(290px * var(--mult-factor));
+    --about-padding: calc(50px * var(--mult-factor));
     --about-margin-bottom: calc(100px * var(--mult-factor));
     --about-featuredProjects-h1-p-width: calc(1678.43px * var(--mult-factor));
     --about-h1-margin-bottom: calc(10px * var(--mult-factor));
@@ -227,6 +228,7 @@
 @media (orientation: portrait) {
     *{
         --about-height: calc(290px * 2 * var(--mult-factor));
+        --about-padding: calc(50px * 2 * var(--mult-factor));
 
         --about-h1-margin-bottom: calc(10px * 2 * var(--mult-factor));
         --about-h1-p-font-size: calc(40px * 2 * var(--mult-factor));
@@ -273,8 +275,11 @@
 }
 /*------------ About ------------*/
 #about{
-    height: var(--about-height);
+    min-height: var(--about-height);
+    height: fit-content;
     margin-bottom: var(--about-margin-bottom);
+    padding-top: var(--about-padding);
+    padding-bottom: var(--about-padding);
 }
 #about > h1{
     width: var(--about-featuredProjects-h1-p-width);
