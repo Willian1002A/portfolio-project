@@ -31,7 +31,7 @@ export default function Projects() {
             <Header className="headerAdjust"/>
             <div id="ProjectPreview">
                 <div className="iconRegion">
-                    <LinkA href={`/projects${hrefAtrib}`} className="Icon backIcon"/>
+                    <LinkA href={`/projects${hrefAtrib}`} className="Icon backIcon" targetOnNewTab={false}/>
                 </div>
                 <div id="ProjectPreviewContent">
                     <div className={`preview Img ${imgClass}`} ></div>
@@ -43,7 +43,7 @@ export default function Projects() {
                                 <p>{text?.usedTechnologies}</p>
                                 <p>{text?.sourceCode.string}<LinkA href={`${text?.sourceCode.href}`}>{text?.sourceCode.a}</LinkA></p>
                                 <div className="regionButton">
-                                    <LinkA href={`${text?.button.href}`}>
+                                    <LinkA href={`${text?.button.href}`} targetOnNewTab={true}>
                                         {text?.button.string}
                                     </LinkA>
                                 </div>
