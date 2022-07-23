@@ -1,22 +1,22 @@
 {
     "perfil": {
-        "description": "Estudante, desenvolvedor"
+        "description": "Student, developer"
     },
     "about": {
-        "h1": "Hey!",
+        "h1": "Hi!",
         "p": 
         [
-            "I'm  Blabla from Brazil!",
-            "I love programming and learning new things!",
-            "Feel free to get in touch or take a look at my past work below."
+            "I'm Willian from Brazil!",
+            "I like to program, learn and solve new challenges.",
+            "Feel free to get to know my projects or get in touch."
         ]
     },
     "featuredProjectsDiv": {
         "titleSeeMore": {
-            "h1": "Projetos em destaque",
+            "h1": "Featured projects",
             "seeMore": {
                 "Link": {
-                    "a": "Ver todos os projetos",
+                    "a": "See all projects",
                     "href": "projects"
                 }
             }
@@ -24,19 +24,19 @@
         "featuredProjects": {
             "Project": [
                 {
-                    "title":"Site Delicias Marinhas",
-                    "href": "deliciasMarinhas",
-                    "imgClass": "deliciasMarinhas"
+                    "title": "Analog Watch",
+                    "imgClass": "relogioAnalogico",
+                    "href": "relogioAnalogico"
                 },
                 {
-                    "title":"Site AzzTeck",
-                    "href": "azzteck",
-                    "imgClass": "azzteck"
+                    "title": "Calculator (React)",
+                    "imgClass": "calculadoraReact",
+                    "href": "calculadoraReact"
                 },
                 {
-                    "title":"Projeto Flappy Bird",
-                    "href": "flappyBird",
-                    "imgClass": "flappyBird"
+                    "title": "MontyHall",
+                    "imgClass": "montyHall",
+                    "href": "montyHall"
                 },
                 {
                     "title":"Tic-Tac-Toe",

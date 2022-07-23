@@ -3,15 +3,15 @@
         "imgClass": "calculadoraReact",
         "text":{
             "title": "Calculadora (React)",
-            "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
-            "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
+            "description": "Proyecto que desarrolla calculadora de operaciones básicas realizado en React.",
+            "usedTechnologies": "Tecnologías utilizadas: React, Javascript, css, html",
             "sourceCode": {
-                "string":"Codigo fonte:",
-                "a": "Acesse Aqui!",
+                "string":"Codigo fuente:",
+                "a": "Accede Aquí!",
                 "href": "https://github.com/Willian1002A/react-calculator"
             },
             "button": {
-                "string": "Visitar Projeto",
+                "string": "Visitar proyecto",
                 "href":"https://react-calculator-drab.vercel.app/"
             }
         }
@@ -20,33 +20,16 @@
         "imgClass": "calculadoraVue",
         "text":{
             "title": "Calculadora (Vue)",
-            "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
-            "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
+            "description": "Proyecto que desarrolla calculadora de operaciones básicas realizado en Vue.",
+            "usedTechnologies": "Tecnologías utilizadas: Vue, html, Javascript",
             "sourceCode": {
-                "string":"Codigo fonte:",
-                "a": "Acesse Aqui!",
+                "string":"Codigo fuente:",
+                "a": "Accede Aquí!",
                 "href": "https://github.com/Willian1002A/vue-calculator"
             },
             "button": {
-                "string": "Visitar Projeto",
+                "string": "Visitar proyecto",
                 "href":"https://vue-calculator-gules.vercel.app/"
-            }
-        }
-    },
-    "azzteck" : {
-        "imgClass": "azzteck",
-        "text":{
-            "title": "Site Azzteck",
-            "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
-            "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
-            "sourceCode": {
-                "string":"Codigo fonte:",
-                "a": "Acesse Aqui!",
-                "href": ""
-            },
-            "button": {
-                "string": "Visitar Projeto",
-                "href":""
             }
         }
     },
@@ -54,49 +37,32 @@
         "imgClass": "crudHomeReact",
         "text":{
             "title": "Crud",
-            "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
-            "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
+            "description": "Este proyecto funciona como un sistema de registro de usuarios realizado en React con un backend que funciona con node y json-server.",
+            "usedTechnologies": "Tecnologías utilizadas: React ,Javascript, html, css",
             "sourceCode": {
-                "string":"Codigo fonte:",
-                "a": "Acesse Aqui!",
+                "string":"Codigo fuente:",
+                "a": "Accede Aquí!",
                 "href": "https://github.com/Willian1002A/react-crud-frontend"
             },
             "button": {
-                "string": "Visitar Projeto",
+                "string": "Visitar proyecto",
                 "href":"https://react-crud-frontend.vercel.app/"
-            }
-        }
-    },
-    "deliciasMarinhas" : {
-        "imgClass": "deliciasMarinhas",
-        "text":{
-            "title": "Site Delicias Marinhas",
-            "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
-            "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
-            "sourceCode": {
-                "string":"Codigo fonte:",
-                "a": "Acesse Aqui!",
-                "href": ""
-            },
-            "button": {
-                "string": "Visitar Projeto",
-                "href":"https://dm-project-frontend.vercel.app/"
             }
         }
     },
     "geradorQRCode" : {
         "imgClass": "geradorQRCode",
         "text":{
-            "title": "Gerador de QRCode",
-            "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
-            "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
+            "title": "Generador de códigos QR",
+            "description": "Este proyecto convierte texto en una imagen qrcode.",
+            "usedTechnologies": "Tecnologías utilizadas: css, javascript, html",
             "sourceCode": {
-                "string":"Codigo fonte:",
-                "a": "Acesse Aqui!",
+                "string":"Codigo fuente:",
+                "a": "Accede Aquí!",
                 "href": "https://github.com/Willian1002A/qrcode"
             },
             "button": {
-                "string": "Visitar Projeto",
+                "string": "Visitar proyecto",
                 "href":"https://qrcode-vert.vercel.app/"
             }
         }
@@ -104,16 +70,16 @@
     "jogoDaVelha" : {
         "imgClass": "jogoDaVelha",
         "text":{
-            "title": "Jogo da velha",
-            "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
-            "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
+            "title": "Tres en raya",
+            "description": "Este proyecto presenta un juego de tres en raya hecho en reaccionar.",
+            "usedTechnologies": "Tecnologías utilizadas: React, Css, Javascript, Html",
             "sourceCode": {
-                "string":"Codigo fonte:",
-                "a": "Acesse Aqui!",
+                "string":"Codigo fuente:",
+                "a": "Accede Aquí!",
                 "href": "https://github.com/Willian1002A/tic-tac-toe"
             },
             "button": {
-                "string": "Visitar Projeto",
+                "string": "Visitar proyecto",
                 "href": "https://tic-tac-toe-wasdamico-gmailcom.vercel.app/"
             }
         }
@@ -121,51 +87,17 @@
     "relogioAnalogico" : {
         "imgClass": "relogioAnalogico",
         "text":{
-            "title": "Relogio Analogico",
-            "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
-            "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
+            "title": "Reloj analogo",
+            "description": "Este proyecto presenta un reloj analógico funcional integrado en React.",
+            "usedTechnologies": "Tecnologías utilizadas: React, css, TypeScript, html.",
             "sourceCode": {
-                "string":"Codigo fonte:",
-                "a": "Acesse Aqui!",
+                "string":"Codigo fuente:",
+                "a": "Accede Aquí!",
                 "href": "https://github.com/Willian1002A/analog-clock"
             },
             "button": {
-                "string": "Visitar Projeto",
+                "string": "Visitar proyecto",
                 "href": "https://analog-clock-wasdamico-gmailcom.vercel.app/"
-            }
-        }
-    },
-    "flappyBird" : {
-        "imgClass": "flappyBird",
-        "text":{
-            "title": "Flappy bird",
-            "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
-            "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
-            "sourceCode": {
-                "string":"Codigo fonte:",
-                "a": "Acesse Aqui!",
-                "href": "https://github.com/Willian1002A/flappy"
-            },
-            "button": {
-                "string": "Visitar Projeto",
-                "href":"https://flappy-six.vercel.app/"
-            }
-        }
-    },
-    "mostUsedWordsElectron" : {
-        "imgClass": "mostUsedWordsElectron",
-        "text":{
-            "title": "Palavras mais utilizadas",
-            "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
-            "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
-            "sourceCode": {
-                "string":"Codigo fonte:",
-                "a": "Acesse Aqui!",
-                "href": "https://github.com/Willian1002A/most-used-words"
-            },
-            "button": {
-                "string": "Visitar Projeto",
-                "href":""
             }
         }
     },
@@ -173,15 +105,15 @@
         "imgClass": "montyHall",
         "text":{
             "title": "MontyHall",
-            "description": "sadsdsadsasadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
-            "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
+            "description": "Este proyecto presenta el problema de Monty Hall, fue construido en Vue.",
+            "usedTechnologies": "Tecnologías utilizadas: Vue, html, javascript",
             "sourceCode": {
-                "string":"Codigo fonte:",
-                "a": "Acesse Aqui!",
+                "string":"Codigo fuente:",
+                "a": "Accede Aquí!",
                 "href": "https://github.com/Willian1002A/moontyhall"
             },
             "button": {
-                "string": "Visitar Projeto",
+                "string": "Visitar proyecto",
                 "href":"https://moontyhall.vercel.app/"
             }
         }

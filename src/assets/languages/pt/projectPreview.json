@@ -33,23 +33,6 @@
             }
         }
     },
-    "azzteck" : {
-        "imgClass": "azzteck",
-        "text":{
-            "title": "Site Azzteck",
-            "description": "Este site foi construído para a empresa Azzteck.",
-            "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
-            "sourceCode": {
-                "string":"Codigo fonte:",
-                "a": "Acesse Aqui!",
-                "href": ""
-            },
-            "button": {
-                "string": "Visitar Projeto",
-                "href":""
-            }
-        }
-    },
     "crudHomeReact" : {
         "imgClass": "crudHomeReact",
         "text":{
@@ -64,23 +47,6 @@
             "button": {
                 "string": "Visitar Projeto",
                 "href":"https://react-crud-frontend.vercel.app/"
-            }
-        }
-    },
-    "deliciasMarinhas" : {
-        "imgClass": "deliciasMarinhas",
-        "text":{
-            "title": "Site Delicias Marinhas",
-            "description": "Este site foi construído para um restaurante de frutos do mar.",
-            "usedTechnologies": "Tecnologias utilizadas: Javascript, html, css, React",
-            "sourceCode": {
-                "string":"Codigo fonte:",
-                "a": "Acesse Aqui!",
-                "href": ""
-            },
-            "button": {
-                "string": "Visitar Projeto",
-                "href":"https://dm-project-frontend.vercel.app/"
             }
         }
     },
@@ -135,45 +101,11 @@
             }
         }
     },
-    "flappyBird" : {
-        "imgClass": "flappyBird",
-        "text":{
-            "title": "Flappy bird",
-            "description": "Jogo construído em html, javascript, css baseado no jogo flappy-bird.",
-            "usedTechnologies": "Tecnologias utilizadas: Javascript, css, html",
-            "sourceCode": {
-                "string":"Codigo fonte:",
-                "a": "Acesse Aqui!",
-                "href": "https://github.com/Willian1002A/flappy"
-            },
-            "button": {
-                "string": "Visitar Projeto",
-                "href":"https://flappy-six.vercel.app/"
-            }
-        }
-    },
-    "mostUsedWordsElectron" : {
-        "imgClass": "mostUsedWordsElectron",
-        "text":{
-            "title": "Palavras mais utilizadas",
-            "description": "Este programa mostra a quantidade de cada palavra que uma legenda de filme ou série possui.",
-            "usedTechnologies": "Tecnologias utilizadas: Javascript, Vue, html",
-            "sourceCode": {
-                "string":"Codigo fonte:",
-                "a": "Acesse Aqui!",
-                "href": "https://github.com/Willian1002A/most-used-words"
-            },
-            "button": {
-                "string": "Visitar Projeto",
-                "href":""
-            }
-        }
-    },
     "montyHall" : {
         "imgClass": "montyHall",
         "text":{
             "title": "MontyHall",
-            "description": "Este projeto apresenta o problema de Monty Hall, o mesmo foi construído em Vue",
+            "description": "Este projeto apresenta o problema de Monty Hall, o mesmo foi construído em Vue.",
             "usedTechnologies": "Tecnologias utilizadas: Vue, html, javascript",
             "sourceCode": {
                 "string":"Codigo fonte:",

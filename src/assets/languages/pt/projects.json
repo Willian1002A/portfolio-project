@@ -3,68 +3,42 @@
         {
             "title": "Calculadora (React)",
             "imgClass": "calculadoraReact",
-            "href": "calculadoraReact",
-            "about": "Sobre 2"
+            "href": "calculadoraReact"
         },
         {
             "title": "Calculadora (Vue)",
             "imgClass": "calculadoraVue",
-            "href": "calculadoraVue",
-            "about": "Sobre 3"
-        },
-        {
-            "title": "Site Azzteck",
-            "imgClass": "azzteck",
-            "href": "azzteck",
-            "about": "Sobre1 asddssssssssssssssssssssssssssdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd."
+            "href": "calculadoraVue"
         },
         {
             "title": "Crud",
             "imgClass": "crudHomeReact",
-            "href": "crudHomeReact",
-            "about": "Sobre 4"
-        },
-        {
-            "title": "Site Delicias Marinhas",
-            "imgClass": "deliciasMarinhas",
-            "href": "deliciasMarinhas",
-            "about": "Sobre 5"
+            "href": "crudHomeReact"
         },
         {
             "title": "Gerador de QRCode",
             "imgClass": "geradorQRCode",
-            "href": "geradorQRCode",
-            "about": "Sobre 6"
+            "href": "geradorQRCode"
         },
         {
             "title": "Jogo da velha",
             "imgClass": "jogoDaVelha",
-            "href": "jogoDaVelha",
-            "about": "Sobre 7"
+            "href": "jogoDaVelha"
         },
         {
             "title": "Relogio Analogico",
             "imgClass": "relogioAnalogico",
-            "href": "relogioAnalogico",
-            "about": "Sobre 10"
+            "href": "relogioAnalogico"
         },
         {
             "title": "Flappy bird",
             "imgClass": "flappyBird",
-            "href": "flappyBird",
-            "about": "Sobre 11"
-        },
-        {
-            "title": "Palavras mais utilizadas",
-            "imgClass": "mostUsedWordsElectron",
-            "href": "mostUsedWordsElectron",
-            "about": "Sobre 9"
+            "href": "flappyBird"
         },
         {
             "title": "MontyHall",
             "imgClass": "montyHall",
-            "href": "montyHall",
-            "about": "Sobre 8"
+            "href": "montyHall"
         }
     ]
 }

@@ -1,22 +1,22 @@
 {
     "perfil": {
-        "description": "Estudante, desenvolvedor"
+        "description": "Estudiante, desarrollador"
     },
     "about": {
-        "h1": "Hey!",
+        "h1": "¡Hola!",
         "p": 
         [
-            "¡Soy Blabla de Brasil!",
-            "I love programming and learning new things!",
-            "Feel free to get in touch or take a look at my past work below."
+            "¡Soy Willian de Brasil!",
+            "Me gusta programar, aprender y resolver nuevos retos.",
+            "No dudes en conocer mis proyectos o ponerte en contacto."
         ]
     },
     "featuredProjectsDiv": {
         "titleSeeMore": {
-            "h1": "Projetos em destaque",
+            "h1": "Proyectos destacados",
             "seeMore": {
                 "Link": {
-                    "a": "Ver todos os projetos",
+                    "a": "Ver todos los proyectos",
                     "href": "projects"
                 }
             }
@@ -24,22 +24,22 @@
         "featuredProjects": {
             "Project": [
                 {
-                    "title":"Site Delicias Marinhas",
-                    "href": "deliciasMarinhas",
-                    "imgClass": "deliciasMarinhas"
+                    "title": "Reloj analogo",
+                    "imgClass": "relogioAnalogico",
+                    "href": "relogioAnalogico"
                 },
                 {
-                    "title":"Site AzzTeck",
-                    "href": "azzteck",
-                    "imgClass": "azzteck"
+                    "title": "Calculadora (React)",
+                    "imgClass": "calculadoraReact",
+                    "href": "calculadoraReact"
                 },
                 {
-                    "title":"Projeto Flappy Bird",
-                    "href": "flappyBird",
-                    "imgClass": "flappyBird"
+                    "title": "MontyHall",
+                    "imgClass": "montyHall",
+                    "href": "montyHall"
                 },
                 {
-                    "title":"Tic-Tac-Toe",
+                    "title":"Tres en raya",
                     "href": "jogoDaVelha",
                     "imgClass": "jogoDaVelha"
                 }

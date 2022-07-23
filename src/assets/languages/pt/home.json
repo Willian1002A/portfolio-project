@@ -3,12 +3,12 @@
         "description": "Estudante, desenvolvedor"
     },
     "about": {
-        "h1": "Hey!",
+        "h1": "Ola!",
         "p": 
         [
-            "Eu sou Blabla do Brasil!",
-            "I love programming and learning new things!",
-            "Feel free to get in touch or take a look at my past work below."
+            "Eu sou Willian do Brasil!",
+            "Eu gosto de programar, aprender e resolver novos desafios.",
+            "Sinta-se se livre para conhecer os meus projetos ou entrar em contato."
         ]
     },
     "featuredProjectsDiv": {
@@ -24,22 +24,22 @@
         "featuredProjects": {
             "Project": [
                 {
-                    "title":"Site Delicias Marinhas",
-                    "href": "deliciasMarinhas",
-                    "imgClass": "deliciasMarinhas"
+                    "title": "Relógio Analogico",
+                    "imgClass": "relogioAnalogico",
+                    "href": "relogioAnalogico"
                 },
                 {
-                    "title":"Site AzzTeck",
-                    "href": "azzteck",
-                    "imgClass": "azzteck"
+                    "title": "Calculadora (React)",
+                    "imgClass": "calculadoraReact",
+                    "href": "calculadoraReact"
                 },
                 {
-                    "title":"Projeto Flappy Bird",
-                    "href": "flappyBird",
-                    "imgClass": "flappyBird"
+                    "title": "MontyHall",
+                    "imgClass": "montyHall",
+                    "href": "montyHall"
                 },
                 {
-                    "title":"Tic-Tac-Toe",
+                    "title":"Jogo da velha",
                     "href": "jogoDaVelha",
                     "imgClass": "jogoDaVelha"
                 }

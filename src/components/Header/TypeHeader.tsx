@@ -48,13 +48,13 @@ export function HorizontalHeader(props: headerProps){
                 Willian D’Amico
             </LinkA>
             <div className="links">
-                <LinkA href={`/${headerContentTranslated[0]?.href + hrefAtrib}`} className="headerButton">
+                <LinkA href={`/${headerContentTranslated[0]?.href + hrefAtrib}`} className="headerButton" targetOnNewTab={true}>
                     {headerContentTranslated[0]?.text}
                 </LinkA>
-                <LinkA href={`/${hrefAtrib + headerContentTranslated[1]?.href}`} className="headerButton">
+                <LinkA href={`/${hrefAtrib + headerContentTranslated[1]?.href}`} className="headerButton" targetOnNewTab={true}>
                     {headerContentTranslated[1]?.text}
                 </LinkA>
-                <LinkA href={`/${headerContentTranslated[2]?.href + hrefAtrib}`} className="headerButton">
+                <LinkA href={`/${headerContentTranslated[2]?.href + hrefAtrib}`} className="headerButton" targetOnNewTab={true}>
                     {headerContentTranslated[2]?.text}
                 </LinkA>
             </div>

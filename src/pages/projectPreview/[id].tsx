@@ -2,8 +2,8 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import { useRouter } from "next/router";
 import projectPreviewContentPt from "../../assets/languages/pt/projectPreview.json";
-import projectPreviewContentEn from "../../assets/languages/pt/projectPreview.json";
-import projectPreviewContentEs from "../../assets/languages/pt/projectPreview.json";
+import projectPreviewContentEn from "../../assets/languages/en/projectPreview.json";
+import projectPreviewContentEs from "../../assets/languages/es/projectPreview.json";
 import LinkA from "../../components/LinkA";
 export default function Projects() {
     const { query } = useRouter();
