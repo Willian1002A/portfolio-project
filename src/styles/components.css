@@ -116,7 +116,11 @@
     color: #E8E8E8;
 }
 .contact > p > a {
+    font-style: normal;
+    font-style: normal;
+    font-weight: 500;
     color: #00ACFF;
+    text-decoration: underline;
 }
 .siteMap{
     display: flex;
