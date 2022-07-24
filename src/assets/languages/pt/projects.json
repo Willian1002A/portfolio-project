@@ -31,11 +31,6 @@
             "href": "relogioAnalogico"
         },
         {
-            "title": "Flappy bird",
-            "imgClass": "flappyBird",
-            "href": "flappyBird"
-        },
-        {
             "title": "MontyHall",
             "imgClass": "montyHall",
             "href": "montyHall"

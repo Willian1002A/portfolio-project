@@ -37,7 +37,7 @@
         "imgClass": "crudHomeReact",
         "text":{
             "title": "Crud",
-            "description": "This project works as a user registration system made in React with a backend that works with node and json-server.",
+            "description": "This project serves to demonstrate a system for registering users. The frontend was done in React and the backend was made in node and json-server.",
             "usedTechnologies": "Technologies used: React ,Javascript, html, css",
             "sourceCode": {
                 "string":"Source code:",
@@ -71,7 +71,7 @@
         "imgClass": "jogoDaVelha",
         "text":{
             "title": "Tic-Tac-Toe",
-            "description": "This project features a tic-tac-toe game made in react.",
+            "description": "This project features a tic-tac-toe game made in React.",
             "usedTechnologies": "Technologies used: React, Css, Javascript, Html",
             "sourceCode": {
                 "string":"Source code:",

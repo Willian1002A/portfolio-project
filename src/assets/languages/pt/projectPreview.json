@@ -4,10 +4,10 @@
         "text":{
             "title": "Calculadora (React)",
             "description": "Projeto que desenvolve calculadora de operações básicas feito em React.",
-            "usedTechnologies": "Tecnologias utilizadas: React, Javascript, css, html",
+            "usedTechnologies": "Tecnologias utilizadas: React, Javascript, CSS, HTML",
             "sourceCode": {
                 "string":"Codigo fonte:",
-                "a": "Acesse Aqui!",
+                "a": "Acesse aqui!",
                 "href": "https://github.com/Willian1002A/react-calculator"
             },
             "button": {
@@ -21,10 +21,10 @@
         "text":{
             "title": "Calculadora (Vue)",
             "description": "Projeto que desenvolve calculadora de operações básicas feito em Vue.",
-            "usedTechnologies": "Tecnologias utilizadas: Vue, html, Javascript",
+            "usedTechnologies": "Tecnologias utilizadas: Vue, HTML, Javascript",
             "sourceCode": {
                 "string":"Codigo fonte:",
-                "a": "Acesse Aqui!",
+                "a": "Acesse aqui!",
                 "href": "https://github.com/Willian1002A/vue-calculator"
             },
             "button": {
@@ -37,11 +37,11 @@
         "imgClass": "crudHomeReact",
         "text":{
             "title": "Crud",
-            "description": "Este projeto funciona como um sistema de cadastros de usuários feito em React com backend que trabalha com node e json-server.",
-            "usedTechnologies": "Tecnologias utilizadas: React ,Javascript, html, css",
+            "description": "Este projeto serve para demonstrar um sistema para o cadastro de usuarios. O frontend foi feito em React e o backend foi feito em node e json-server.",
+            "usedTechnologies": "Tecnologias utilizadas: React ,Javascript, HTML, CSS",
             "sourceCode": {
                 "string":"Codigo fonte:",
-                "a": "Acesse Aqui!",
+                "a": "Acesse aqui!",
                 "href": "https://github.com/Willian1002A/react-crud-frontend"
             },
             "button": {
@@ -55,10 +55,10 @@
         "text":{
             "title": "Gerador de QRCode",
             "description": "Este projeto converte textos em uma imagem de qrcode.",
-            "usedTechnologies": "Tecnologias utilizadas: css, javascript, html",
+            "usedTechnologies": "Tecnologias utilizadas: CSS, Javascript, HTML",
             "sourceCode": {
                 "string":"Codigo fonte:",
-                "a": "Acesse Aqui!",
+                "a": "Acesse aqui!",
                 "href": "https://github.com/Willian1002A/qrcode"
             },
             "button": {
@@ -71,11 +71,11 @@
         "imgClass": "jogoDaVelha",
         "text":{
             "title": "Jogo da velha",
-            "description": "Este projeto apresenta um jogo da velha feito em react.",
-            "usedTechnologies": "Tecnologias utilizadas: React, Css, Javascript, Html",
+            "description": "Este projeto apresenta um jogo da velha feito em React.",
+            "usedTechnologies": "Tecnologias utilizadas: React, CSS, Javascript, HTML",
             "sourceCode": {
                 "string":"Codigo fonte:",
-                "a": "Acesse Aqui!",
+                "a": "Acesse aqui!",
                 "href": "https://github.com/Willian1002A/tic-tac-toe"
             },
             "button": {
@@ -89,10 +89,10 @@
         "text":{
             "title": "Relógio Analógico",
             "description": "Este projeto apresenta um relógio analógico funcional construído em React.",
-            "usedTechnologies": "Tecnologias utilizadas: React, css, TypeScript, html.",
+            "usedTechnologies": "Tecnologias utilizadas: React, CSS, TypeScript, HTML.",
             "sourceCode": {
                 "string":"Codigo fonte:",
-                "a": "Acesse Aqui!",
+                "a": "Acesse aqui!",
                 "href": "https://github.com/Willian1002A/analog-clock"
             },
             "button": {
@@ -105,11 +105,11 @@
         "imgClass": "montyHall",
         "text":{
             "title": "MontyHall",
-            "description": "Este projeto apresenta o problema de Monty Hall, o mesmo foi construído em Vue.",
-            "usedTechnologies": "Tecnologias utilizadas: Vue, html, javascript",
+            "description": "Este projeto apresenta o problema de Monty Hall O mesmo foi construído em Vue.",
+            "usedTechnologies": "Tecnologias utilizadas: Vue, HTML, Javascript",
             "sourceCode": {
                 "string":"Codigo fonte:",
-                "a": "Acesse Aqui!",
+                "a": "Acesse aqui!",
                 "href": "https://github.com/Willian1002A/moontyhall"
             },
             "button": {

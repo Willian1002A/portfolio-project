@@ -15,6 +15,7 @@
     background-color: var(--default-white);
 }
 .backIcon{
+    cursor: pointer;
     background: url("../assets/icons/Back.png");
     background-position: center;
     background-size: contain;
@@ -65,27 +66,10 @@
     font-weight: 600;
     color: inherit;
 }
-.description > .content > p:nth-child(2){
+.description > .content > p{
     display: flex;
     align-items: center;
-    word-break: break-all;
-    /* font-family: 'Inter'; */
-    font-style: normal;
-    font-weight: 600;
-    color: inherit;
-}
-.description > .content > p:nth-child(3){
-    /* font-family: 'Inter'; */
-    font-style: normal;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    color: inherit;
-}
-.description > .content > p:nth-child(4){
-    display: flex;
-    align-items: center;
-    /* font-family: 'Inter'; */
+    word-wrap: break-word;
     font-style: normal;
     font-weight: 600;
     color: inherit;

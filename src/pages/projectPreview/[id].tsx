@@ -26,12 +26,15 @@ export default function Projects() {
     const projectPreviewObject = prjectPreviewContentTranslated[`${query.id}`];
     const imgClass = projectPreviewObject?.imgClass;
     const text = projectPreviewObject?.text;
+    function goBack(){
+        window.history.back()
+    }
     return (
         <div className="Background">
             <Header className="headerAdjust"/>
             <div id="ProjectPreview">
                 <div className="iconRegion">
-                    <LinkA href={`/projects${hrefAtrib}`} className="Icon backIcon" targetOnNewTab={false}/>
+                    <div className="Icon backIcon" onClick={() => goBack()}></div>
                 </div>
                 <div id="ProjectPreviewContent">
                     <div className={`preview Img ${imgClass}`} ></div>
