@@ -44,7 +44,7 @@ export default function Projects() {
                                 <h1>{text?.title}</h1>
                                 <p>{text?.description}</p>
                                 <p>{text?.usedTechnologies}</p>
-                                <p>{text?.sourceCode.string}<LinkA href={`${text?.sourceCode.href}`}>{text?.sourceCode.a}</LinkA></p>
+                                <p>{text?.sourceCode.string}<LinkA href={`${text?.sourceCode.href}`} targetOnNewTab={true} >{text?.sourceCode.a}</LinkA></p>
                                 <div className="regionButton">
                                     <LinkA href={`${text?.button.href}`} targetOnNewTab={true}>
                                         {text?.button.string}
