@@ -37,8 +37,8 @@
         "imgClass": "crudHomeReact",
         "text":{
             "title": "Crud",
-            "description": "Este proyecto sirve para demostrar un sistema de registro de usuarios. El frontend se realizó en React y el backend en node y json-server.",
-            "usedTechnologies": "Tecnologías utilizadas: React ,Javascript, HTML, CSS",
+            "description": "Este proyecto sirve para demostrar un sistema de registro de usuarios. El frontend se realizó en React y el backend con tecnologías Node.js y json-server.",
+            "usedTechnologies": "Tecnologías utilizadas: React, Javascript, HTML, CSS",
             "sourceCode": {
                 "string":"Codigo fuente:",
                 "a": "Accede aquí!",
@@ -54,7 +54,7 @@
         "imgClass": "geradorQRCode",
         "text":{
             "title": "Generador de códigos QR",
-            "description": "Este proyecto convierte texto en una imagen qrcode.",
+            "description": "Este proyecto convierte texto en un QRcode.",
             "usedTechnologies": "Tecnologías utilizadas: CSS, Javascript, HTML",
             "sourceCode": {
                 "string":"Codigo fuente:",
@@ -71,7 +71,7 @@
         "imgClass": "jogoDaVelha",
         "text":{
             "title": "Tres en raya",
-            "description": "Este proyecto presenta un juego de tres en raya hecho en reaccionar.",
+            "description": "Este proyecto ejecuta un juego de tres en raya hecho en React.",
             "usedTechnologies": "Tecnologías utilizadas: React, CSS, Javascript, HTML",
             "sourceCode": {
                 "string":"Codigo fuente:",
@@ -88,7 +88,7 @@
         "imgClass": "relogioAnalogico",
         "text":{
             "title": "Reloj analogo",
-            "description": "Este proyecto presenta un reloj analógico funcional integrado en React.",
+            "description": "Este proyecto genera un reloj analógico funcional integrado en React.",
             "usedTechnologies": "Tecnologías utilizadas: React, CSS, TypeScript, HTML.",
             "sourceCode": {
                 "string":"Codigo fuente:",
@@ -104,8 +104,8 @@
     "montyHall" : {
         "imgClass": "montyHall",
         "text":{
-            "title": "MontyHall",
-            "description": "Este proyecto presenta el problema de Monty Hall, fue construido en Vue.",
+            "title": "Monty Hall",
+            "description": "Este proyecto produce una interfaz para que el usuario practique la resolución del problema de Monty Hall. El mismo fue construido en Vue.",
             "usedTechnologies": "Tecnologías utilizadas: Vue, HTML, Javascript",
             "sourceCode": {
                 "string":"Codigo fuente:",

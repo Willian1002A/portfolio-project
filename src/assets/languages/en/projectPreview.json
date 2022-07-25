@@ -4,7 +4,7 @@
         "text":{
             "title": "Calculator (React)",
             "description": "Project that develops basic operations calculator made in React.",
-            "usedTechnologies": "Technologies used: React, Javascript, css, html",
+            "usedTechnologies": "Technologies used: React, Javascript, CSS, HTML",
             "sourceCode": {
                 "string":"Source code:",
                 "a": "Access here!",
@@ -21,7 +21,7 @@
         "text":{
             "title": "Calculator (Vue)",
             "description": "Project that develops basic operations calculator made in Vue.",
-            "usedTechnologies": "Technologies used: Vue, html, Javascript",
+            "usedTechnologies": "Technologies used: Vue, HTML, Javascript",
             "sourceCode": {
                 "string":"Source code:",
                 "a": "Access here!",
@@ -37,8 +37,8 @@
         "imgClass": "crudHomeReact",
         "text":{
             "title": "Crud",
-            "description": "This project serves to demonstrate a system for registering users. The frontend was done in React and the backend was made in node and json-server.",
-            "usedTechnologies": "Technologies used: React ,Javascript, html, css",
+            "description": "This project serves to demonstrate a system for registering users. The frontend was done in React and the backend was made with Node.js and json-server.",
+            "usedTechnologies": "Technologies used: React, Javascript, HTML, CSS",
             "sourceCode": {
                 "string":"Source code:",
                 "a": "Access here!",
@@ -54,8 +54,8 @@
         "imgClass": "geradorQRCode",
         "text":{
             "title": "QRCode Generator",
-            "description": "This project converts text into a qrcode image.",
-            "usedTechnologies": "Technologies used: css, javascript, html",
+            "description": "This project converts texts into a QRcode.",
+            "usedTechnologies": "Technologies used: CSS, javascript, HTML",
             "sourceCode": {
                 "string":"Source code:",
                 "a": "Access here!",
@@ -71,8 +71,8 @@
         "imgClass": "jogoDaVelha",
         "text":{
             "title": "Tic-Tac-Toe",
-            "description": "This project features a tic-tac-toe game made in React.",
-            "usedTechnologies": "Technologies used: React, Css, Javascript, Html",
+            "description": "This project runs a tic-tac-toe game made in React.",
+            "usedTechnologies": "Technologies used: React, CSS, Javascript, HTML",
             "sourceCode": {
                 "string":"Source code:",
                 "a": "Access here!",
@@ -88,8 +88,8 @@
         "imgClass": "relogioAnalogico",
         "text":{
             "title": "Analog Watch",
-            "description": "This project features a functional analog clock built in React.",
-            "usedTechnologies": "Technologies used: React, css, TypeScript, html.",
+            "description": "This project generates a functional analog clock built in React.",
+            "usedTechnologies": "Technologies used: React, CSS, TypeScript, HTML.",
             "sourceCode": {
                 "string":"Source code:",
                 "a": "Access here!",
@@ -105,8 +105,8 @@
         "imgClass": "montyHall",
         "text":{
             "title": "MontyHall",
-            "description": "This project presents the Monty Hall problem, it was built in Vue.",
-            "usedTechnologies": "Technologies used: Vue, html, javascript",
+            "description": "This project produces an interface for the user to practice solving the Monty Hall problem. It was built in Vue.",
+            "usedTechnologies": "Technologies used: Vue, HTML, javascript",
             "sourceCode": {
                 "string":"Source code:",
                 "a": "Access here!",

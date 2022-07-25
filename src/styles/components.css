@@ -409,15 +409,18 @@
     --contactSiteMap-margin-top: calc(25px * var(--mult-factor));
     --contact-siteMap-h1-margin-bottom: calc(8px * var(--mult-factor));
 
-    --contact-siteMap-h1-font-size: calc(30px * var(--mult-factor));
     /* --contact-siteMap-h1-line-height: calc(36px * var(--mult-factor)); */
-    --contact-siteMap-h1-line-height: calc(30px * var(--mult-factor));
+    /* --contact-siteMap-h1-font-size: calc(30px * var(--mult-factor));
+    --contact-siteMap-h1-line-height: calc(30px * var(--mult-factor)); */
+    --contact-siteMap-h1-font-size: calc(40px * var(--mult-factor));
+    --contact-siteMap-h1-line-height: calc(40px * var(--mult-factor));
 
     --contact-siteMap-p-margin-bottom: calc(8px * var(--mult-factor));
 
-    --contact-siteMap-p-font-size: calc(28px * var(--mult-factor));
-    --contact-siteMap-p-line-height: calc(34px * var(--mult-factor));
-    --contact-siteMap-p-line-height: calc(28px * var(--mult-factor));
+    /* --contact-siteMap-p-font-size: calc(28px * var(--mult-factor));
+    --contact-siteMap-p-line-height: calc(28px * var(--mult-factor)); */
+    --contact-siteMap-p-font-size: calc(36px * var(--mult-factor));
+    --contact-siteMap-p-line-height: calc(36px * var(--mult-factor));
 
     --contact-p-a-margin-left: calc(10px * var(--mult-factor));
     --basicFooter-height: calc(72.55px * var(--mult-factor));
