@@ -731,10 +731,11 @@
     .ProjectGridElement{
         width: var(--ProjectGridElement-width);
         height: var(--ProjectGridElement-height);
-        margin-bottom: var(--ProjectGridElement-margin-bottom); /*Diferente do design de referencia*/
+        margin-bottom: calc(var(--ProjectGridElement-margin-bottom)); /*Diferente do design de referencia*/
     }
     .ProjectGridElement:hover{
         width: var(--ProjectGridElement-hover-width);
         height: var(--ProjectGridElement-hover-height);
+        margin-bottom: calc(var(--ProjectGridElement-margin-bottom) * 0.26);/*Buscar solução mais eficiente!*/
     }
 }
