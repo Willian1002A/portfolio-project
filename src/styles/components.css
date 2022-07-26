@@ -730,12 +730,17 @@
     /*------------ ProjectGridElement ------------*/
     .ProjectGridElement{
         width: var(--ProjectGridElement-width);
-        height: var(--ProjectGridElement-height);
-        margin-bottom: calc(var(--ProjectGridElement-margin-bottom)); /*Diferente do design de referencia*/
+        height: calc(var(--ProjectGridElement-width) / 1.448474017047017);
+        margin-bottom: calc(var(--ProjectGridElement-width) / 1.448474017047017 * 0.1);
+        /* height: var(--ProjectGridElement-height); */
+        /* margin-bottom: calc(var(--ProjectGridElement-margin-bottom));  */
+        /*Diferente do design de referencia*/
     }
     .ProjectGridElement:hover{
-        width: var(--ProjectGridElement-hover-width);
-        height: var(--ProjectGridElement-hover-height);
-        margin-bottom: calc(var(--ProjectGridElement-margin-bottom) * 0.26);/*Buscar solução mais eficiente!*/
+        /* width: var(--ProjectGridElement-hover-width);
+        height: var(--ProjectGridElement-hover-height); */
+        width: calc(var(--project-grid-width) * 1.1);
+        height: calc(var(--ProjectGridElement-width) / 1.448474017047017 * 1.1);
+        margin-bottom: 0px;
     }
 }
