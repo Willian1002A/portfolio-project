@@ -51,6 +51,15 @@
     display: flex;
     justify-content: space-between;
 }
+#iconPT{
+    background-image: url(../assets/icons/GoSquaredFlags/Brazil.png);
+}
+#iconEN{
+    background-image: url(../assets/icons/GoSquaredFlags/United-States.png);
+}
+#iconES{
+    background-image: url(../assets/icons/GoSquaredFlags/Spain.png);
+}
 .headerLanguageButton{
     border: none;
     padding: 0px;
@@ -68,6 +77,8 @@
 }
 .headerButtonStyle{
     width: 100%;
+    display: flex;
+    align-items: center;
 }
 .headerVerticalButtonStyle{
     background-color: #D9D9D9;

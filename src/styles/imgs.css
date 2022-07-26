@@ -1,3 +1,12 @@
+.icon{
+    display: block;
+    width: 70%;
+    height: 70%;
+    background-size: cover;
+}
+.IconStyle{
+    margin-right: 8px;
+}
 .Img{
     background: #6F848E;
 }
@@ -50,6 +59,10 @@
 @media (min-width: 0px) {
     .buttonExpandMenu{
         display: flex;
+    }
+    .icon{
+        width: 24px;
+        height: 24px;
     }
 }
 @media (min-width: 1024px) {

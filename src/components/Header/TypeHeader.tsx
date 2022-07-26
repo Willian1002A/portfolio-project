@@ -16,12 +16,6 @@ interface TypeHeaderProps{
 interface headerProps{
     className?: string;
 }
-function SpecsMap(specs, headerElement){
-    return specs.map((text, index) => (
-        headerElement(text, index)
-    ))
-}
-const specs = ['Home', 'Sobre', 'Projetos', 'PT', 'EN', 'ES'];
 export function HorizontalHeader(props: headerProps){
     const { query } = useRouter();
     let hrefAtrib = "";
@@ -60,18 +54,28 @@ export function HorizontalHeader(props: headerProps){
             </div>
             <div className="languageButtons">
                 <LinkA href={query.id ? query.id + headerContentTranslated[3]?.href : headerContentTranslated[3]?.href } className="headerLanguageButton">
-                    {headerContentTranslated[3]?.text}
+                    {/* {headerContentTranslated[3]?.text} */}
+                    <span title={headerContentTranslated[3]?.text} id="iconPT" className="icon"/>
                 </LinkA>
                 <LinkA href={query.id ? query.id + headerContentTranslated[4]?.href : headerContentTranslated[4]?.href } className="headerLanguageButton">
-                    {headerContentTranslated[4]?.text}
+                    {/* {headerContentTranslated[4]?.text} */}
+                    <span title={headerContentTranslated[4]?.text} id="iconEN" className="icon"/>
+
                 </LinkA>
                 <LinkA href={query.id ? query.id + headerContentTranslated[5]?.href : headerContentTranslated[5]?.href } className="headerLanguageButton">
-                    {headerContentTranslated[5]?.text}
+                    {/* {headerContentTranslated[5]?.text} */}
+                    <span title={headerContentTranslated[5]?.text} id="iconES" className="icon"/>
                 </LinkA>
             </div>
         </>
     )
 }
+function SpecsMap(specs, headerElement){
+    return specs.map((text, index) => (
+        headerElement(text, index)
+    ))
+}
+const specs = ['Home', 'Sobre', 'Projetos', 'PT', 'EN', 'ES'];
 export function VerticalHeader(props: TypeHeaderProps){
     function LinkString(i) {
         const { query } = useRouter();

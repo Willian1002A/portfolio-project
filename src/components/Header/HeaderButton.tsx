@@ -1,12 +1,7 @@
 import ListItemText from '@mui/material/ListItemText';
-import InboxIcon from '@mui/icons-material/MoveToInbox';
 import HomeIcon from '@mui/icons-material/Home';
 import InfoIcon from '@mui/icons-material/Info';
-import CollectionsIcon from '@mui/icons-material/Collections';
-import RestaurantMenuIcon from '@mui/icons-material/RestaurantMenu';
-import RestaurantIcon from '@mui/icons-material/Restaurant';
-import CommentIcon from '@mui/icons-material/Comment';
-import MailIcon from '@mui/icons-material/Mail';
+import ArticleIcon from '@mui/icons-material/Article';
 interface HeaderButtonProps{
     index?: number;
     text?: string;
@@ -17,21 +12,20 @@ interface HeaderButtonProps{
     onTouchEnd?: any;
     onKeyDown?: any;
 }
-function renderIcons(i) {
+function renderIcons(i,text) {
     switch(i) {
         case 0:
             return (<HomeIcon className="IconStyle" /> );
         case 1:
             return (<InfoIcon className="IconStyle" /> );
         case 2:
-            // return (<CollectionsIcon className="IconStyle" /> );
-            return (<RestaurantMenuIcon className="IconStyle" /> );
+            return (<ArticleIcon className="IconStyle" /> );
         case 3:
-            return (<RestaurantMenuIcon className="IconStyle" /> );
+            return (<span id={`icon${text}`} className="icon IconStyle"/>);
         case 4:
-            return (<CommentIcon className="IconStyle" /> );
+            return (<span id={`icon${text}`} className="icon IconStyle"/>);
         case 5:
-            return (<MailIcon className="IconStyle"/> );
+            return (<span id={`icon${text}`} className="icon IconStyle"/>);
         default:
             break;
     }
@@ -48,9 +42,9 @@ export default function HeaderButton(props: HeaderButtonProps) {
             onKeyDown={props.onKeyDown}
             href={href} key={text}
             className={`headerButtonStyle ${props.className}`}>
-            {/* {renderIcons(index)} */}
+            {renderIcons(index,text)}
             <ListItemText>
-                <p className="fontHeader">{text}</p>
+                <p className="fontHeader withIcon">{text}</p>
             </ListItemText>
         </a>
     )
