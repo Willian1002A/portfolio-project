@@ -158,6 +158,7 @@
     align-items: center;
     /* White p1 */
     color: #00ACFF;
+    text-decoration: underline;
 }
 .basicFooter{
     width: 100%;
