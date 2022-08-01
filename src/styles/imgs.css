@@ -6,6 +6,7 @@
 }
 .IconStyle{
     margin-right: 8px;
+    margin-right: 0.5rem;
 }
 .Img{
     background: #6F848E;
@@ -63,6 +64,8 @@
     .icon{
         width: 24px;
         height: 24px;
+        width: 1.5rem;
+        height: 1.5rem;
     }
 }
 @media (min-width: 1024px) {

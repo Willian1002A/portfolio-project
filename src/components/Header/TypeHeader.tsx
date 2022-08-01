@@ -75,28 +75,28 @@ function SpecsMap(specs, headerElement){
         headerElement(text, index)
     ))
 }
-const specs = ['Home', 'Sobre', 'Projetos', 'PT', 'EN', 'ES'];
 export function VerticalHeader(props: TypeHeaderProps){
+    const { query } = useRouter();
+    let hrefAtrib = "";
+    if(query.idioma){
+        hrefAtrib = "?idioma=" + query.idioma;
+    }
+    let headerContentTranslated = headerContentPt;
+    switch(query.idioma){
+      case "PT":
+        headerContentTranslated = headerContentPt;
+        break;
+      case "EN":
+        headerContentTranslated = headerContentEn;
+        break;
+      case "ES":
+        headerContentTranslated = headerContentEs;
+        break
+      default:
+        headerContentTranslated = headerContentTranslated;
+    }
+    const specs = [headerContentTranslated[0]?.text, headerContentTranslated[1]?.text, headerContentTranslated[2]?.text, headerContentTranslated[3]?.text, headerContentTranslated[4]?.text, headerContentTranslated[5]?.text];
     function LinkString(i) {
-        const { query } = useRouter();
-        let hrefAtrib = "";
-        if(query.idioma){
-            hrefAtrib = "?idioma=" + query.idioma;
-        }
-        let headerContentTranslated = headerContentPt;
-        switch(query.idioma){
-        case "PT":
-            headerContentTranslated = headerContentPt;
-            break;
-        case "EN":
-            headerContentTranslated = headerContentEn;
-            break;
-        case "ES":
-            headerContentTranslated = headerContentEs;
-            break
-        default:
-            headerContentTranslated = headerContentTranslated;
-        }
         switch(i) {
             case 0:
                 return `/${headerContentTranslated[0]?.href + hrefAtrib}`;

@@ -27,11 +27,11 @@ export default function Projects() {
   return (
     <div className="Background">
       <Header />
-      <div className="projectGrid">
+      <section className="projectGrid">
         {project.map((item,index) => (
           <ProjectGridElement key={index} href={item.href + hrefAtrib} imgClass={item.imgClass} title={item.title} />
         ))}
-      </div>
+      </section>
       <Footer className="footerAdjust"/>
     </div>
   )

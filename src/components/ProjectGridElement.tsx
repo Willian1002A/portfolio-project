@@ -28,7 +28,7 @@ export default function ProjectGridElement(props: ProjectGridElementProps) {
                     {/* <h1 className="previewElementP">{props.title}</h1>
                     <p className="previewElementP">{ props.children }</p> */}
                 </div>
-                <h1>{props.title}</h1>
+                <h2>{props.title}</h2>
                 {/* <p className="">{ props.children }</p> */}
             </a>
         </Link>

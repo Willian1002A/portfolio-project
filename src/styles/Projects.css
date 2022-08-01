@@ -98,6 +98,14 @@
     --footerAdjust-margin: calc(123px * var(--mult-factor));
     --ProjectGridElement-margin-bottom: calc(49px * var(--mult-factor));
 }
+/* *{
+    --project-grid-width: calc(32.926rem * var(--mult-factor));
+    --project-grid-width-2: calc(49.784rem * var(--mult-factor));
+    --project-grid-column-gap: calc(3.063rem * var(--mult-factor));
+    --project-grid-column-gap-2: calc(5.333rem * var(--mult-factor));
+    --footerAdjust-margin: calc(7.688rem * var(--mult-factor));
+    --ProjectGridElement-margin-bottom: calc(3.063rem * var(--mult-factor));
+} */
 .projectGrid{
     grid-template-columns: repeat(3,var(--project-grid-width));
     column-gap: var(--project-grid-column-gap);

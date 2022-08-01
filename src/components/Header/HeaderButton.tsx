@@ -21,11 +21,11 @@ function renderIcons(i,text) {
         case 2:
             return (<ArticleIcon className="IconStyle" /> );
         case 3:
-            return (<span id={`icon${text}`} className="icon IconStyle"/>);
+            return (<span id={`iconPT`} className="icon IconStyle"/>);
         case 4:
-            return (<span id={`icon${text}`} className="icon IconStyle"/>);
+            return (<span id={`iconEN`} className="icon IconStyle"/>);
         case 5:
-            return (<span id={`icon${text}`} className="icon IconStyle"/>);
+            return (<span id={`iconES`} className="icon IconStyle"/>);
         default:
             break;
     }

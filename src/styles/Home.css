@@ -191,7 +191,7 @@
         --mult-factor: calc(var(--actual-resolution)/var(--base-resolution) * 1);
     }
 }
-*{
+*{/*Continuar*/
     --perfil-width: calc(879.52px * var(--mult-factor));
     --perfil-height: calc(617.1px * var(--mult-factor));
     --perfil-margin-bottom: calc(265px * var(--mult-factor));
@@ -225,6 +225,42 @@
     --featuredProject-content-column-gap: calc(118px * var(--mult-factor));
     --featuredProject-content-row-gap: calc(96px * var(--mult-factor));
 }
+*{
+    /* --perfil-width: calc(54.97rem * var(--mult-factor)); */
+    /* --perfil-height: calc(38.569rem * var(--mult-factor)); */
+    /* --perfil-margin-bottom: calc(16.563rem * var(--mult-factor)); */
+    /* --photo-width-height: calc(17.036rem * var(--mult-factor)); */
+    /* --photo-margin-bottom: calc(1.125rem * var(--mult-factor)); */
+    /* --photo-border-radius: calc(17.036rem * var(--mult-factor)); */
+    --perfil-h1-font-size: calc(4rem * var(--mult-factor));
+    --perfil-h1-line-height: calc(4.813rem * var(--mult-factor));
+    /* --perfil-p-margin-y: calc(3.063rem * var(--mult-factor)); */
+    --perfil-p-font-size: calc(2rem * var(--mult-factor));
+    --perfil-p-line-height: calc(2.438rem * var(--mult-factor));
+    --socialIcon-width-height: calc(7.025rem * var(--mult-factor));
+    --socialIcon-margin-x: calc(0.875rem * var(--mult-factor));
+    --socialIcon-border-radius: calc(5rem * var(--mult-factor));
+
+    --about-height: calc(18.125rem * var(--mult-factor));
+    --about-padding: calc(3.125rem * var(--mult-factor));
+    --about-margin-bottom: calc(6.25rem * var(--mult-factor));
+    
+    /* --about-featuredProjects-h1-p-width: calc(104.902rem * var(--mult-factor)); */
+    /* --about-h1-margin-bottom: calc(0.625rem * var(--mult-factor)); */
+    --about-h1-p-font-size: calc(2.5rem * var(--mult-factor));
+    --about-h1-p-line-height: calc(3rem * var(--mult-factor));
+    /* --featuredProjects-height: calc(92.094rem * var(--mult-factor)); */
+    /* --titleSeeMoreRegion-margin-bottom: calc(2.5rem * var(--mult-factor)); */
+    --titleSeeMoreRegion-h1-font-size: calc(3.125rem * var(--mult-factor));
+    --titleSeeMoreRegion-h1-line-height: calc(3.813rem * var(--mult-factor));
+    --seeMore-width: calc(22.046rem * var(--mult-factor));
+    /* --seeMore-height: calc(6.563rem * var(--mult-factor)); */
+    --seeMore-font-size: calc(1.875rem * var(--mult-factor));
+    --seeMore-line-height: calc(2.25rem * var(--mult-factor));
+    /* --project-width: calc(48.75rem * var(--mult-factor)); */
+    /* --featuredProject-content-column-gap: calc(7.375rem * var(--mult-factor)); */
+    /* --featuredProject-content-row-gap: calc(6rem * var(--mult-factor)); */
+}
 @media (orientation: portrait) {
     *{
         --about-height: calc(290px * 2 * var(--mult-factor));
@@ -240,6 +276,21 @@
         --seeMore-height: calc(105px * 1.7 * var(--mult-factor));
         --seeMore-font-size: calc(30px * 1.9 * var(--mult-factor));
         --seeMore-line-height: calc(36px * 1.9 * var(--mult-factor));
+    }
+    *{
+        --about-height: calc(18.125rem * 2 * var(--mult-factor));
+        --about-padding: calc(3.125rem * 2 * var(--mult-factor));
+
+        --about-h1-margin-bottom: calc(0.625rem * 2 * var(--mult-factor));
+        --about-h1-p-font-size: calc(2.5rem * 2 * var(--mult-factor));
+        --about-h1-p-line-height: calc(3rem * 2 * var(--mult-factor));
+
+        --titleSeeMoreRegion-h1-font-size: calc(3.125rem * 2 * var(--mult-factor));
+        --titleSeeMoreRegion-h1-line-height: calc(3.813rem * 2 * var(--mult-factor));
+        --seeMore-width: calc(22.046rem * 1.7 * var(--mult-factor));
+        --seeMore-height: calc(6.563rem * 1.7 * var(--mult-factor));
+        --seeMore-font-size: calc(1.875rem * 1.9 * var(--mult-factor));
+        --seeMore-line-height: calc(2.25rem * 1.9 * var(--mult-factor));
 
     }
 }
@@ -323,6 +374,11 @@
             --perfil-h1-line-height: calc(77px * 1.2 * var(--mult-factor));
             --perfil-p-font-size: calc(32px * 1.3 * var(--mult-factor));
         }
+        *{
+            --perfil-h1-font-size: calc(4rem * 1.2 * var(--mult-factor));
+            --perfil-h1-line-height: calc(4.813rem * 1.2 * var(--mult-factor));
+            --perfil-p-font-size: calc(2rem * 1.3 * var(--mult-factor));
+        }
     }
     /*------------ Featured projects ------------*/
     #featuredProjects{
@@ -332,6 +388,7 @@
         grid-template-columns: repeat(1,100%);
         column-gap: 0px;
         row-gap: 18px;
+        row-gap: 1.125rem;
         width: 100%;
     }
 }

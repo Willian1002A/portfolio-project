@@ -11,7 +11,7 @@ export default function Project(props: ProjectProps) {
             {/* <a id="preview" className="ProjectGridElement"> */}
             <a id="preview">
                 <div className={`previewImg Img ${props.imgClass}`}></div>
-                <h1>{props.title}</h1>
+                <h2>{props.title}</h2>
             </a>
             {/* <LinkA href={`/projectPreview/${props.href}`}>
                 Saber mais-&gt;

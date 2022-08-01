@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <div className="Background">
       <Header />
-      <div className="perfil">
+      <section className="perfil">
           <div id="photo" />
           <h1>Willian A. S. D&apos;Amico</h1>
           <p>{homeContentTranslated.perfil.description}</p>
@@ -66,14 +66,14 @@ export default function Home() {
               </svg>
             </LinkA>
           </div>
-      </div>
-      <div id="about">
+      </section>
+      <section id="about">
         <h1>{homeContentTranslated.about.h1}</h1>
         <p>{homeContentTranslated.about.p[0]}</p>
         <p>{homeContentTranslated.about.p[1]}</p>
         <p>{homeContentTranslated.about.p[2]}</p>
-      </div>
-      <div id="featuredProjects">
+      </section>
+      <section id="featuredProjects">
         <div className="titleSeeMoreRegion">
           <h1>{homeContentTranslated.featuredProjectsDiv.titleSeeMore.h1}</h1>
           <LinkA href={`/${homeContentTranslated.featuredProjectsDiv.titleSeeMore.seeMore.Link.href + hrefAtrib}`} className="seeMore" targetOnNewTab={false}>
@@ -85,7 +85,7 @@ export default function Home() {
             <Project key={index} title={item.title} href={item.href + hrefAtrib} imgClass={item.imgClass}/>
           ))}
         </div>
-      </div>
+      </section>
       <Footer />
     </div>
   )

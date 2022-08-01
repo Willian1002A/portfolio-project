@@ -17,6 +17,7 @@
     border: none;
     padding: 0px;
     outline: none;
+    min-width: fit-content;
     background: #6F848E;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     
@@ -204,7 +205,7 @@
     background: #4E636C;
     box-shadow: var(--default-box-shadow)
 }
-#preview > h1 {
+#preview > h2 {
     /* margin-left: 60px; */
     width: 80%;
     /* font-family: 'Inter'; */
@@ -247,9 +248,9 @@
     transform: translate(-10%,-10%);
     transition-duration: 500ms;
 }
-.ProjectGridElement > h1 {
+.ProjectGridElement > h2 {
     /* margin-left: 60px; */
-    width: 80%;
+    width: 86.4%;
     /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 400;
@@ -399,15 +400,18 @@
         --mult-factor: calc(var(--actual-resolution)/var(--base-resolution) * 1);
     }
 }
-*{
+* {
     --header-height: calc(94px * var(--mult-factor));
     --header-margin-bottom: calc(107px * var(--mult-factor));
     --contentHeader-width: calc(1678.43px * var(--mult-factor));
+    --contentFooter-width: calc(1678.43px * var(--mult-factor));
     --logo-width: calc(344px * var(--mult-factor));
     --logo-height: calc(61px * var(--mult-factor));
     --logo-font-size: calc(34px * var(--mult-factor));
     --logo-line-height: calc(40px * var(--mult-factor));
     --links-width: calc(829px * var(--mult-factor));
+    --links-max-width: calc(51.813rem * var(--mult-factor));
+
     --headerButton-width: calc(263px * var(--mult-factor));
     --headerButton-height: calc(61px * var(--mult-factor));
     --headerButton-font-size: calc(34px * var(--mult-factor));
@@ -435,6 +439,7 @@
     --contact-siteMap-p-line-height: calc(36px * var(--mult-factor));
 
     --contact-p-a-margin-left: calc(10px * var(--mult-factor));
+    --siteMap-p-a-margin-left: calc(20px * var(--mult-factor));
     --basicFooter-height: calc(72.55px * var(--mult-factor));
 
     --footerContent-p-a-font-size: calc(30px * var(--mult-factor));
@@ -460,6 +465,7 @@
     --project-a-font-size: calc(30px * var(--mult-factor));
     --project-a-line-height: calc(34px * var(--mult-factor));
 
+    --ProjectGridElement-padding: calc(10px * var(--mult-factor));
     --ProjectGridElement-width: calc(526.81px * var(--mult-factor));
     --ProjectGridElement-height: calc(363.7px * var(--mult-factor));
     --ProjectGridElement-margin-bottom: calc(49px * var(--mult-factor));
@@ -475,6 +481,83 @@
     --project-grid-width-2: calc(796.5483333333333px * var(--mult-factor));
     --ProjectGridElement-2-h1-font-size: calc(10px * var(--mult-factor));
     --ProjectGridElement-2-h1-line-height: calc(12px * var(--mult-factor));
+}
+* {
+    --header-height: calc(5.875rem * var(--mult-factor));
+    /* --header-margin-bottom: calc(6.688rem * var(--mult-factor)); */
+    --contentHeader-width: calc(104.902rem * var(--mult-factor));
+    /* --contentFooter-width: calc(104.902rem * var(--mult-factor)); */
+    --logo-width: calc(21.5rem * var(--mult-factor));
+    --logo-height: calc(3.813rem * var(--mult-factor));
+    --logo-font-size: calc(2.125rem * var(--mult-factor));
+    --logo-line-height: calc(2.125rem * var(--mult-factor));
+    
+    /* --links-width: calc(51.813rem * var(--mult-factor)); */
+    /* --headerButton-width: calc(16.438rem * var(--mult-factor)); */
+    
+    --headerButton-height: calc(3.813rem * var(--mult-factor));
+    --headerButton-font-size: calc(2.125rem * var(--mult-factor));
+    --headerButton-line-height: calc(2.5rem * var(--mult-factor));
+    --languageButtons-width: calc(13.938rem * var(--mult-factor));
+    --headerLanguageButton-width-height-border-radius: calc(3.813rem * var(--mult-factor));
+    /* --headerLanguageButton-font-size: calc(1.25rem * var(--mult-factor)); */
+    /* --headerLanguageButton-line-height: calc(1.5rem * var(--mult-factor)); */
+    /* --footer-margin-top: calc(10.75rem * var(--mult-factor)); */
+    --info-height: calc(13.591rem * var(--mult-factor));
+    --contactSiteMap-margin-top: calc(1.563rem * var(--mult-factor));
+    --contact-siteMap-h1-margin-bottom: calc(0.5rem * var(--mult-factor));
+
+    --contact-siteMap-h1-font-size: calc(2.5rem * var(--mult-factor));
+    --contact-siteMap-h1-line-height: calc(2.5rem * var(--mult-factor));
+
+    --contact-siteMap-p-margin-bottom: calc(0.5rem * var(--mult-factor));
+
+    --contact-siteMap-p-font-size: calc(2.25rem * var(--mult-factor));
+    --contact-siteMap-p-line-height: calc(2.25rem * var(--mult-factor));
+
+    --contact-p-a-margin-left: calc(0.625rem * var(--mult-factor));
+    --siteMap-p-a-margin-left: calc(1.25rem * var(--mult-factor));
+    --basicFooter-height: calc(4.534rem * var(--mult-factor));
+
+    --footerContent-p-a-font-size: calc(1.875rem * var(--mult-factor));
+    --footerContent-p-a-line-height: calc(2.25rem * var(--mult-factor));
+    --footerContent-p-a-line-height: calc(1.875rem * var(--mult-factor));
+
+    /* --project-width: calc(48.25rem * var(--mult-factor)); */
+    /* --project-height: calc(39.219rem * var(--mult-factor)); */
+    /* --preview-height: calc(30.156rem * var(--mult-factor)); */
+    /* --preview-margin-bottom: calc(2.5rem * var(--mult-factor)); */
+
+    /* --previewImg-width: 80%; */
+    /* --previewImg-height: 72.80156767328848%; */
+
+    /* --project-h1-margin-bottom: calc(1.25rem * var(--mult-factor)); */
+    /* --project-h1-font-size: calc(3.125rem * var(--mult-factor)); */
+    /* --project-h1-line-height: calc(3.813rem * var(--mult-factor)); */
+
+    /* --project-a-font-size: calc(1.25rem * var(--mult-factor)); */
+    /* --project-a-line-height: calc(1.5rem * var(--mult-factor)); */
+    /* --project-a-font-size: calc(1.875rem * var(--mult-factor)); */
+    /* --project-a-line-height: calc(2.125rem * var(--mult-factor)); */
+
+    /* --ProjectGridElement-width: calc(32.926rem * var(--mult-factor)); */
+    /* --ProjectGridElement-height: calc(22.731rem * var(--mult-factor)); */
+    /* --ProjectGridElement-margin-bottom: calc(3.063rem * var(--mult-factor)); */
+    /* --ProjectGridElement-hover-width: calc(36.219rem * var(--mult-factor)); */
+    /* --ProjectGridElement-hover-height: calc(25.004rem * var(--mult-factor)); */
+
+
+    --ProjectGridElement-previewElement-h1-font-size: calc(2.125rem * var(--mult-factor));
+    --ProjectGridElement-previewElement-h1-line-height: calc(2.5rem * var(--mult-factor));
+
+
+    /* --previewElement-h1-margin: calc(1.125rem * var(--mult-factor)); */
+
+    --project-a-2-font-size: calc(1.25rem * 1.7rem * var(--mult-factor));
+    --project-a-2-line-height: calc(1.5rem * 1.7rem * var(--mult-factor));
+    /* --project-grid-width-2: calc(49.784rem * var(--mult-factor)); */
+    --ProjectGridElement-2-h1-font-size: calc(0.625rem * var(--mult-factor));
+    --ProjectGridElement-2-h1-line-height: calc(0.75rem * var(--mult-factor));
 }
 
 /*------------ Header ------------*/
@@ -495,10 +578,14 @@
 }
 .links{
     width: var(--links-width);
+    max-width: var(--links-max-width);
 }
 .headerButton{
     /* margin-right: 0px; */
     width: var(--headerButton-width);
+
+    max-width: calc(var(--links-max-width) / 3 - 1.25rem);/*O valor 1.25rem representa o espaçamento entre cada headerButton*/
+    
     height: var(--headerButton-height);
     font-size: var(--headerButton-font-size);
     line-height: var(--headerButton-line-height);
@@ -522,7 +609,7 @@
     height: var(--info-height);
 }
 .contactSiteMap{
-    width: var(--contentHeader-width);
+    width: var(--contentFooter-width);
     margin-top: var(--contactSiteMap-margin-top);
 }
 .contact > h1,  .siteMap > h1 {
@@ -538,11 +625,16 @@
 .contact > p > a {
     margin-left: var(--contact-p-a-margin-left);
 }
+
+.siteMap{
+    margin-left: var(--siteMap-p-a-margin-left);
+}
+
 .basicFooter{
     height: var(--basicFooter-height);
 }
 .footerContent{
-    width: var(--contentHeader-width);
+    width: var(--contentFooter-width);
 }
 .footerContent > p, .footerContent > a{
     font-size: var(--footerContent-p-a-font-size);
@@ -594,7 +686,7 @@
     transform: translate(-5%,-5%); /*Diferente do design de referencia*/
     transition-duration: 500ms;
 }
-#preview > h1 {
+#preview > h2 {
     font-size: var(--ProjectGridElement-previewElement-h1-font-size);
     line-height: var(--ProjectGridElement-previewElement-h1-line-height);
 }
@@ -615,6 +707,8 @@
 }
 /*------------ ProjectGridElement ------------*/
 .ProjectGridElement{
+    padding-top: var(--ProjectGridElement-padding);
+    padding-bottom: var(--ProjectGridElement-padding);
     width: var(--ProjectGridElement-width);
     height:  var(--ProjectGridElement-height);
     margin-bottom: var(--ProjectGridElement-margin-bottom); /*Diferente do design de referencia*/
@@ -625,7 +719,7 @@
     transform: translate(-5%,-5%); /*Diferente do design de referencia*/
     transition-duration: 500ms;
 }
-.ProjectGridElement > h1 {
+.ProjectGridElement > h2 {
     font-size: var(--ProjectGridElement-previewElement-h1-font-size);
     line-height: var(--ProjectGridElement-previewElement-h1-line-height);
 }
@@ -642,6 +736,11 @@
         --2-ProjectGridElement-previewElement-h1-line-height: calc(61px * 1 * var(--mult-factor));
         --2-ProjectGridElement-previewElement-h1-line-height: calc(50px * 1 * var(--mult-factor));
 
+    }
+    *{
+        --2-ProjectGridElement-previewElement-h1-font-size: calc(3.125rem * 1 * var(--mult-factor));
+        --2-ProjectGridElement-previewElement-h1-line-height: calc(3.813rem * 1 * var(--mult-factor));
+        --2-ProjectGridElement-previewElement-h1-line-height: calc(3.125rem * 1 * var(--mult-factor));
     }
     @media (orientation: portrait) {
         *{
@@ -665,6 +764,27 @@
             --footerContent-p-a-line-height: calc(36px * 1.4 * var(--mult-factor));
             --footerContent-p-a-line-height: calc(30px * 1.4 * var(--mult-factor));
         }
+        *{
+            --2-ProjectGridElement-previewElement-h1-font-size: calc(3.125rem * 1.4 * var(--mult-factor));
+            --2-ProjectGridElement-previewElement-h1-line-height: calc(3.813rem * 1.4 * var(--mult-factor));
+            --2-ProjectGridElement-previewElement-h1-line-height: calc(3.125rem * 1.4 * var(--mult-factor));
+            
+            --ProjectGridElement-previewElement-h1-font-size: calc(3.125rem * 1 * var(--mult-factor));
+            --ProjectGridElement-previewElement-h1-line-height: calc(3.813rem* 1 * var(--mult-factor));
+            --ProjectGridElement-previewElement-h1-line-height: calc(3.125rem * 1 * var(--mult-factor));
+
+            --contact-siteMap-h1-font-size: calc(1.875rem * 1.4 * var(--mult-factor));
+            --contact-siteMap-h1-line-height: calc(2.25rem * 1.4 * var(--mult-factor));
+            --contact-siteMap-h1-line-height: calc(1.875rem * 1.4 * var(--mult-factor));
+
+            --contact-siteMap-p-font-size: calc(1.75rem * 1.4 * var(--mult-factor));
+            --contact-siteMap-h1-line-height: calc(2.25 rem * 1.4 * var(--mult-factor));
+            --contact-siteMap-h1-line-height: calc(1.75 rem * 1.4 * var(--mult-factor));
+
+            --footerContent-p-a-font-size: calc(1.875rem * 1.4 * var(--mult-factor));
+            --footerContent-p-a-line-height: calc(2.25rem * 1.4 * var(--mult-factor));
+            --footerContent-p-a-line-height: calc(1.875rem * 1.4 * var(--mult-factor));
+        }
         /*------------ Footer ------------*/
         .info{
             height: fit-content;
@@ -683,7 +803,7 @@
         margin-bottom: 0px;
     }
 
-    #preview > h1 {
+    #preview > h2 {
         font-size: var(--2-ProjectGridElement-previewElement-h1-font-size);
         line-height: var(--2-ProjectGridElement-previewElement-h1-line-height);
     }
@@ -699,7 +819,7 @@
         height: calc(calc(var(--project-grid-width-2) / 1.449280994947532) * 1.1);
         margin-bottom: 0px;
     }
-    .ProjectGridElement > h1 {
+    .ProjectGridElement > h2 {
         font-size: var(--ProjectGridElement-previewElement-h1-font-size);
         line-height: var(--ProjectGridElement-previewElement-h1-line-height);
     }
@@ -714,6 +834,15 @@
             --ProjectGridElement-previewElement-h1-font-size: calc(34px * var(--mult-factor));
             --ProjectGridElement-previewElement-h1-line-height: calc(40px * var(--mult-factor));
             --ProjectGridElement-previewElement-h1-line-height: calc(34px * var(--mult-factor));
+        }
+        *{
+            --2-ProjectGridElement-previewElement-h1-font-size: calc(3.125rem * 1 * var(--mult-factor));
+            --2-ProjectGridElement-previewElement-h1-line-height: calc(3.813rem * 1 * var(--mult-factor));
+            --2-ProjectGridElement-previewElement-h1-line-height: calc(3.125rem * 1 * var(--mult-factor));
+
+            --ProjectGridElement-previewElement-h1-font-size: calc(2.125rem * var(--mult-factor));
+            --ProjectGridElement-previewElement-h1-line-height: calc(2.5rem * var(--mult-factor));
+            --ProjectGridElement-previewElement-h1-line-height: calc(2.125rem * var(--mult-factor));
         }
     }
     /*------------ Project ------------*/

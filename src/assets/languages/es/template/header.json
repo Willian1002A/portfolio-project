@@ -12,15 +12,15 @@
         "href": "projects"
     },
     {
-        "text": "PT",
+        "text": "Português",
         "href": "?idioma=PT"
     },
     {
-        "text": "EN",
+        "text": "English",
         "href": "?idioma=EN"
     },
     {
-        "text": "ES",
+        "text": "Español",
         "href": "?idioma=ES"
     }
 ]

@@ -32,7 +32,7 @@ export default function Projects() {
     return (
         <div className="Background">
             <Header className="headerAdjust"/>
-            <div id="ProjectPreview">
+            <section id="ProjectPreview">
                 <div className="iconRegion">
                     <div className="Icon backIcon" onClick={() => goBack()}></div>
                 </div>
@@ -54,7 +54,7 @@ export default function Projects() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
             <Footer className=""/>
         </div>
     )
