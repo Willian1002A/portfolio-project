@@ -44,7 +44,7 @@ export default function Footer(props: FooterProps) {
             <div className="basicFooter">
                 <div className="footerContent">         
                     <p>{footerContentTranslated.basicFooter.p}</p>
-                    <LinkA href={`/${footerContentTranslated.basicFooter.a.href}`}>{footerContentTranslated.basicFooter.a.description}</LinkA>
+                    <LinkA href={`${footerContentTranslated.basicFooter.a.href}`}>{footerContentTranslated.basicFooter.a.description}</LinkA>
                 </div>
             </div>
       </footer>
