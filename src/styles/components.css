@@ -106,8 +106,6 @@
 }
 .contact > h1 {
     margin: 0px;
-
-    /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 400;
     display: flex;
@@ -119,10 +117,8 @@
 }
 .contact > p {
     margin: 0px;
-    /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 400;
-    /* identical to box height */
     display: flex;
     align-items: center;
     color: #E8E8E8;
@@ -141,7 +137,6 @@
 }
 .siteMap > h1 {
     margin: 0px;
-    /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 400;
     display: flex;
@@ -151,10 +146,8 @@
 }
 .siteMap > a {
     margin: 0px;
-    /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 400;
-    /* identical to box height */
     display: flex;
     align-items: center;
     /* White p1 */
@@ -176,7 +169,6 @@
     margin: 0px;
 }
 .footerContent > p:nth-child(1){
-    /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 400;
     display: flex;
@@ -186,7 +178,6 @@
     color: #E8E8E8;
 }
 .footerContent > a{
-    /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 400;
     display: flex;
@@ -205,10 +196,12 @@
     background: #4E636C;
     box-shadow: var(--default-box-shadow)
 }
+#preview:hover{
+    transform: translate(-5%,-5%); /*Diferente do design de referencia*/
+    transition-duration: 500ms;
+}
 #preview > h2 {
-    /* margin-left: 60px; */
     width: 80%;
-    /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 400;
     display: flex;
@@ -221,7 +214,6 @@
 .project > h1{
     display: flex;
     align-items: center;
-    /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 400;
     color: var(--default-white);
@@ -229,7 +221,6 @@
 .project > a{
     display: flex;
     align-items: center;
-    /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 400;
     color: var(--gray-g);
@@ -245,13 +236,11 @@
 }
 .ProjectGridElement:hover{
     margin-bottom: 0px;
-    transform: translate(-10%,-10%);
+    transform: translate(-5%,-5%);
     transition-duration: 500ms;
 }
 .ProjectGridElement > h2 {
-    /* margin-left: 60px; */
     width: 86.4%;
-    /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 400;
     display: flex;
@@ -267,7 +256,6 @@
     background: var(--gray-b);
 }
 .previewElement > h1{
-    /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 400;
     color: var(--default-white);
@@ -275,7 +263,6 @@
 .previewElementP{
     display: none;
     word-break: break-all;
-    /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 700;
     color: var(--default-white);
@@ -371,25 +358,21 @@
 @media (min-width: 1200px) {
     *{
         --actual-resolution: 1200;
-        /* --mult-factor: calc(var(--actual-resolution)/var(--base-resolution)); */
     }
 }
 @media (min-width: 1360px) {
     *{
         --actual-resolution: 1360;
-        /* --mult-factor: calc(var(--actual-resolution)/var(--base-resolution)); */
     }
 }
 @media (min-width: 1440px) {
     *{
         --actual-resolution: 1440;
-        /* --mult-factor: calc(var(--actual-resolution)/var(--base-resolution)); */
     }
 }
 @media (min-width: 1920px) {
     *{
         --actual-resolution: 1920;
-        /* --mult-factor: calc(var(--actual-resolution)/var(--base-resolution)); */
     }
 }
 *{
@@ -484,25 +467,20 @@
 }
 * {
     --header-height: calc(5.875rem * var(--mult-factor));
-    /* --header-margin-bottom: calc(6.688rem * var(--mult-factor)); */
     --contentHeader-width: calc(104.902rem * var(--mult-factor));
-    /* --contentFooter-width: calc(104.902rem * var(--mult-factor)); */
+
     --logo-width: calc(21.5rem * var(--mult-factor));
     --logo-height: calc(3.813rem * var(--mult-factor));
     --logo-font-size: calc(2.125rem * var(--mult-factor));
     --logo-line-height: calc(2.125rem * var(--mult-factor));
     
-    /* --links-width: calc(51.813rem * var(--mult-factor)); */
-    /* --headerButton-width: calc(16.438rem * var(--mult-factor)); */
     
     --headerButton-height: calc(3.813rem * var(--mult-factor));
     --headerButton-font-size: calc(2.125rem * var(--mult-factor));
     --headerButton-line-height: calc(2.5rem * var(--mult-factor));
     --languageButtons-width: calc(13.938rem * var(--mult-factor));
     --headerLanguageButton-width-height-border-radius: calc(3.813rem * var(--mult-factor));
-    /* --headerLanguageButton-font-size: calc(1.25rem * var(--mult-factor)); */
-    /* --headerLanguageButton-line-height: calc(1.5rem * var(--mult-factor)); */
-    /* --footer-margin-top: calc(10.75rem * var(--mult-factor)); */
+    
     --info-height: calc(13.591rem * var(--mult-factor));
     --contactSiteMap-margin-top: calc(1.563rem * var(--mult-factor));
     --contact-siteMap-h1-margin-bottom: calc(0.5rem * var(--mult-factor));
@@ -517,45 +495,16 @@
 
     --contact-p-a-margin-left: calc(0.625rem * var(--mult-factor));
     --siteMap-p-a-margin-left: calc(1.25rem * var(--mult-factor));
-    --basicFooter-height: calc(4.534rem * var(--mult-factor));
 
     --footerContent-p-a-font-size: calc(1.875rem * var(--mult-factor));
-    --footerContent-p-a-line-height: calc(2.25rem * var(--mult-factor));
     --footerContent-p-a-line-height: calc(1.875rem * var(--mult-factor));
 
-    /* --project-width: calc(48.25rem * var(--mult-factor)); */
-    /* --project-height: calc(39.219rem * var(--mult-factor)); */
-    /* --preview-height: calc(30.156rem * var(--mult-factor)); */
-    /* --preview-margin-bottom: calc(2.5rem * var(--mult-factor)); */
-
-    /* --previewImg-width: 80%; */
-    /* --previewImg-height: 72.80156767328848%; */
-
-    /* --project-h1-margin-bottom: calc(1.25rem * var(--mult-factor)); */
-    /* --project-h1-font-size: calc(3.125rem * var(--mult-factor)); */
-    /* --project-h1-line-height: calc(3.813rem * var(--mult-factor)); */
-
-    /* --project-a-font-size: calc(1.25rem * var(--mult-factor)); */
-    /* --project-a-line-height: calc(1.5rem * var(--mult-factor)); */
-    /* --project-a-font-size: calc(1.875rem * var(--mult-factor)); */
-    /* --project-a-line-height: calc(2.125rem * var(--mult-factor)); */
-
-    /* --ProjectGridElement-width: calc(32.926rem * var(--mult-factor)); */
-    /* --ProjectGridElement-height: calc(22.731rem * var(--mult-factor)); */
-    /* --ProjectGridElement-margin-bottom: calc(3.063rem * var(--mult-factor)); */
-    /* --ProjectGridElement-hover-width: calc(36.219rem * var(--mult-factor)); */
-    /* --ProjectGridElement-hover-height: calc(25.004rem * var(--mult-factor)); */
-
-
     --ProjectGridElement-previewElement-h1-font-size: calc(2.125rem * var(--mult-factor));
-    --ProjectGridElement-previewElement-h1-line-height: calc(2.5rem * var(--mult-factor));
-
-
-    /* --previewElement-h1-margin: calc(1.125rem * var(--mult-factor)); */
+    /* --ProjectGridElement-previewElement-h1-line-height: calc(2.5rem * var(--mult-factor)); */
 
     --project-a-2-font-size: calc(1.25rem * 1.7rem * var(--mult-factor));
     --project-a-2-line-height: calc(1.5rem * 1.7rem * var(--mult-factor));
-    /* --project-grid-width-2: calc(49.784rem * var(--mult-factor)); */
+
     --ProjectGridElement-2-h1-font-size: calc(0.625rem * var(--mult-factor));
     --ProjectGridElement-2-h1-line-height: calc(0.75rem * var(--mult-factor));
 }
@@ -570,7 +519,6 @@
     width: var(--contentHeader-width);
 }
 .logo{
-    /*Fazer alterações para tornar  mais eficiente colocando um display flex e um justifycontent space-between no pai */
     width: var(--logo-width);
     height: var(--logo-height);
     font-size: var(--logo-font-size);
@@ -581,18 +529,14 @@
     max-width: var(--links-max-width);
 }
 .headerButton{
-    /* margin-right: 0px; */
     width: var(--headerButton-width);
-
     max-width: calc(var(--links-max-width) / 3 - 1.25rem);/*O valor 1.25rem representa o espaçamento entre cada headerButton*/
-    
     height: var(--headerButton-height);
     font-size: var(--headerButton-font-size);
     line-height: var(--headerButton-line-height);
 }
 .languageButtons{
     width: var(--languageButtons-width);
-    /*Fazer alterações para tornar  mais eficiente colocando um display flex e um justifycontent space-between no pai */
 }
 .headerLanguageButton{
     width: var(--headerLanguageButton-width-height-border-radius);
@@ -645,56 +589,9 @@
     width: var(--project-width);
     height: var(--project-height);
 }
-#preview{
-    width: 100%;
-    height: var(--preview-height);
-    /* margin-bottom: var(--preview-margin-bottom); */
-    margin-bottom: calc(var(--preview-height) * 0.1);
-}
-#preview:hover{
-    width:  calc(100% * 1.9);
-    height: calc(var(--preview-height) * 1.1);
-    /* margin-bottom: var(--preview-margin-bottom); */
-    margin-bottom: 0px;
-    transform: translate(-5%,-5%); /*Diferente do design de referencia*/
-    transition-duration: 500ms;
-}
-#preview{
-    width: var(--ProjectGridElement-width);
-    height:  var(--ProjectGridElement-height);
-    margin-bottom: var(--ProjectGridElement-margin-bottom); /*Diferente do design de referencia*/
-}
-#preview:hover{
-    width: var(--ProjectGridElement-hover-width);
-    height: var(--ProjectGridElement-hover-height);
-    /* width: calc(var(--ProjectGridElement-width) * 1.9);
-    height: calc( var(--ProjectGridElement-height) * 1.9); */
-    transform: translate(-5%,-5%); /*Diferente do design de referencia*/
-    transition-duration: 500ms;
-}
-#preview{
-    width: 100%;
-    height: var(--preview-height);
-    /* margin-bottom: var(--preview-margin-bottom); */
-    margin-bottom: calc(var(--preview-height) * 0.1);
-}
-#preview:hover{
-    width:  calc(100% * 1.1);
-    height: calc(var(--preview-height) * 1.1);
-    /* margin-bottom: var(--preview-margin-bottom); */
-    margin-bottom: 0px;
-    transform: translate(-5%,-5%); /*Diferente do design de referencia*/
-    transition-duration: 500ms;
-}
-#preview > h2 {
-    font-size: var(--ProjectGridElement-previewElement-h1-font-size);
-    line-height: var(--ProjectGridElement-previewElement-h1-line-height);
-}
 .previewImg{
     width: var(--previewImg-width);
     height: var(--previewImg-height);
-    /* width: 90%;
-    height: 80%; */
 }
 .project > h1{
     margin-bottom: var(--project-h1-margin-bottom);
@@ -709,27 +606,7 @@
 .ProjectGridElement{
     padding-top: var(--ProjectGridElement-padding);
     padding-bottom: var(--ProjectGridElement-padding);
-    width: var(--ProjectGridElement-width);
-    height:  var(--ProjectGridElement-height);
-    margin-bottom: var(--ProjectGridElement-margin-bottom); /*Diferente do design de referencia*/
 }
-.ProjectGridElement:hover{
-    width: var(--ProjectGridElement-hover-width);
-    height: var(--ProjectGridElement-hover-height);
-    transform: translate(-5%,-5%); /*Diferente do design de referencia*/
-    transition-duration: 500ms;
-}
-.ProjectGridElement > h2 {
-    font-size: var(--ProjectGridElement-previewElement-h1-font-size);
-    line-height: var(--ProjectGridElement-previewElement-h1-line-height);
-}
-.previewElement > h1{
-    margin-left: var(--previewElement-h1-margin);
-    margin-bottom: var(--previewElement-h1-margin);
-    font-size: var(--ProjectGridElement-previewElement-h1-font-size);
-    line-height: var(--ProjectGridElement-previewElement-h1-line-height);
-}
-
 @media (min-width: 0px) {
     *{
         --2-ProjectGridElement-previewElement-h1-font-size: calc(50px * 1 * var(--mult-factor));
@@ -778,8 +655,8 @@
             --contact-siteMap-h1-line-height: calc(1.875rem * 1.4 * var(--mult-factor));
 
             --contact-siteMap-p-font-size: calc(1.75rem * 1.4 * var(--mult-factor));
-            --contact-siteMap-h1-line-height: calc(2.25 rem * 1.4 * var(--mult-factor));
-            --contact-siteMap-h1-line-height: calc(1.75 rem * 1.4 * var(--mult-factor));
+            --contact-siteMap-h1-line-height: calc(2.25rem * 1.4 * var(--mult-factor));
+            --contact-siteMap-h1-line-height: calc(1.75rem * 1.4 * var(--mult-factor));
 
             --footerContent-p-a-font-size: calc(1.875rem * 1.4 * var(--mult-factor));
             --footerContent-p-a-line-height: calc(2.25rem * 1.4 * var(--mult-factor));
@@ -862,13 +739,8 @@
         width: var(--ProjectGridElement-width);
         height: calc(var(--ProjectGridElement-width) / 1.448474017047017);
         margin-bottom: calc(var(--ProjectGridElement-width) / 1.448474017047017 * 0.1);
-        /* height: var(--ProjectGridElement-height); */
-        /* margin-bottom: calc(var(--ProjectGridElement-margin-bottom));  */
-        /*Diferente do design de referencia*/
     }
     .ProjectGridElement:hover{
-        /* width: var(--ProjectGridElement-hover-width);
-        height: var(--ProjectGridElement-hover-height); */
         width: calc(var(--project-grid-width) * 1.1);
         height: calc(var(--ProjectGridElement-width) / 1.448474017047017 * 1.1);
         margin-bottom: 0px;

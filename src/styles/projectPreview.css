@@ -53,7 +53,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
     max-width: 100%;
     max-height: 100%;
     color: var(--default-white);
@@ -61,7 +60,6 @@
 .description > .content > h1{
     display: flex;
     align-items: center;
-    /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 600;
     color: inherit;
@@ -89,12 +87,10 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 400;
     color: var(--gray-f);
     background: var(--gray-g);
-    /* background: green; */
     filter: drop-shadow(var(--default-box-shadow));
 }
 .regionButton > a:hover{
@@ -218,45 +214,37 @@
     --regionButton-portrait-a-border-size: calc(5px * var(--mult-factor));
 }
 *{
-    /* --iconRegion-margin-right: calc(6.125rem * var(--mult-factor)); */
-    /* --iconRegion-margin-top-bottom: calc(3.5rem * var(--mult-factor)); */
     --Icon-width-height: calc(2.75rem * var(--mult-factor));
-    /* --ProjectPreviewContent-height: calc(37.5rem * var(--mult-factor)); */
-    /* --description-width: calc(45.255rem * var(--mult-factor)); */
-    /* --description-height: calc(30.606rem * var(--mult-factor)); */
-    /* --description-padding-left-right: calc(1.875rem * var(--mult-factor)); */
+
+    --description-width: calc(45.255rem * var(--mult-factor));
     --description-content-width: calc(40.513rem * var(--mult-factor));
-    /* --description-content-height: calc(11.104rem * var(--mult-factor)); */
     --description-content-h1-height: calc(2.313rem * var(--mult-factor));
     --description-content-h1-font-size: calc(1.89rem * var(--mult-factor));
     --description-content-h1-line-height: calc(2.313rem * var(--mult-factor));
-    /* --description-content-p-margin-bottom-1: calc(0.625rem * var(--mult-factor)); */
-    --description-content-p-margin-bottom-2: calc(4.313rem * var(--mult-factor));
+
     --description-content-p-margin-bottom-2: calc(2.313rem * var(--mult-factor));
     --description-content-p-font-size: calc(1.103rem * 1.2 * var(--mult-factor));
     --description-content-p-line-height: calc(1.313rem * var(--mult-factor));
     --description-content-p-a-margin-left: calc(0.625rem * var(--mult-factor));
-    /* --regionButton-a-width: calc(32.516rem * var(--mult-factor)); */
-    /* --regionButton-a-height: calc(6.017rem * var(--mult-factor)); */
+
     --regionButton-a-font-size: calc(2.5rem * var(--mult-factor));
     --regionButton-a-line-height: calc(3rem * var(--mult-factor));
     --regionButton-a-border-size: calc(0.313rem * var(--mult-factor));
     
     --ProjectPreviewContent-portrait-height: calc(79.151rem * var(--mult-factor));
-    /* --ProjectPreviewContent-preview-portrait-width: calc(104.819rem * var(--mult-factor)); */
-    /* --ProjectPreviewContent-preview-portrait-height: calc(52.464rem * var(--mult-factor)); */
+    
     --ProjectPreviewContent-preview-portrait-margin-bottom: calc(1.875rem * var(--mult-factor));
     --description-portrait-height: calc(21.063rem * var(--mult-factor));
     --description-portrait-padding-x: calc(3.125rem * var(--mult-factor));
-    /* --description-portrait-content-h1-font-size: calc(4 * var(--mult-factor)); */
+    
     --description-portrait-content-h1-font-size: calc(2.125rem * var(--mult-factor));
     --description-portrait-content-h1-line-height: calc(2.5rem * var(--mult-factor));
-    /* --description-portrait-content-margin-bottom: calc(0.313rem * var(--mult-factor)); */
-    --description-portrait-content-p-font-size: calc(1.313rem * var(--mult-factor));/*Verificar*/
-    --description-portrait-content-p-line-height: calc(1.813rem * var(--mult-factor));/*Verificar*/
-    /* --description-portrait-content-p-4-margin-bottom: calc(2.5rem * var(--mult-factor)); */
+
+    --description-portrait-content-p-font-size: calc(1.313rem * var(--mult-factor));
+    --description-portrait-content-p-line-height: calc(1.813rem * var(--mult-factor));
+
     --description-portrait-content-p-4-a-margin-left: calc(0.313rem * var(--mult-factor));
-    /* --regionButton-portrait-a-width: calc(16.375rem * var(--mult-factor)); */
+
     --regionButton-portrait-a-height: calc(5.625rem * var(--mult-factor));
     --regionButton-portrait-a-font-size: calc(1.5rem * var(--mult-factor));
     --regionButton-portrait-a-line-height: calc(2rem * var(--mult-factor));
@@ -328,9 +316,9 @@
         --description-portrait-content-h1-font-size: calc(34px * 2 * var(--mult-factor));
         --description-portrait-content-h1-line-height: calc(40px * 2 * var(--mult-factor));
         --description-portrait-content-margin-bottom: calc(5px * 2 * var(--mult-factor));
-        --description-portrait-content-p-font-size: calc(21px * 2 * var(--mult-factor));/*Verificar*/
-        --description-portrait-content-p-line-height: calc(29px * 2 * var(--mult-factor));/*Verificar*/
-        --description-portrait-content-p-4-margin-bottom: calc(40px * 2 * var(--mult-factor));
+        --description-portrait-content-p-font-size: calc(21px * 2 * var(--mult-factor));
+        --description-portrait-content-p-line-height: calc(29px * 2 * var(--mult-factor));
+        --description-portrait-content-p-4-margin-bottom: calc(30px * 2 * var(--mult-factor));
         --description-portrait-content-p-4-a-margin-left: calc(5px * 2 * var(--mult-factor));
         --regionButton-portrait-a-width: calc(262px * 2 * var(--mult-factor));
         --regionButton-portrait-a-height: calc(90px * 2 * var(--mult-factor));
@@ -344,17 +332,16 @@
         --ProjectPreviewContent-portrait-height: calc(79.151rem * 1.3 * var(--mult-factor));
 
         --description-portrait-height: calc(21.063rem * 2 * var(--mult-factor));
-        /* --description-portrait-padding-x: calc(3.125rem * 2 * var(--mult-factor)); */
 
         --description-portrait-content-h1-font-size: calc(2.125rem * 2 * var(--mult-factor));
         --description-portrait-content-h1-line-height: calc(2.5rem * 2 * var(--mult-factor));
-        --description-portrait-content-margin-bottom: calc(0.313rem * 2 * var(--mult-factor));
-        --description-portrait-content-p-font-size: calc(1.313rem * 2 * var(--mult-factor));/*Verificar*/
-        --description-portrait-content-p-line-height: calc(1.813rem * 2 * var(--mult-factor));/*Verificar*/
-        --description-portrait-content-p-4-margin-bottom: calc(2.5rem * 2 * var(--mult-factor));
+
+        --description-portrait-content-p-font-size: calc(1.313rem * 2 * var(--mult-factor));
+        --description-portrait-content-p-line-height: calc(1.813rem * 2 * var(--mult-factor));
+
         --description-portrait-content-p-4-a-margin-left: calc(0.313rem * 2 * var(--mult-factor));
         --regionButton-portrait-a-width: calc(16.375rem * 2 * var(--mult-factor));
-        /* --regionButton-portrait-a-height: calc(5.625rem * 2 * var(--mult-factor)); */
+
         --regionButton-portrait-a-font-size: calc(1.5rem * 2 * var(--mult-factor));
         --regionButton-portrait-a-line-height: calc(2rem * 2 * var(--mult-factor));
         --regionButton-portrait-a-border-size: calc(0.313rem * 2 * var(--mult-factor));
@@ -366,7 +353,6 @@
         align-items: center;
         height: var(--ProjectPreviewContent-portrait-height);
         min-height: fit-content;
-        /*Verificar!*/
     }
     #ProjectPreviewContent > .preview{
         width: var(--ProjectPreviewContent-preview-portrait-width);
@@ -394,11 +380,6 @@
         line-height: var(--description-portrait-content-h1-line-height);
         margin-bottom: var(--description-portrait-content-margin-bottom);
     }
-    /* *{
-        --base-resolution: 1920;
-        --actual-resolution: 360;
-        --mult-factor: calc(var(--actual-resolution)/var(--base-resolution));
-    } */
     .description > .content > p{
         width: fit-content;
         margin-bottom: var(--description-portrait-content-margin-bottom);
