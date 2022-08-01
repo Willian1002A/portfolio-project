@@ -185,6 +185,7 @@
     align-items: center;
     /* Azul a p1 */
     color: #00ACFF;
+    text-decoration: underline;
 }
 /*------------ Project ------------*/
 #preview{
